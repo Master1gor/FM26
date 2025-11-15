@@ -2210,8 +2210,7 @@
 							<record>
 								<integer id="max_squad_size" value="35"/>
 								<record id="squad_numbers_date_range_start_date">
-									<unsigned id="id" value="1936880484"/>
-									<null id="day_of_week"/>
+									<string id="day_of_week" value="tue"/>
 									<integer id="day_of_month" value="14"/>
 									<string id="month" value="mar"/>
 									<integer id="year" value="2000"/>
@@ -2224,24 +2223,6 @@
 									<integer id="year" value="2000"/>
 								</record>
 								<list id="squad_selection_rules"/>
-								<record id="start_date_fixture_date">
-									<unsigned id="id" value="1935959652"/>
-									<record id="competition">
-										<unsigned id="id" value="1668246896"/>
-										<integer id="competition" value="130931"/>
-									</record>
-									<integer id="id_1" value="2003398263"/>
-									<integer id="id_2" value="1937006962"/>
-								</record>
-								<record id="end_date_fixture_date">
-									<unsigned id="id" value="1701078628"/>
-									<record id="competition">
-										<unsigned id="id" value="1668246896"/>
-										<integer id="competition" value="130931"/>
-									</record>
-									<integer id="id_1" value="2003398263"/>
-									<integer id="id_2" value="1701733408"/>
-								</record>
 								<string id="squad_number_flags" value="allow_any_numbers, free_transfers_can_be_registered"/>
 								<string id="deadline_date_flags" value="allow_registration_at_any_time_within_window"/>
 							</record>
@@ -2261,36 +2242,7 @@
 									<string id="month" value="jul"/>
 									<integer id="year" value="2000"/>
 								</record>
-								<list id="squad_selection_rules">
-									<record>
-										<string id="type" value="number_squad_selection_changes"/>
-										<string id="compare_type" value="less_than"/>
-										<integer id="value" value="10"/>
-									</record>
-									<record>
-										<string id="type" value="foreign_players_registered_in_window"/>
-										<string id="compare_type" value="less_than"/>
-										<integer id="value" value="2"/>
-									</record>
-								</list>
-								<record id="start_date_fixture_date">
-									<unsigned id="id" value="1935959652"/>
-									<record id="competition">
-										<unsigned id="id" value="1668246896"/>
-										<integer id="competition" value="130931"/>
-									</record>
-									<integer id="id_1" value="1937075575"/>
-									<integer id="id_2" value="1937006962"/>
-								</record>
-								<record id="end_date_fixture_date">
-									<unsigned id="id" value="1701078628"/>
-									<record id="competition">
-										<unsigned id="id" value="1668246896"/>
-										<integer id="competition" value="130931"/>
-									</record>
-									<integer id="id_1" value="1937075575"/>
-									<integer id="id_2" value="1701733408"/>
-								</record>
+								<list id="squad_selection_rules"/>
 								<string id="squad_number_flags" value="allow_any_numbers, free_transfers_can_be_registered"/>
 								<string id="deadline_date_flags" value="allow_registration_at_any_time_within_window"/>
 							</record>
@@ -2786,7 +2738,6 @@
 					<integer id="base_year_interval" value="1"/>
 					<date id="start_date" day="12" month="8" year="2025" time="1900"/>
 					<integer id="base_year_offset" value="0"/>
-					<boolean id="check_nation_in_comp" value="false"/>
 				</record>
 				<record>
 					<string id="type" value="first_game"/>
@@ -2795,7 +2746,6 @@
 					<integer id="base_year_interval" value="1"/>
 					<date id="start_date" day="16" month="9" year="2025" time="1930"/>
 					<integer id="base_year_offset" value="0"/>
-					<boolean id="check_nation_in_comp" value="false"/>
 				</record>
 			</list>
 		</record>
@@ -10721,9 +10671,9 @@
 	<string id="svvs" value="2600"/>
 	<integer id="EDvb" value="1"/>
 	<string id="EDfb" value=""/>
-	<integer id="XSvC" value="17"/>
+	<integer id="XSvC" value="25"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
-	<date id="EdDt" day="9" month="11" year="2025" time="1300"/>
+	<date id="EdDt" day="15" month="11" year="2025" time="1315"/>
 	<integer id="version" value="3721"/>
 	<integer id="rule_group_version" value="1624"/>
 	<boolean id="beta" value="false"/>

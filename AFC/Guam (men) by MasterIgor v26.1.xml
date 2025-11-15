@@ -95,20 +95,28 @@
 							<record>
 								<integer id="max_squad_size" value="35"/>
 								<record id="squad_numbers_date_range_start_date">
-									<null id="day_of_week"/>
+									<string id="day_of_week" value="tue"/>
 									<integer id="day_of_month" value="1"/>
-									<string id="month" value="mar"/>
+									<string id="month" value="feb"/>
 									<integer id="year" value="2000"/>
 								</record>
 								<record id="squad_numbers_date_range_end_date">
-									<string id="day_of_week" value="wed"/>
-									<integer id="day_of_month" value="29"/>
-									<string id="month" value="mar"/>
+									<integer id="day_of_month" value="1"/>
+									<string id="month" value="1"/>
 									<integer id="year" value="2000"/>
+									<string id="day_of_week" value="sat"/>
 								</record>
+								<list id="squad_selection_rules"/>
 								<string id="squad_number_flags" value="allow_any_numbers, free_transfers_can_be_registered"/>
 								<string id="deadline_date_flags" value="allow_registration_at_any_time_within_window"/>
-								<list id="squad_selection_rules"/>
+								<record id="end_date_fixture_date">
+									<string id="id_1" value="reg "/>
+									<string id="id_2" value="end "/>
+									<record id="competition">
+										<large id="competition" value="24193190006748052"/>
+										<integer id="DBID" value="5632916"/>
+									</record>
+								</record>
 							</record>
 						</list>
 					</record>
@@ -233,13 +241,13 @@
 						<record>
 							<record id="start_date_fixture_date">
 								<unsigned id="id" value="1935959652"/>
-								<string id="id_1" value="leag"/>
-								<string id="id_2" value="strt"/>
+								<integer id="id_1" value="1818583399"/>
+								<integer id="id_2" value="1937011316"/>
 							</record>
 							<record id="end_date_fixture_date">
 								<unsigned id="id" value="1701078628"/>
-								<string id="id_1" value="leag"/>
-								<string id="id_2" value="end "/>
+								<integer id="id_1" value="1818583399"/>
+								<integer id="id_2" value="1701733408"/>
 							</record>
 							<string id="stadium_rules" value="stadium_0"/>
 							<list id="match_days">
@@ -250,18 +258,18 @@
 							<string id="check_clashes" value="all"/>
 							<integer id="number_dates_before_cutoff_date" value="7"/>
 							<record id="cutoff_date_fixture_date">
-								<string id="id_1" value="leag"/>
-								<string id="id_2" value="br1s"/>
+								<integer id="id_1" value="1818583399"/>
+								<integer id="id_2" value="1651650931"/>
 							</record>
 							<list id="break_periods">
 								<record>
 									<record id="start_date_fixture_date">
-										<string id="id_1" value="leag"/>
-										<string id="id_2" value="br1s"/>
+										<integer id="id_1" value="1818583399"/>
+										<integer id="id_2" value="1651650931"/>
 									</record>
 									<record id="end_date_fixture_date">
-										<string id="id_1" value="leag"/>
-										<string id="id_2" value="br1e"/>
+										<integer id="id_1" value="1818583399"/>
+										<integer id="id_2" value="1651650917"/>
 									</record>
 									<boolean id="block_postponed_matches" value="true"/>
 								</record>
@@ -272,7 +280,7 @@
 									<integer id="number_matches" value="1"/>
 									<integer id="day_offset_first_date_index" value="-1"/>
 									<integer id="day_offset_last_date_index" value="-1"/>
-									<string id="time" value="1300"/>
+									<integer id="time" value="1300"/>
 									<string id="stadium_rules" value="stadium_0"/>
 								</record>
 								<record>
@@ -280,7 +288,7 @@
 									<integer id="number_matches" value="1"/>
 									<integer id="day_offset_first_date_index" value="-1"/>
 									<integer id="day_offset_last_date_index" value="-1"/>
-									<string id="time" value="1530"/>
+									<integer id="time" value="1530"/>
 									<string id="stadium_rules" value="stadium_0"/>
 								</record>
 								<record>
@@ -288,7 +296,7 @@
 									<integer id="number_matches" value="1"/>
 									<integer id="day_offset_first_date_index" value="-1"/>
 									<integer id="day_offset_last_date_index" value="-1"/>
-									<string id="time" value="1300"/>
+									<integer id="time" value="1300"/>
 									<string id="stadium_rules" value="stadium_1"/>
 								</record>
 								<record>
@@ -296,7 +304,7 @@
 									<integer id="number_matches" value="1"/>
 									<integer id="day_offset_first_date_index" value="-1"/>
 									<integer id="day_offset_last_date_index" value="-1"/>
-									<string id="time" value="1530"/>
+									<integer id="time" value="1530"/>
 									<string id="stadium_rules" value="stadium_1"/>
 								</record>
 							</list>
@@ -320,7 +328,7 @@
 					<boolean id="store_league_history_store_stage_name" value="false"/>
 				</record>
 				<record>
-					<string id="id" value="ko"/>
+					<string id="id" value="ko  "/>
 					<integer id="index" value="1"/>
 					<string id="type" value="cup"/>
 					<list id="requirements">
@@ -357,7 +365,7 @@
 							</record>
 							<record id="date">
 								<string id="match_rules" value="pen"/>
-								<string id="id_1" value="SF  "/>
+								<integer id="id_1" value="1397104672"/>
 								<list id="offset_dates">
 									<record>
 										<integer id="day_offset" value="0"/>
@@ -399,7 +407,7 @@
 							<integer id="number_matches" value="1"/>
 							<record id="date">
 								<string id="match_rules" value="pen"/>
-								<string id="id_1" value="F   "/>
+								<integer id="id_1" value="1176510496"/>
 							</record>
 							<boolean id="round_use_squad_numbers" value="true"/>
 							<integer id="number_extra_teams" value="0"/>
@@ -446,13 +454,13 @@
 					<integer id="number_teams" value="4"/>
 				</record>
 				<record>
-					<string id="id" value="3rd"/>
+					<string id="id" value="3rd "/>
 					<integer id="index" value="2"/>
 					<string id="type" value="cup"/>
 					<list id="requirements">
 						<record>
 							<boolean id="process_early_finish" value="false"/>
-							<string id="stage" value="ko"/>
+							<string id="stage" value="ko  "/>
 							<record id="sub_stage_name">
 								<large id="stgn" value="77309411346"/>
 								<integer id="DBID" value="18"/>
@@ -462,7 +470,7 @@
 					<list id="teams">
 						<record>
 							<string id="id" value="get_cup_round_teams"/>
-							<string id="stage" value="ko"/>
+							<string id="stage" value="ko  "/>
 							<string id="cup_tie_team" value="loser"/>
 							<record id="sub_stage_name">
 								<large id="stgn" value="77309411346"/>
@@ -485,7 +493,7 @@
 							<integer id="number_matches" value="1"/>
 							<record id="date">
 								<string id="match_rules" value="pen"/>
-								<string id="id_1" value="3P  "/>
+								<integer id="id_1" value="860889120"/>
 							</record>
 							<boolean id="round_use_squad_numbers" value="true"/>
 							<integer id="number_extra_teams" value="2"/>
@@ -511,11 +519,11 @@
 					<list id="requirements">
 						<record>
 							<boolean id="process_early_finish" value="false"/>
-							<string id="stage" value="ko"/>
+							<string id="stage" value="ko  "/>
 						</record>
 						<record>
 							<boolean id="process_early_finish" value="false"/>
-							<string id="stage" value="3rd"/>
+							<string id="stage" value="3rd "/>
 						</record>
 					</list>
 					<list id="teams">
@@ -583,9 +591,18 @@
 			</list>
 			<list id="fixture_dates">
 				<record>
+					<record id="calculate_from_other_date">
+						<string id="id_1" value="leag"/>
+						<string id="id_2" value="strt"/>
+						<integer id="day_offset" value="-7"/>
+					</record>
+					<string id="id_1" value="reg "/>
+					<string id="id_2" value="end "/>
+				</record>
+				<record>
 					<string id="stadium_rules" value="stadium_0"/>
-					<string id="id_1" value="leag"/>
-					<string id="id_2" value="strt"/>
+					<integer id="id_1" value="1818583399"/>
+					<integer id="id_2" value="1937011316"/>
 					<string id="day_of_week" value="sat"/>
 					<integer id="day_of_month" value="8"/>
 					<string id="month" value="apr"/>
@@ -593,8 +610,8 @@
 				</record>
 				<record>
 					<string id="stadium_rules" value="stadium_0"/>
-					<string id="id_1" value="leag"/>
-					<string id="id_2" value="br1s"/>
+					<integer id="id_1" value="1818583399"/>
+					<integer id="id_2" value="1651650931"/>
 					<string id="day_of_week" value="sat"/>
 					<integer id="day_of_month" value="17"/>
 					<string id="month" value="jun"/>
@@ -602,8 +619,8 @@
 				</record>
 				<record>
 					<string id="stadium_rules" value="stadium_0"/>
-					<string id="id_1" value="leag"/>
-					<string id="id_2" value="br1e"/>
+					<integer id="id_1" value="1818583399"/>
+					<integer id="id_2" value="1651650917"/>
 					<string id="day_of_week" value="sat"/>
 					<integer id="day_of_month" value="5"/>
 					<string id="month" value="aug"/>
@@ -615,8 +632,8 @@
 					<integer id="day_of_month" value="30"/>
 					<string id="month" value="sep"/>
 					<integer id="year" value="2000"/>
-					<string id="id_1" value="leag"/>
-					<string id="id_2" value="end "/>
+					<integer id="id_1" value="1818583399"/>
+					<integer id="id_2" value="1701733408"/>
 				</record>
 				<record>
 					<string id="day_of_week" value="sat"/>
@@ -624,11 +641,11 @@
 					<string id="month" value="oct"/>
 					<integer id="year" value="2000"/>
 					<string id="stadium_rules" value="stadium_0"/>
-					<string id="id_1" value="SF  "/>
+					<integer id="id_1" value="1397104672"/>
 				</record>
 				<record>
 					<string id="stadium_rules" value="stadium_1"/>
-					<string id="id_1" value="3P  "/>
+					<integer id="id_1" value="860889120"/>
 					<string id="day_of_week" value="thu"/>
 					<integer id="day_of_month" value="12"/>
 					<string id="month" value="oct"/>
@@ -636,7 +653,7 @@
 				</record>
 				<record>
 					<string id="stadium_rules" value="stadium_0"/>
-					<string id="id_1" value="F   "/>
+					<integer id="id_1" value="1176510496"/>
 					<string id="day_of_week" value="thu"/>
 					<integer id="day_of_month" value="12"/>
 					<string id="month" value="oct"/>
@@ -701,13 +718,13 @@
 	<integer id="version" value="3721"/>
 	<integer id="rule_group_version" value="1624"/>
 	<boolean id="beta" value="false"/>
-	<date id="EdDt" day="9" month="11" year="2025" time="900"/>
+	<date id="EdDt" day="15" month="11" year="2025" time="1330"/>
 	<list id="verf">
 		<string value="24.0.0"/>
 		<string value="24.3.0"/>
 		<string value="26.0.0"/>
 	</list>
-	<integer id="XSvC" value="55"/>
+	<integer id="XSvC" value="59"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
 	<list id="db_changes">
 		<record>

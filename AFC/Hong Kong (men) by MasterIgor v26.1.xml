@@ -134,8 +134,8 @@
 				<boolean id="b_teams_cannot_be_promoted" value="false"/>
 				<boolean id="c_teams_cannot_be_promoted" value="false"/>
 				<boolean id="b_teams_cannot_be_promoted_if_main_team_is_2_divisions_above" value="false"/>
-				<real id="initial_tv_money" value="0.000000"/>
-				<real id="parachute_money" value="0.000000"/>
+				<integer id="initial_tv_money" value="0"/>
+				<integer id="parachute_money" value="0"/>
 				<boolean id="use_specified_fixtures" value="false"/>
 				<boolean id="can_play_on_xmas_day" value="false"/>
 				<list id="tv_dates"/>
@@ -2372,11 +2372,11 @@
 							<string id="stadium_rules" value="ask_competition"/>
 							<integer id="number_legs" value="1"/>
 							<record id="winner_prize_money">
-								<real id="cash" value="350000.000000"/>
+								<integer id="cash" value="350000"/>
 								<unsigned id="currency" value="35"/>
 							</record>
 							<record id="loser_prize_money">
-								<real id="cash" value="150000.000000"/>
+								<integer id="cash" value="150000"/>
 								<unsigned id="currency" value="35"/>
 							</record>
 							<string id="tv_type" value="national"/>
@@ -9784,16 +9784,16 @@
 	<string id="author" value=""/>
 	<string id="orvs" value=""/>
 	<string id="svvs" value="2600"/>
-	<string id="EDvb" value="1"/>
+	<integer id="EDvb" value="1"/>
 	<string id="EDfb" value=""/>
-	<integer id="XSvC" value="11"/>
+	<integer id="XSvC" value="16"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
-	<date id="EdDt" day="9" month="11" year="2025" time="1715"/>
-	<list id="db_changes"/>
+	<date id="EdDt" day="15" month="11" year="2025" time="1330"/>
 	<integer id="version" value="3721"/>
 	<integer id="rule_group_version" value="1624"/>
 	<boolean id="beta" value="false"/>
 	<list id="verf">
 		<string value="26.0.0"/>
 	</list>
+	<list id="db_changes"/>
 </record>
