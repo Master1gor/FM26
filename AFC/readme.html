@@ -22,6 +22,15 @@
 				height: 40px;
 			}
 			
+			img.logo {
+				background: #211D52;
+				border: 3px solid black;
+				margin: 20px 20px 20px 0px;
+				vertical-align: middle;
+				width: 60px;
+				height: 40px;
+			}
+			
 			img.flagnp {
 				margin: 20px 20px 20px 0px;
 				vertical-align: middle;
@@ -43,6 +52,11 @@
 			
 			li.warning {
 				background-color: orange;
+			}
+
+			li.important {
+				background-color: lightgray;
+				color: #C00;
 			}
 		</style>
 	</head>
@@ -81,8 +95,8 @@
 		</p>
 
 		<h3>Testing</h3>
-		<p>all rules files have been tested by me in the editor and the game as well.<br/>
-		of course, it is always possible that there are issues and mistakes in the rule files. If you find an issue, you can contact me <a href="mailto:masterigor@online.de">by E-Mail</a>.</p>
+		<p>all rules files have been tested by me in the editor and in the actual game (unemployed mode)<br/>
+		of course, it is possible that there are issues and mistakes in the rule files. If you find an issue, you can contact me <a href="mailto:masterigor@online.de">by E-Mail</a>.</p>
 
 		<h3>Available rule files:</h3>
 		
@@ -103,19 +117,18 @@
 		<span class="added">&nbsp;&nbsp;[2.8] NPL Tasmania (ADDED)</span><br/>
 		<span class="added">[Cup] Australian Championship (ADDED)</span><br/>
 		[Cup] Australia Cup<br/>
-		<span class="added">[Cup] Australia Cup Qualifiers (ADDED)</span><br/>
 		<span class="added">[Cup] Capital Football Federation Cup (ADDED)</span><br/>
 		<span class="added">[Cup] Waratah Cup (ADDED)</span><br/>
 		<span class="added">[Cup] NNSWF State Cup (ADDED)</span><br/>
 		<span class="added">[Cup] FSA State Cup (ADDED)</span><br/>
 		<span class="added">[Cup] Football West State Cup (ADDED)</span><br/>
 		<span class="added">[Cup] Dockerty Cup (ADDED)</span><br/>
+		<span class="added">[Cup] Queensland Cup (ADDED)</span><br/>
 		<span class="added">[Cup] Milan Lakoseljac Cup (ADDED)</span><br/>
 		<ul>
 			<li>Schedule of NPL leagues and Australian Cup was adjusted to fit the August to July schedule of the A-League - so it does not accurately match real life</li>
 			<li>Australian Championship is a cup which is played among the 8 founding teams and the 8 NPL winners after the NPL season</li>
-			<li>Australian Cup was changed to get the 22 qualified teams from the Australian Cup Qualifiers</li>
-			<li>Capital Football State Cup and Milan Lakoseljac Cup are dummies because the respective finals are part of the Autralian Cup Qualifiers</li>
+			<li>Australian Cup was changed to get the 22 qualified teams from the State/Federation Cups</li>
 		</ul>
 		</p>
 		
@@ -236,6 +249,27 @@
 		[Cup] FA Cup<br/>
 		[Cup] Super Cup<br/>
 		</p>
+		
+		<p><img class="flag" src="https://flagpedia.net/data/flags/w580/jp.png"/> Japan<br/>
+		[1] J League 1<br/>
+		[2] J League 2<br/>
+		[3] J League 3<br/>
+		<span class="added">[4] Japan Football League (ADDED)</span><br/>
+		[Cup] JFA Emperor's Cup<br/>
+		<span class="added">&nbsp;&nbsp;[Cup.*] 47 Prefectural Qualifiers for the Emperor Cup (ADDED)</span><br/>
+		[Cup] JFA League Cup<br/>
+		[Cup] Super Cup<br/>
+		<ul>
+			<li>JFA Emperor's Cup was modified to take the qualifiers from the 47 prefectural tournaments instead of random teams</li>
+			<li class="important">IMPORTANT! > You must remove the following files, otherwise the Prefectural Qualifiers will not work:<br/>
+				- database\db\2600\dbc\permanent\1_japan_removed_clubs.dbc<br/>
+				- database\db\2600\dbc\permanent\japan_fake.dbc<br/>
+				- database\db\2600\dbc\permanent\japan_np_random name.dbc<br/>
+				- database\db\2600\dbc\permanent\japan_unlicensed_random_names.dbc<br/>
+				- database\db\2600\dbc\permanent\j league non player.dbc<br/>
+			</li>
+		</ul>
+		</p>
 
 		<p><img class="flag" src="https://flagpedia.net/data/flags/w580/jo.png"/> Jordan<br/>
 		[1] Jordanian Professional League<br/>
@@ -308,6 +342,23 @@
 		[1] Macanese First Division<br/>
 		[2] Macanese Second Division<br/>
 		[Cup] Macau FA Cup<br/>
+		</p>
+
+		<p><img class="flag" src="https://flagpedia.net/data/flags/w580/my.png"/> Malaysia<br/>
+		[1] Malaysian Super League<br/>
+		[2] Malaysian A1 Semi-Pro League<br/>
+		<span class="added">[3] Malaysian A2 Amateur League (ADDED)</span><br/>
+		<span class="added">&nbsp;&nbsp;[3.1] North (ADDED)</span><br/>
+		<span class="added">&nbsp;&nbsp;[3.2] East Coast (ADDED)</span><br/>
+		<span class="added">&nbsp;&nbsp;[3.3] Central (ADDED)</span><br/>
+		<span class="added">&nbsp;&nbsp;[3.4] South (ADDED)</span><br/>
+		[Cup] FA Cup<br/>
+		[Cup] Malaysian Cup<br/>
+		[Cup] Challenge Cup<br/>
+		[Cup] Charity Cup<br/>
+		<ul>
+			<li>Foreigner rules of Super League corrected</li>
+		</ul>
 		</p>
 
 		<p><img class="flag" src="https://flagpedia.net/data/flags/w580/mv.png"/> Maldives<br/>
@@ -495,349 +546,37 @@
 		</ul>
 		</p>
 
-			<tr>
-				<td>JPN.fmf</td>
-				<td><img class="flag" src="https://flagpedia.net/data/flags/w580/jp.png"/> Japan</td>
-				<td>
-					[1] J League 1<br/>
-					[2] J League 2<br/>
-					[3] J League 3<br/>
-					[4] Japan Football League<br/>
-					[Cup] JFA Emperor's Cup<br/>
-					&nbsp;&nbsp;[Cup.*] 47 Prefectural Qualifiers<br/>
-					[Cup] JFA League Cup<br/>
-					[Cup] Super Cup<br/>
-				</td>
-				<td>
-					<ul>
-						<li>(!) This completely replaces the original Japan of FM24 (because Japan cannot be extended in the editor - when I created this file)</li>
-						<li>(!) You must delete the following files in the game folder "C:\Program Files (x86)\Steam\steamapps\common\Football Manager 2024\data\database\db\2400\dbc\permanent\"</li>
-						<ul>
-							<li>japan.dbc</li>
-							<li>japan_loans.dbc</li>
-							<li>1_japan_removed_clubs.dbc</li>
-							<li>japan_fake.dbc</li>
-						</ul>
-						<li>(!) You must delete the following files in the game folder "C:\Program Files (x86)\Steam\steamapps\common\Football Manager 2024\data\database\db\2400\lnc\all\"</li>
-						<ul>
-							<li>fake.lnc</li>
-						</ul>
-						<li>There are qualifer tournaments for each of the 47 prefectures to the Emperor's Cup. Like in real life, all teams from J3 and below must qualify themselves.</li>
-					</ul>
-				</td>
-			</tr>
-
-
-			<tr>
-				<td>MAS.fmf</td>
-				<td><img class="flag" src="https://flagpedia.net/data/flags/w580/my.png"/> Malaysia</td>
-				<td>
-					<span class="changed">[1] Malaysian Super League (*)</span><br/>
-					<span class="changed">[2] Malaysian A1 Semi-Pro League (*)</span><br/>
-					[3] Malaysian A2 Amateur League<br/>
-					&nbsp;&nbsp;[3.1] North<br/>
-					&nbsp;&nbsp;[3.2] Central<br/>
-					&nbsp;&nbsp;[3.3] South<br/>
-					<span class="changed">[Cup] FA Cup (**)</span><br/>
-					<span class="changed">[Cup] Malaysian Cup (**)</span><br/>
-					<span class="changed">[Cup] Challenge Cup (**)</span><br/>
-					<span class="changed">[Cup] Charity Cup (**)</span><br/>
-				</td>
-				<td>
-					<ul>
-						<li>(*) Refactored Super League and A1 League to use 2024 schedule and correct formats</li>
-						<li>(**) Refactored Super League and A1 League to use 2024 schedule and correct formats</li>
-						<li>Renamed M3 and M4 Leagues to their new names: A1 and A2</li>
-					</ul>
-				</td>
-			</tr>
-
-
-
-
-
+		<p><img class="logo" src="https://www.the-afc.com/img/new-logo/AFC_logo_footer.png" /> AFC Continental Competitions<br/>
+		[Cup] AFC Champions League Elite<br/>
+		[Cup] AFC Champions League Two<br/>
+		[Cup] AFC Challenge League<br/>
+		<span class="added">[Cup] South East Asian Club Championship (ADDED)</span><br/>
+		<ul>
+			<li>I have recreated the AFC Club Competitions because the in-game versions had multiple issues. Here is a list of what my version (should) fix:<br/>
+			<ul>
+				<li>Preliminary Round of ACLE for more than 4 teams fixed according to real rules (in-game version had losers advance to next round instead of winners)</li>
+				<li>East and West teams are in correct groups (in-game version had them mixed)</li>
+				<li>ACLE League Phase teams from same nation do not play eachother (in-game version did not care about this)</li>
+				<li>Round of 16 in ACLE now in correct format (in-game version did not seperate east and west)</li>
+				<li>KO Round in ACL2 now in correct format (in-game version did not seperate east and west)</li>
+				<li>KO Round in ACGL now in correct format (in-game version did not seperate east and west)</li>
+				<li>ACLE Quarter final to final now played in host city (in-game version chose different neutral stadium for each match)</li>
+				<li>Final of ACL2 and ACGL alternates between home stadium of East and West teams every year (in-game version just picked home stadium randomly)</li>
+				<li>Foreigner rules removed and real rules about home-grown players added</li>
+				<li>coefficients fixed (in-game version gave round of 16 teams twice the points, and no points for final participants)</li>
+				<li>Qualified teams from Nepal now picked from A-League (in-game version picked from Super League)</li>
+				<li>maybe more, but I don't remember...</li>
+			</ul>
+			<li class="warning">WARNING: Since this file replaces all the in-game AFC competitions, there is a chance that it may not work well together with other editor files or other in-game competitions (though I must say, the in-game version is a poor implementation). Please be aware of the risk. I have designed the rules so they work with my rule files for each country and I recommend to use that setup. If you wish to use this file together with files from other editors, please do some tests before starting the save to observe the behaviour.</li>
+			<li>NOTE: there is a helper competition called "AFC Continental Competitions". This is not a real competition, but only contains stages to seperate east and west and setup the qualified teams for ACLE, ACL2 and ACGL. (I left it visible so that I could analyze it in case of issues).</li>
+		</ul>
 
 			
-			<tr>
-				<td>AFC.fmf</td>
-				<td>&nbsp;</td>
-				<td>
-					[Cup] AFC Champions League Elite<br/>
-					[Cup] AFC Champions League Two<br/>
-					[Cup] AFC Challenge League<br/>
-					[Cup] South East Asian Club Championship
-				</td>
-				<td>
-					<ul>
-						<li>All competitions use real-life formats based on current information.</li>
-						<li>The 2023 edition of the Asian Champions League & AFC Cup use real 2023 format and real life teams</li>
-						<li>Starting from 2024, Qualification for these cups is based on <a href="https://assets.the-afc.com/ACLE_2024-25/AFC-Club-Competitions_2024-25_Slot-Allocation.pdf">Official AFC Slot Allocation</a>.</li>
-						<li>AFC Champions League Elite (ACLE)</li>
-						<ul>
-							<li>13 teams from both West and East according to slot allocation, and last years Winners of ACLE and ACL2 if they are not already qualified through slots</li>
-							<li>Losers of preliminary rounds enter the group stage of Champions League 2</li>
-							<li>in the League Phase, Teams from East/West play 8 random teams from their region</li>
-							<li>Top 8 from West and East enter the KO Round</li>
-							<li>Quarter Final, Semi Final and Final are in a central location selected from a participating country</li>
-							<li>uses officially communicated schedule and prize money</li>
-						</ul>
-						<li>AFC Champions League Two (ACL2)</li>
-						<ul>
-							<li>16 teams from both West and East according to slot allocation plus losers of preliminary rounds of ACLE and the winner of the ACF Challenge League</li>
-							<li>Losers of preliminary rounds enter the group stage of the Challenge League</li>
-							<li>32 teams enter the group stage divided into 4 groups from West and 4 groups from East</li>
-							<li>Best 2 teams of each group enter the KO Round</li>
-							<li>KO round is home and away, final is in a central location picked from participating countries</li>
-							<li>uses officially communicated schedule and prize money</li>
-						</ul>
-						<li>AFC Challenge League (ACGL)</li>
-						<ul>
-							<li>15 teams from West, 12 teams from East according to slot allocation plus losers of preliminary rounds of ACL2</li>
-							<li>20 teams enter the group stage divided into 3 groups from West and 2 groups from East (each group has 4 teams)</li>
-							<li>Best teams of each West group enter the KO Round</li>
-							<li>Best 2 teams of each East group enter the KO Round</li>
-							<li>Best second placed team of West groups enters the KO Round</li>
-							<li>KO round is home and away, final is in a central location picked from participating countries</li>
-							<li>uses officially communicated schedule and prize money</li>
-						</ul>
-						<li>Southeast Asian Club Championship (Shopee Cup)</li>
-						<ul>
-							<li>16 teams from 13 nations (Australia does not compete) enter the competition</li>
-							<li>the top 3 nations have 2 slots, the other nations 1 slot. The slots are allocated to the league winners and cup winners</li>
-							<li>the bottom 4 nations start at the preliminary round, the winners advance to the group stage</li>
-							<li>2 groups of 6 teams, the top 2 advance to the semi final</li>
-							<li>KO round is home and away</li>
-							<li>uses officially communicated schedule and prize money</li>
-							<li>this competition does not change coefficients</li>
-						</ul>
-						<li>Coefficients</li>
-						<ul>
-							<li>Slot allocation is based on 5 year coefficients</li>
-							<li class="warning">(!) AFC basically uses a list for West and East, but this is not possible in the editor. So I had to use a few tricks to achieve the East/West separation.
-							Coefficients are very complex in the editor and their behaviour is not always clear. Coefficients correspond to reality for AFC Elite and AFC 2. But The challenge league would not use coefficients like the other two, so I had to implement a trick to get them in. Therefore those are not exactly like real life but a good approach.
-							For the year 2020 all coefficients are 0 (Covid) and the game sets all coefficients in 2022 to 0. This means that in the early years the coefficients are based on 3 years instead of 5 because 2 years are zeroes. 
-							From my observations, this can cause some movements in the ranking, but they normalize after a couple of years.</li>
-							<li class="warning">(!) The slot allocation page for Asia in the game cannot be changed from the old format to the new format. So you should ignore that page and instead focus on the coefficient ranking page: top 6 nations from West and East will enter ACLE, and so on. Slot allocation is based on real AFC (see above).</li>
-						</ul>
-					</ul>
-				</td>
-			</tr>
-			
-		</table>
-				
 		<h3>Changelog</h3>
 		
-		<table border="1">
-			<tr>
-				<td width="100">v24.16</td>
-				<td>
-					<ul>
-						<li>Indonesia (IDN): add format for Liga 2 in 2025. updated foreigner rules for 2025</li>
-						<li>Qatar (QAT): updated foreigner rules for 2024 onwards</li>
-					</ul>
-				</td>
-			</tr>
-
-			<tr>
-				<td width="100">v24.15</td>
-				<td>
-					<ul>
-						<li>Indonesia (IDN): fixed registration issue</li>
-						<li>Singapore (SGP): format and schedule update for 2025, added prize money</li>
-					</ul>
-				</td>
-			</tr>
-
-			<tr>
-				<td width="100">v24.14</td>
-				<td>
-					<ul>
-						<li>Continental Cups (AFC): Improved coefficient system (real life coefficients for AFC Elite and Two, and good approach for ACGL)</li>
-						<li>South Korea (KOR): updated substitution rules to 5 from 9 for K1 League (instead of 5 from 7)</li>
-					</ul>
-				</td>
-			</tr>
-
-			<tr>
-				<td width="100">v24.13</td>
-				<td>
-					<ul>
-						<li>Continental Cups (AFC): fixed qualified teams of Shopee Cup (if league and cup winner were the same team)</li>
-						<li>Hong Kong (HKG): Premier League transitions from 11 to 9 to 10 teams in the first 3 seasons. The U23s are no longer in the league from 2024 onwards. Qualification to continental cups fixed</li>
-						<li>Thailand (THA): relegation from L3 now goes to Thai Lower Divison instead of Amateur League (which had no teams)</li>
-					</ul>
-				</td>
-			</tr>
-
-			<tr>
-				<td width="100">v24.12</td>
-				<td>
-					<ul>
-						<li>Singapore (SGP): fixed foreigner rules</li>
-						<li>U.A.E (UAE): adjusted foreigner rules for lower divisions (5 allowed instead of 2)</li>
-					</ul>
-				</td>
-			</tr>
-
-			<tr>
-				<td width="100">v24.11</td>
-				<td>
-					<ul>
-						<li>Continental Cups: fixed registrations and match rules. Winners of ACL2 and ACGL qualify for the ACLE and ACL2 of the following year.</li> 
-						<li>Afghanistan (AFG): adjusted to 2024 schedule</li>
-						<li>Australia (AUS): refactored Australian Cup (added preliminaries and playoff round), added federation cups, extended formats for NPL</li>
-						<li>Bangladesh (BAN): added tier 2 and u18 league, updated foreigner rules, extended format for Federation Cup</li>
-						<li>Bahrain (BHR): refactored</li>
-						<li>Bhutan (BHU): refactored Premier League + qualifiers to new schedule. League is played first, then qualifiers are played to determine who plays in league next year. Non-Qualifiers are relegated. Updated foreigner rules.</li>
-						<li>Brunei (BRU): updated foreigner rules</li>
-						<li>Cambodia (CAM): extended format for C-League. Updated foreigner rules.</li>
-						<li>China (CHN): League 2 extends in 2025 from 20 to 24 teams. Two B Teams are added in 2024 and 2025 (from clubs who won the U21 league)</li>
-						<li>Guam (GUM): corrected 2024 format</li>
-						<li>Hong Kong (HKG): updated 2024 formats</li>
-						<li>Indonesia (IDN): updated foreigner rules and corrected 2024 formats</li>
-						<li>India (IND): refactored, updated schedules and corrected qualification to AFC Cups</li>
-						<li>Iran (IRN): updated schedules, foreigner rules and formats</li>
-						<li>Iraq (IRQ): corrected formats for both tiers, modified schedule to finish before AFC Cups start</li>
-						<li>Jordan (JOR): updated formats for 2025 onwards, corrected format for Shield Cup, added prize money for leagues</li>
-						<li>Japan (JPN): corrected formats</li>
-						<li>Kyrgyzstan (KGZ): refactored and corrected formats</li>
-						<li>South Korea (KOR): added promotion/relegation from 2026 onwards, corrected formats, updated foreigner rules</li>
-						<li>Saudia Arabia (KSA): refactored and updated foreigner rules for 2024 onwards</li>
-						<li>Kuwait (KUW): added tier 2, corrected Super Cup, updated foreigner rules</li>
-						<li>Laos (LAO): updated to new schedule (Sep->May), updated foreigner rules</li>
-						<li>Lebanon (LBN): refactored</li>
-						<li>Macau (MAC): refactored</li>
-						<li>Malaysia (MAS): updated to 2024 schedule (May->April) and updated 2024 formats and foreigner rules</li>
-						<li>Maldives (MDV): refactored, added prize money to Dhivehi League</li>
-						<li>Mongolia (MNG): added tier 2, updated foreigner rules, extended Mongolian Cup</li>
-						<li>N. Mariana Islands (MNP): corrected format and schedule (now using Spring and Autumn Seasons)</li>
-						<li>Myanmar (MYA): changed schedule (Jul->Jun) to 2024 format and updated foreigner rules</li>
-						<li>Nepal (NEP): changed schedule (Jul->Jun) and updated foreigner rules</li>
-						<li>Oman (OMA): added league cup</li>
-						<li>Pakistan (PAK): changed schedule to end in May, updated foreigner rules</li>
-						<li>Philippines (PHI): corrected formats of league and cup</li>
-						<li>Palestine (PLE): refactored, corrected Gaza First League</li>
-						<li>North Korea (PRK): added Torch Cup, fixed transfer windows and registration</li>
-						<li>Qatar (QAT): adjusted schedules of cups, updated foreigner rules, corrected formats of some cups</li>
-						<li>Singapore (SGP): adjusted foreigner rules, refactored cup to use all 9 premier league teams</li>
-						<li>Sri Lanka (SRI): refactored</li>
-						<li>Thailand (THA): updated formats for 2024 onwards, refactored league 3 and league 3 cup</li>
-						<li>Tajikistan (TJK): added formats for 2024 onwards and adjusted cups for more teams because of that</li>
-						<li>Turkmenistan (TKM): added format for 2024 onwards (4 rounds instead of 3), corrected foreigner rules (none allowed)</li>
-						<li>Timor Leste (TLS): refactored</li>
-						<li>Chinese Taipei (TPE): updated foreigner rules, corrected schedule of 2nd tier</li>
-						<li>United Arab Emirates (UAE): refactored</li>
-						<li>Uzbekistan (UZB): added format for 2024 Birinchi League. Updated Cup for more teams</li>
-						<li>Vietnam (VIE): updated formats and adjusted schedules to finish before AFC Cups start. Updated foreigner rules, updated prize money for Cup</li>
-						<li>Yemen (YEM): updated format and schedule</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-				<td width="100">v24.10</td>
-				<td>
-					<ul>
-						<li>Philippines (PHI): now correct new teams enter the football league in 2024</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-				<td width="100">v24.9</td>
-				<td>
-					<ul>
-						<li>Continental Cups: National Cup Winners now qualify for 2nd slot of their nation</li>
-						<li>Continental Cups: removed foreigner restrictions for 2024 onwards</li>
-						<li>Continental Cups: added ASEAN Club Championship (Shopee Cup) from 2024 onwards</li>
-						<li>Continental Cups: registration for ACL2 should be fixed</li>
-						<li>Indonesia (IDN): added Liga 2 format for 2024 onwards (transitions from 3 to 4 groups)</li>
-						<li>Indonesia (IDN): updated foreigner rules</li>
-						<li>Myanmar (MYA): added MNL League Cup</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-				<td width="100">v24.8</td>
-				<td>
-					<ul>
-						<li>added continental cup formats with coefficients: AFC Champions League Elite, AFC Champions League 2 and AFC Challenge League</li>
-						<li>Australia (AUS): A-League increases to 13 teams in 2024 (Auckland FC is added)</li>
-						<li>Iraq (IRQ): fixed qualification for continental cup</li>
-						<li>Laos (LAO): fixed qualification for continental cup</li>
-						<li>Korea DPR (PRK): refactored schedule because it broke continental qualification. new schedule is feb -> oct</li>
-						<li>Philippines (PHI): added format for 2024 with 8 more teams</li>
-						<li>Singapore (SGP): fixed season windows, contract dates</li>
-						<li>Yemen (YEM): fixed qualification for continental cup</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-				<td width="100">v24.7</td>
-				<td>
-					<ul>
-						<li>Singapore (SGP): fixed registration and transfer windows. Schedule for all years changed to Aug->May</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-				<td width="100">v24.6</td>
-				<td>
-					<ul>
-						<li>GUM, HKG, IND, IRQ, KSA, LAO, QAT: optimizations of youth/reserve teams for better squads (by DaveIncid)</li>
-						<li>Singapore (SGP): added 2024 format and foreigner rules. Competition changes schedule to aug-may by 2025</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-				<td width="100">v24.5</td>
-				<td>
-					<ul>
-						<li>All Nations: Update to Database 24.3.0</li>
-						<li>All Nations: Fixed registration issue causing teams to register only youth players (happened for competitions with groups/subcompetitions such as China D2)</li>
-						<li>All Nations: minor improvements (from things I learned while doing other league packs)</li>
-						<li>Guam (GUM): format for 2024 added: transitions from 5 teams in 2023 to 15 teams in 2024</li>
-						<li>India (IND): first step of Vision 2047 - in 2026 the top 3 tiers will have expanded to 14,14 and 12 teams</li>
-						<li>Saudi Arabia (KSA): added prize money for tier 2 and 3</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-				<td width="100">v24.4</td>
-				<td>
-					<ul>
-						<li>Corrected Vietnam qualification to AFC Cups by delaying qualification until the stage is finished</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-				<td width="100">v24.3</td>
-				<td>
-					<ul>
-						<li>Corrected number of rounds in Vietnam - V.League 1 from 1 to 2</li>
-						<li>Corrected dates of Vietnam National Cup, so that it now starts correctly in November</li>
-						<li>Now using all real life teams in Indian I-League 2 by adding the promoted teams from I-League 3: Sporting Goa, Dempo and Sporting Bengaluru</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-				<td>v24.2</td>
-				<td>
-					<ul>
-						<li>changed match rules for Indonesia Liga 1 to: 5 + 1 ASEAN</li>
-						<li>added Indian I-League 2</li>
-						<li>changed Indian Youth reserve league from U18 to U21</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-				<td>v24.1</td>
-				<td>
-					<ul>
-						<li>added rule file for Macau</li>
-						<li>added rule file for Northern Mariana Islands</li>
-					</ul>
-				</td>
-			</tr>
-		</table>
+		<ul>
+			<li>v26.1 is released</li>
+		</ul>
 		
 	</body>
 	
