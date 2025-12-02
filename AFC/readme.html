@@ -88,10 +88,9 @@
 			<a HREF="https://www.buymeacoffee.com/MasterIgor">Support Me</a>.
 		</p>
 
-		<h3>Installation Guide</h3>
-		<p>Copy the .fmf files for the nations you want into the folder "&lt;My Documents&gt;\Sports Interactive\Football Manager 2026\editor data\".
-			The folder can be different if you have changed it in the FM26 preferences. The leagues should then appear the next time you start a new game in FM26 and chose advanced setup.<br/>
-			Make sure you have the checkbox "add players to playable teams" checked. This is recommended, otherwise you may end up with a lot of greyed-out players.
+		<h3>How to install</h3>
+		<p>Copy the .fmf files for the nations you want into "Editor Data" folder. This folder can be different depending on where you got the game or what system you have. I am assuming you know where this folder is. If not, check other sources on where you can locate it for your setup.</p>
+		<p>Also, it is better to have the checkbox "add players to playable teams" checked. Otherwise you may end up with a lot of greyed-out non-database players.
 		</p>
 
 		<h3>Testing</h3>
@@ -261,12 +260,8 @@
 		[Cup] Super Cup<br/>
 		<ul>
 			<li>JFA Emperor's Cup was modified to take the qualifiers from the 47 prefectural tournaments instead of random teams</li>
-			<li class="important">IMPORTANT! > You must remove the following files, otherwise the Prefectural Qualifiers will not work:<br/>
-				- database\db\2600\dbc\permanent\1_japan_removed_clubs.dbc<br/>
-				- database\db\2600\dbc\permanent\japan_fake.dbc<br/>
-				- database\db\2600\dbc\permanent\japan_np_random name.dbc<br/>
-				- database\db\2600\dbc\permanent\japan_unlicensed_random_names.dbc<br/>
-				- database\db\2600\dbc\permanent\j league non player.dbc<br/>
+			<li class="important">IMPORTANT! > For optimal experience, please following file, otherwise the Prefectural Qualifiers will not have enough teams and some will never start:<br/>
+				[Football Manager 26 Installation Folder]\shared\data\database\db\2600\dbc\permanent\1_japan_removed_clubs.dbc<br/>
 			</li>
 		</ul>
 		</p>
@@ -569,6 +564,7 @@
 			</ul>
 			<li class="warning">WARNING: Since this file replaces all the in-game AFC competitions, there is a chance that it may not work well together with other editor files or other in-game competitions (though I must say, the in-game version is a poor implementation). Please be aware of the risk. I have designed the rules so they work with my rule files for each country and I recommend to use that setup. If you wish to use this file together with files from other editors, please do some tests before starting the save to observe the behaviour.</li>
 			<li>NOTE: there is a helper competition called "AFC Continental Competitions". This is not a real competition, but only contains stages to seperate east and west and setup the qualified teams for ACLE, ACL2 and ACGL. (I left it visible so that I could analyze it in case of issues).</li>
+			<li>NOTE 2: in the Champions League Elite, there is group stages (groups A to F) for seeding the teams and scheduling the matches so that teams from the same nation do not play eachoter. Normally this is a hidden stage, but FM26 has a bug (it's not the only one) that hidden stages are not hidden.. so you will have to live with seeing stages that should be hidden.</li>
 		</ul>
 
 			
