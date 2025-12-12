@@ -1,0 +1,4721 @@
+<record>
+	<string id="orvs" value=""/>
+	<string id="svvs" value="2600"/>
+	<string id="author" value="MasterIgor"/>
+	<string id="description" value="Rules for St_Lucia by MasterIgor"/>
+	<integer id="EDvb" value="1"/>
+	<string id="EDfb" value=""/>
+	<integer id="version" value="3723"/>
+	<integer id="rule_group_version" value="1625"/>
+	<boolean id="beta" value="false"/>
+	<list id="files">
+		<record>
+			<string id="file_type" value="nation"/>
+			<integer id="version" value="999"/>
+			<large id="nation" value="384"/>
+			<integer id="default_division_level" value="0"/>
+			<record id="season_update_day">
+				<unsigned id="id" value="1970300025"/>
+				<integer id="day_of_month" value="31"/>
+				<string id="month" value="dec"/>
+			</record>
+			<integer id="late_preseason_preparation_days" value="15"/>
+			<integer id="preseason_preparation_days" value="30"/>
+			<integer id="weekend_default_fixture_time" value="1500"/>
+			<integer id="midweek_default_fixture_time" value="1900"/>
+			<list id="discipline_rules">
+				<record>
+					<string id="name" value="(All)"/>
+					<record id="accumulative_method">
+						<unsigned id="id" value="1633903469"/>
+						<string id="type" value="yellow_cards"/>
+						<string id="sequence" value="3_6_9"/>
+						<list id="games_banned_list">
+							<integer value="1"/>
+						</list>
+						<string id="decision_date" value="next_week"/>
+						<string id="ban_scope" value="all_comps_in_nation"/>
+						<boolean id="use_for_straight_red" value="false"/>
+					</record>
+					<record id="ban_info">
+						<unsigned id="id" value="1685283433"/>
+						<string id="ban_scope" value="all_comps_in_nation"/>
+						<string id="start_date" value="immediate"/>
+					</record>
+					<record id="red_card_info">
+						<unsigned id="id" value="1919181673"/>
+						<integer id="games_banned" value="1"/>
+						<string id="red_card_rule" value="x_match_per_red_card"/>
+					</record>
+				</record>
+			</list>
+			<list id="transfer_windows">
+				<record>
+					<record id="start_date">
+						<integer id="day_of_month" value="1"/>
+						<string id="month" value="1"/>
+						<integer id="year" value="2000"/>
+						<string id="day_of_week" value="sat"/>
+					</record>
+					<record id="end_date">
+						<integer id="day_of_month" value="1"/>
+						<string id="month" value="1"/>
+						<integer id="year" value="2000"/>
+						<string id="day_of_week" value="sat"/>
+					</record>
+					<string id="description" value="tw01"/>
+					<record id="start_date_fixture_date">
+						<record id="competition">
+							<large id="competition" value="193627571109226304"/>
+							<integer id="DBID" value="45082432"/>
+						</record>
+						<string id="id_1" value="tw01"/>
+						<string id="id_2" value="strt"/>
+					</record>
+					<record id="end_date_fixture_date">
+						<record id="competition">
+							<large id="competition" value="193627571109226304"/>
+							<integer id="DBID" value="45082432"/>
+						</record>
+						<string id="id_1" value="tw01"/>
+						<string id="id_2" value="end "/>
+					</record>
+					<string id="window_type" value="normal"/>
+				</record>
+				<record>
+					<record id="start_date">
+						<integer id="day_of_month" value="1"/>
+						<string id="month" value="1"/>
+						<integer id="year" value="2000"/>
+						<string id="day_of_week" value="sat"/>
+					</record>
+					<record id="end_date">
+						<integer id="day_of_month" value="1"/>
+						<string id="month" value="1"/>
+						<integer id="year" value="2000"/>
+						<string id="day_of_week" value="sat"/>
+					</record>
+					<string id="description" value="tw02"/>
+					<record id="start_date_fixture_date">
+						<record id="competition">
+							<large id="competition" value="193627571109226304"/>
+							<integer id="DBID" value="45082432"/>
+						</record>
+						<string id="id_1" value="tw02"/>
+						<string id="id_2" value="strt"/>
+					</record>
+					<record id="end_date_fixture_date">
+						<record id="competition">
+							<large id="competition" value="193627571109226304"/>
+							<integer id="DBID" value="45082432"/>
+						</record>
+						<string id="id_1" value="tw02"/>
+						<string id="id_2" value="end "/>
+					</record>
+					<string id="window_type" value="normal"/>
+				</record>
+			</list>
+			<list id="fixture_rules">
+				<record>
+					<string id="name" value="- League"/>
+					<boolean id="use_squad_numbers" value="true"/>
+					<boolean id="trialists_can_play_in_competitive_fixtures" value="false"/>
+					<string id="squad_selection_value" value="domestic_division"/>
+					<record id="squad_number_registration_periods">
+						<unsigned id="id" value="1936618096"/>
+						<list id="squad_numbers_date_range">
+							<record>
+								<integer id="max_squad_size" value="40"/>
+								<record id="squad_numbers_date_range_start_date">
+									<integer id="day_of_month" value="1"/>
+									<string id="month" value="1"/>
+									<integer id="year" value="2000"/>
+									<string id="day_of_week" value="sat"/>
+								</record>
+								<record id="squad_numbers_date_range_end_date">
+									<integer id="day_of_month" value="1"/>
+									<string id="month" value="1"/>
+									<integer id="year" value="2000"/>
+									<string id="day_of_week" value="sat"/>
+								</record>
+								<list id="squad_selection_rules"/>
+								<record id="start_date_fixture_date">
+									<string id="id_1" value="tw01"/>
+									<string id="id_2" value="strt"/>
+									<record id="competition">
+										<large id="competition" value="193627571109226304"/>
+										<integer id="DBID" value="45082432"/>
+									</record>
+								</record>
+								<record id="end_date_fixture_date">
+									<string id="id_1" value="reg "/>
+									<string id="id_2" value="end "/>
+									<record id="competition">
+										<large id="competition" value="193627571109226304"/>
+										<integer id="DBID" value="45082432"/>
+									</record>
+								</record>
+								<string id="squad_number_flags" value="allow_any_numbers, free_transfers_can_be_registered"/>
+								<string id="deadline_date_flags" value="allow_registration_at_any_time_within_window"/>
+							</record>
+							<record>
+								<integer id="max_squad_size" value="40"/>
+								<record id="squad_numbers_date_range_start_date">
+									<integer id="day_of_month" value="1"/>
+									<string id="month" value="1"/>
+									<integer id="year" value="2000"/>
+									<string id="day_of_week" value="sat"/>
+								</record>
+								<record id="squad_numbers_date_range_end_date">
+									<integer id="day_of_month" value="1"/>
+									<string id="month" value="1"/>
+									<integer id="year" value="2000"/>
+									<string id="day_of_week" value="sat"/>
+								</record>
+								<list id="squad_selection_rules"/>
+								<record id="start_date_fixture_date">
+									<record id="competition">
+										<large id="competition" value="193627571109226304"/>
+										<integer id="DBID" value="45082432"/>
+									</record>
+									<string id="id_1" value="tw02"/>
+									<string id="id_2" value="strt"/>
+								</record>
+								<record id="end_date_fixture_date">
+									<record id="competition">
+										<large id="competition" value="193627571109226304"/>
+										<integer id="DBID" value="45082432"/>
+									</record>
+									<string id="id_1" value="tw02"/>
+									<string id="id_2" value="end "/>
+								</record>
+								<string id="squad_number_flags" value="allow_any_numbers, free_transfers_can_be_registered"/>
+								<string id="deadline_date_flags" value="allow_registration_at_any_time_within_window"/>
+							</record>
+						</list>
+					</record>
+					<list id="squad_selection_rules">
+						<record>
+							<string id="compare_type" value="more_than"/>
+							<string id="type" value="min_squad_size"/>
+							<integer id="value" value="18"/>
+						</record>
+						<record>
+							<string id="compare_type" value="less_than"/>
+							<string id="type" value="max_squad_size"/>
+							<integer id="value" value="40"/>
+						</record>
+						<record>
+							<string id="compare_type" value="less_than"/>
+							<string id="type" value="all_foreign_players_in_match_squad"/>
+							<integer id="value" value="5"/>
+						</record>
+					</list>
+				</record>
+			</list>
+			<list id="competitions">
+				<record>
+					<large id="competition" value="45082432"/>
+				</record>
+			</list>
+			<list id="division_levels">
+				<record>
+					<large id="competition" value="45082432"/>
+					<list id="verf">
+						<string value="26.0.0"/>
+					</list>
+				</record>
+			</list>
+			<list id="required_teams">
+				<record>
+					<large id="competition" value="45082432"/>
+					<boolean id="ignore_minor_teams" value="false"/>
+					<boolean id="use_min_or_max" value="false"/>
+					<boolean id="next_season" value="false"/>
+					<integer id="number_teams" value="10"/>
+				</record>
+			</list>
+			<record id="contract_rules">
+				<unsigned id="id" value="1131303532"/>
+				<list id="contract_durations">
+					<record>
+						<string id="type" value="weekly_wage_for_youth_contract"/>
+						<string id="contract_durations_players_effected_type" value="all_players"/>
+						<integer id="cash" value="1"/>
+					</record>
+				</list>
+			</record>
+			<record id="transfer_rules">
+				<unsigned id="id" value="1953657452"/>
+				<boolean id="uses_bosman_rules" value="false"/>
+				<boolean id="free_transfers_can_join_outside_window" value="true"/>
+				<boolean id="loan_players_can_join_outside_window" value="false"/>
+				<boolean id="has_trial_day" value="false"/>
+				<string id="main_contract_end_month" value="dec"/>
+				<string id="loan_players_can_play_against_own_club" value="always"/>
+				<string id="loan_players_can_be_recalled" value="always"/>
+			</record>
+			<list id="loan_rules">
+				<record>
+					<string id="type" value="expiry_date"/>
+					<string id="player_type" value="all_players"/>
+					<string id="expiry_dates" value="end_of_season, until_next_transfer_window"/>
+				</record>
+			</list>
+			<integer id="branch" value="0"/>
+			<list id="season_windows">
+				<record>
+					<record id="start_date">
+						<string id="day_of_week" value="wed"/>
+						<integer id="day_of_month" value="21"/>
+						<string id="month" value="jun"/>
+						<integer id="year" value="2000"/>
+					</record>
+					<record id="end_date">
+						<string id="day_of_week" value="tue"/>
+						<integer id="day_of_month" value="19"/>
+						<string id="month" value="dec"/>
+						<integer id="year" value="2000"/>
+					</record>
+				</record>
+			</list>
+			<list id="start_date_rules">
+				<record>
+					<string id="type" value="late_preseason"/>
+					<integer id="base_year_offset" value="0"/>
+					<boolean id="base_year_interval" value="false"/>
+					<record id="competition">
+						<unsigned id="id" value="1668246896"/>
+						<large id="competition" value="193627571109226304"/>
+						<integer id="DBID" value="45082432"/>
+					</record>
+				</record>
+				<record>
+					<string id="type" value="early_preseason"/>
+					<integer id="base_year_offset" value="0"/>
+					<boolean id="base_year_interval" value="false"/>
+					<record id="competition">
+						<unsigned id="id" value="1668246896"/>
+						<large id="competition" value="193627571109226304"/>
+						<integer id="DBID" value="45082432"/>
+					</record>
+				</record>
+				<record>
+					<string id="type" value="start_of_season"/>
+					<integer id="base_year_offset" value="0"/>
+					<boolean id="base_year_interval" value="false"/>
+					<record id="competition">
+						<unsigned id="id" value="1668246896"/>
+						<large id="competition" value="193627571109226304"/>
+						<integer id="DBID" value="45082432"/>
+					</record>
+				</record>
+			</list>
+			<string id="reserve_teams" value="create_u17s"/>
+			<string id="u17_team_type" value="first_youth_team"/>
+			<string id="PLgn" value="male"/>
+		</record>
+		<record>
+			<string id="file_type" value="comp"/>
+			<integer id="version" value="999"/>
+			<integer id="base_year" value="2000"/>
+			<integer id="year" value="2000"/>
+			<integer id="year_interval" value="1"/>
+			<boolean id="comp_inactive" value="false"/>
+			<large id="competition" value="45082432"/>
+			<integer id="level" value="0"/>
+			<record id="date_range">
+				<unsigned id="id" value="1685353070"/>
+				<string id="start_month" value="jun"/>
+				<integer id="start_year_offset" value="0"/>
+				<string id="end_month" value="sep"/>
+				<integer id="end_year_offset" value="0"/>
+			</record>
+			<integer id="discipline_index" value="0"/>
+			<integer id="fixture_rules_index" value="0"/>
+			<list id="stages">
+				<record>
+					<string id="id" value="leag"/>
+					<integer id="index" value="0"/>
+					<string id="type" value="league"/>
+					<integer id="number_rounds" value="2"/>
+					<list id="sort_rules">
+						<string value="points"/>
+						<string value="goal_difference"/>
+						<string value="own_match"/>
+					</list>
+					<string id="priority" value="league_low"/>
+					<string id="subs_rules" value="three_from_seven_max_three_stoppages"/>
+					<boolean id="top_team_are_champions" value="false"/>
+					<boolean id="store_league_history" value="true"/>
+					<list id="schedule">
+						<record>
+							<record id="start_date_fixture_date">
+								<unsigned id="id" value="1935959652"/>
+								<string id="id_1" value="leag"/>
+								<string id="id_2" value="strt"/>
+							</record>
+							<record id="end_date_fixture_date">
+								<unsigned id="id" value="1701078628"/>
+								<string id="id_1" value="leag"/>
+								<string id="id_2" value="end "/>
+							</record>
+							<string id="check_clashes" value="all"/>
+							<list id="match_days">
+								<record>
+									<string id="day_of_week" value="sat"/>
+								</record>
+							</list>
+							<string id="stadium_rules" value="home"/>
+						</record>
+					</list>
+					<list id="teams">
+						<record>
+							<string id="id" value="get_division_teams"/>
+						</record>
+					</list>
+					<list id="ranking_levels">
+						<record>
+							<integer id="team" value="0"/>
+							<integer id="current" value="0"/>
+							<integer id="high" value="0"/>
+							<integer id="low" value="2"/>
+						</record>
+						<record>
+							<integer id="team" value="1"/>
+							<integer id="current" value="0"/>
+							<integer id="high" value="0"/>
+							<integer id="low" value="2"/>
+						</record>
+						<record>
+							<integer id="team" value="2"/>
+							<integer id="current" value="0"/>
+							<integer id="high" value="0"/>
+							<integer id="low" value="2"/>
+						</record>
+						<record>
+							<integer id="team" value="3"/>
+							<integer id="current" value="0"/>
+							<integer id="high" value="0"/>
+							<integer id="low" value="2"/>
+						</record>
+						<record>
+							<integer id="team" value="4"/>
+							<integer id="current" value="3"/>
+						</record>
+						<record>
+							<integer id="team" value="5"/>
+							<integer id="current" value="4"/>
+						</record>
+						<record>
+							<integer id="team" value="6"/>
+							<integer id="current" value="5"/>
+						</record>
+						<record>
+							<integer id="team" value="7"/>
+							<integer id="current" value="6"/>
+						</record>
+						<record>
+							<integer id="team" value="8"/>
+							<integer id="current" value="7"/>
+						</record>
+						<record>
+							<integer id="team" value="9"/>
+							<integer id="current" value="8"/>
+						</record>
+					</list>
+					<list id="requirements"/>
+					<boolean id="store_league_history_store_stage_name" value="false"/>
+					<record id="position_playoff">
+						<unsigned id="id" value="1886613612"/>
+						<boolean id="check_championship" value="true"/>
+						<boolean id="check_promotion" value="true"/>
+						<boolean id="check_cont_cup" value="true"/>
+						<boolean id="check_relegation" value="true"/>
+						<string id="playoff_flags" value=""/>
+						<list id="match_days"/>
+						<integer id="number_legs" value="1"/>
+						<string id="stadium_rules" value="neutral"/>
+						<string id="subs_rules" value="three_from_seven"/>
+						<string id="match_rules" value="extra_time, pen"/>
+						<integer id="sort_rules_to_check" value="3"/>
+					</record>
+					<integer id="number_teams" value="10"/>
+					<list id="qualification">
+						<record>
+							<record id="next_stage_main_stage_name">
+								<large id="stgn" value="77309411346"/>
+								<integer id="DBID" value="18"/>
+							</record>
+							<integer id="number_places" value="4"/>
+							<integer id="stage" value="1"/>
+						</record>
+					</list>
+				</record>
+				<record>
+					<string id="id" value="cham"/>
+					<integer id="index" value="1"/>
+					<string id="type" value="cup"/>
+					<list id="requirements">
+						<record>
+							<boolean id="process_early_finish" value="false"/>
+							<string id="stage" value="leag"/>
+						</record>
+					</list>
+					<list id="teams">
+						<record>
+							<string id="id" value="get_qualified_teams"/>
+							<string id="stage" value="leag"/>
+							<record id="next_stage_main_stage_name">
+								<large id="stgn" value="77309411346"/>
+								<integer id="DBID" value="18"/>
+							</record>
+							<string id="seeding_method" value="incremental_seeding"/>
+							<integer id="seeding" value="0"/>
+						</record>
+					</list>
+					<record id="shared_round_data">
+						<string id="subs_rules" value="five_from_seven_max_three_stoppages_and_extra_time_sub"/>
+						<string id="priority" value="league_high"/>
+						<string id="stadium_rules" value="national"/>
+						<string id="draw_rules" value="fixed_draw"/>
+					</record>
+					<list id="rounds">
+						<record>
+							<record id="stage_name">
+								<large id="stgn" value="77309411346"/>
+								<integer id="DBID" value="18"/>
+							</record>
+							<integer id="number_teams" value="4"/>
+							<integer id="number_matches" value="2"/>
+							<record id="draw_date">
+								<boolean id="draw_date_to_stage_setup_day" value="true"/>
+							</record>
+							<record id="date">
+								<string id="match_rules" value="extra_time, pen"/>
+								<string id="id_1" value="cham"/>
+								<string id="id_2" value="SF  "/>
+								<list id="offset_dates">
+									<record>
+										<integer id="day_offset" value="0"/>
+										<string id="time" value="1500"/>
+										<string id="stadium_rules" value="national"/>
+										<integer id="number_matches" value="1"/>
+									</record>
+									<record>
+										<integer id="day_offset" value="0"/>
+										<string id="time" value="1930"/>
+										<string id="stadium_rules" value="national"/>
+										<integer id="number_matches" value="1"/>
+									</record>
+								</list>
+							</record>
+							<integer id="number_extra_teams" value="4"/>
+							<integer id="number_legs" value="1"/>
+							<integer id="number_replays" value="0"/>
+							<string id="stadium_rules" value="national"/>
+							<boolean id="round_use_squad_numbers" value="true"/>
+							<record id="winner_ranking_levels">
+								<integer id="current" value="0"/>
+								<integer id="high" value="0"/>
+								<integer id="low" value="1"/>
+							</record>
+							<record id="loser_ranking_levels">
+								<integer id="current" value="2"/>
+							</record>
+							<list id="cup_tie_mappings">
+								<record>
+									<integer id="cup_tie_index" value="0"/>
+									<integer id="home_team_index" value="0"/>
+									<integer id="away_team_index" value="3"/>
+								</record>
+								<record>
+									<integer id="cup_tie_index" value="1"/>
+									<integer id="home_team_index" value="1"/>
+									<integer id="away_team_index" value="2"/>
+								</record>
+							</list>
+							<record id="loser_prize_money">
+								<real id="cash" value="2500.000000"/>
+								<unsigned id="currency" value="7"/>
+							</record>
+						</record>
+						<record>
+							<record id="stage_name">
+								<large id="stgn" value="85899345940"/>
+								<integer id="DBID" value="20"/>
+							</record>
+							<integer id="number_teams" value="2"/>
+							<integer id="number_matches" value="1"/>
+							<record id="draw_date">
+								<boolean id="draw_date_to_stage_setup_day" value="true"/>
+							</record>
+							<record id="date">
+								<string id="match_rules" value="extra_time, pen"/>
+								<string id="id_1" value="cham"/>
+								<string id="id_2" value="F   "/>
+							</record>
+							<integer id="number_extra_teams" value="0"/>
+							<integer id="number_legs" value="1"/>
+							<integer id="number_replays" value="0"/>
+							<string id="stadium_rules" value="national"/>
+							<boolean id="round_use_squad_numbers" value="true"/>
+							<record id="winner_ranking_levels">
+								<integer id="current" value="0"/>
+							</record>
+							<record id="loser_ranking_levels">
+								<integer id="current" value="1"/>
+							</record>
+							<list id="cup_tie_mappings">
+								<record>
+									<integer id="cup_tie_index" value="0"/>
+									<integer id="home_last_cup_tie" value="0"/>
+									<string id="home_last_cup_tie_team_index" value="winner"/>
+									<integer id="away_last_cup_tie" value="1"/>
+									<string id="away_last_cup_tie_team_index" value="winner"/>
+								</record>
+							</list>
+							<record id="winner_prize_money">
+								<real id="cash" value="8000.000000"/>
+								<unsigned id="currency" value="7"/>
+							</record>
+							<record id="loser_prize_money">
+								<real id="cash" value="5000.000000"/>
+								<unsigned id="currency" value="7"/>
+							</record>
+						</record>
+					</list>
+					<list id="fate_actions">
+						<record>
+							<string id="type" value="set_league_fate"/>
+							<string id="team" value="winner"/>
+							<string id="new_fate" value="champions"/>
+							<boolean id="search_child_comps" value="false"/>
+							<string id="stage" value="leag"/>
+							<record id="stage_name">
+								<large id="stgn" value="85899345940"/>
+								<integer id="DBID" value="20"/>
+							</record>
+						</record>
+						<record>
+							<string id="type" value="set_league_fate"/>
+							<string id="team" value="loser"/>
+							<string id="new_fate" value="none"/>
+							<boolean id="search_child_comps" value="false"/>
+							<string id="stage" value="leag"/>
+							<record id="stage_name">
+								<large id="stgn" value="85899345940"/>
+								<integer id="DBID" value="20"/>
+							</record>
+						</record>
+						<record>
+							<string id="type" value="set_league_fate"/>
+							<string id="team" value="loser"/>
+							<string id="new_fate" value="none"/>
+							<boolean id="search_child_comps" value="false"/>
+							<string id="stage" value="leag"/>
+							<record id="stage_name">
+								<large id="stgn" value="77309411346"/>
+								<integer id="DBID" value="18"/>
+							</record>
+						</record>
+					</list>
+					<integer id="number_teams" value="4"/>
+				</record>
+				<record>
+					<string id="id" value="rank"/>
+					<integer id="index" value="2"/>
+					<string id="type" value="league"/>
+					<list id="sort_rules">
+						<string value="seeding"/>
+					</list>
+					<string id="subs_rules" value="three_from_seven"/>
+					<string id="priority" value="friendly"/>
+					<list id="requirements">
+						<record>
+							<boolean id="process_early_finish" value="false"/>
+							<string id="stage" value="cham"/>
+						</record>
+					</list>
+					<list id="teams">
+						<record>
+							<string id="id" value="get_cup_round_teams"/>
+							<string id="stage" value="cham"/>
+							<string id="cup_tie_team" value="winner"/>
+							<record id="sub_stage_name">
+								<large id="stgn" value="85899345940"/>
+								<integer id="DBID" value="20"/>
+							</record>
+							<string id="seeding_method" value="same_seeding"/>
+							<integer id="seeding" value="0"/>
+						</record>
+						<record>
+							<string id="id" value="get_cup_round_teams"/>
+							<string id="stage" value="cham"/>
+							<string id="cup_tie_team" value="loser"/>
+							<record id="sub_stage_name">
+								<large id="stgn" value="85899345940"/>
+								<integer id="DBID" value="20"/>
+							</record>
+							<string id="seeding_method" value="same_seeding"/>
+							<integer id="seeding" value="1"/>
+						</record>
+						<record>
+							<string id="id" value="get_final_position_league_stage_teams"/>
+							<string id="stage" value="leag"/>
+							<string id="seeding_method" value="incremental_seeding"/>
+							<integer id="seeding" value="2"/>
+						</record>
+					</list>
+					<list id="schedule"/>
+					<list id="ranking_levels"/>
+					<integer id="number_teams" value="10"/>
+					<string id="stage_flags" value="stage_sets_final_positions"/>
+					<integer id="number_rounds" value="0"/>
+					<boolean id="top_team_are_champions" value="false"/>
+					<boolean id="schedule_fixtures" value="false"/>
+					<string id="league_rules" value="do_not_rank_teams"/>
+				</record>
+			</list>
+			<boolean id="do_automatic_add_history" value="false"/>
+			<boolean id="comp_uses_third_placed_teams" value="false"/>
+			<list id="fixture_dates">
+				<record>
+					<string id="id_1" value="tw01"/>
+					<string id="id_2" value="strt"/>
+					<integer id="day_of_month" value="1"/>
+					<string id="month" value="jan"/>
+					<integer id="year" value="2000"/>
+				</record>
+				<record>
+					<integer id="day_of_month" value="28"/>
+					<string id="month" value="feb"/>
+					<integer id="year" value="2000"/>
+					<string id="id_1" value="tw01"/>
+					<string id="id_2" value="end "/>
+				</record>
+				<record>
+					<string id="day_of_week" value="sat"/>
+					<integer id="day_of_month" value="5"/>
+					<string id="month" value="aug"/>
+					<integer id="year" value="2000"/>
+					<string id="id_1" value="tw02"/>
+					<string id="id_2" value="strt"/>
+				</record>
+				<record>
+					<string id="day_of_week" value="fri"/>
+					<integer id="day_of_month" value="1"/>
+					<string id="month" value="sep"/>
+					<integer id="year" value="2000"/>
+					<string id="id_1" value="tw02"/>
+					<string id="id_2" value="end "/>
+				</record>
+				<record>
+					<record id="calculate_from_other_date">
+						<integer id="day_offset" value="-10"/>
+						<string id="id_1" value="leag"/>
+						<string id="id_2" value="strt"/>
+					</record>
+					<string id="id_1" value="reg "/>
+					<string id="id_2" value="end "/>
+				</record>
+				<record>
+					<string id="stadium_rules" value="home"/>
+					<string id="day_of_week" value="sat"/>
+					<integer id="day_of_month" value="24"/>
+					<string id="month" value="jun"/>
+					<integer id="year" value="2000"/>
+					<string id="id_1" value="leag"/>
+					<string id="id_2" value="strt"/>
+				</record>
+				<record>
+					<string id="stadium_rules" value="home"/>
+					<string id="id_1" value="leag"/>
+					<string id="id_2" value="end "/>
+					<string id="day_of_week" value="sat"/>
+					<integer id="day_of_month" value="2"/>
+					<string id="month" value="dec"/>
+					<integer id="year" value="2000"/>
+				</record>
+				<record>
+					<string id="id_1" value="cham"/>
+					<string id="id_2" value="SF  "/>
+					<string id="day_of_week" value="wed"/>
+					<integer id="day_of_month" value="6"/>
+					<string id="month" value="dec"/>
+					<integer id="year" value="2000"/>
+					<string id="stadium_rules" value="national"/>
+				</record>
+				<record>
+					<string id="stadium_rules" value="national"/>
+					<string id="id_1" value="cham"/>
+					<string id="id_2" value="F   "/>
+					<string id="day_of_week" value="sun"/>
+					<integer id="day_of_month" value="10"/>
+					<string id="month" value="dec"/>
+					<integer id="year" value="2000"/>
+				</record>
+			</list>
+			<string id="type" value="division"/>
+			<integer id="branch" value="0"/>
+			<list id="cont_cup_qual_rules">
+				<record>
+					<string id="type" value="league_stage"/>
+					<boolean id="hide_rule" value="false"/>
+					<integer id="stage" value="2"/>
+					<record id="competition">
+						<unsigned id="id" value="1668246896"/>
+						<large id="competition" value="193627571109226304"/>
+						<integer id="DBID" value="45082432"/>
+					</record>
+					<string id="ranked_team_info" value="league_position"/>
+					<integer id="qualification_system_id" value="4"/>
+				</record>
+			</list>
+			<boolean id="should_comp_allow_b_teams_from_lower_division" value="false"/>
+			<integer id="last_day_of_season_stage_index" value="2"/>
+			<boolean id="should_fixture_still_be_televised" value="true"/>
+			<list id="stage_finished_actions_list">
+				<record>
+					<string id="stage_finished_actions" value="add_history_record"/>
+					<integer id="index" value="1"/>
+					<boolean id="store_league_history" value="true"/>
+				</record>
+				<record>
+					<string id="stage_finished_actions" value="send_teams_to_cont_cup_seedings"/>
+					<integer id="index" value="2"/>
+					<integer id="qualification_system_id" value="4"/>
+				</record>
+			</list>
+			<list id="ranking_level_info">
+				<record>
+					<integer id="number_teams" value="1"/>
+					<string id="type" value="winner"/>
+					<integer id="level" value="0"/>
+				</record>
+				<record>
+					<integer id="number_teams" value="1"/>
+					<string id="type" value="stage_achievement"/>
+					<integer id="level" value="1"/>
+					<record id="main_stage_name">
+						<large id="stgn" value="85899345940"/>
+						<integer id="DBID" value="20"/>
+					</record>
+				</record>
+				<record>
+					<integer id="number_teams" value="2"/>
+					<string id="type" value="stage_achievement"/>
+					<integer id="level" value="2"/>
+					<record id="main_stage_name">
+						<large id="stgn" value="77309411346"/>
+						<integer id="DBID" value="18"/>
+					</record>
+				</record>
+				<record>
+					<integer id="number_teams" value="1"/>
+					<string id="type" value="top_half_finish"/>
+					<integer id="level" value="3"/>
+				</record>
+				<record>
+					<integer id="number_teams" value="1"/>
+					<string id="type" value="mid_table_finish"/>
+					<integer id="level" value="4"/>
+				</record>
+				<record>
+					<integer id="number_teams" value="1"/>
+					<string id="type" value="be_competitive"/>
+					<integer id="level" value="5"/>
+				</record>
+				<record>
+					<integer id="number_teams" value="1"/>
+					<string id="type" value="avoid_relegation"/>
+					<integer id="level" value="6"/>
+				</record>
+				<record>
+					<integer id="number_teams" value="1"/>
+					<string id="type" value="relegation"/>
+					<integer id="bottom_level" value="8"/>
+					<integer id="top_level" value="7"/>
+				</record>
+			</list>
+		</record>
+	</list>
+	<date id="EdDt" day="12" month="12" year="2025" time="1900"/>
+	<list id="verf">
+		<string value="23.3.0"/>
+		<string value="23.4.0"/>
+		<string value="24.0.0"/>
+		<string value="24.3.0"/>
+		<string value="26.0.0"/>
+	</list>
+	<integer id="XSvC" value="40"/>
+	<string id="EdBr" value="fm26-rel-prod"/>
+	<list id="db_changes">
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="352558613981858353"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="3"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="2512304820732392453"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="482505222"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2512304820732392453"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="Gros Islet Football League"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="712797787"/>
+			<string id="odvl" value="Uptown Rebels Sports Club"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2512304820732392453"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="Gros Islet"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="585267505"/>
+			<string id="odvl" value="Uptown Rebels"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2512304820732392453"/>
+			<unsigned id="property" value="1131640942"/>
+			<string id="new_value" value="GIFL"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="414229149"/>
+			<string id="odvl" value=""/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2512304820732392453"/>
+			<unsigned id="property" value="1130591353"/>
+			<record id="new_value">
+				<large id="city" value="352457862639005327"/>
+				<integer id="DBID" value="82062991"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="751255478"/>
+			<record id="odvl">
+				<large id="city" value="352558644046629432"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2512304820732392453"/>
+			<unsigned id="property" value="1952605036"/>
+			<colour id="new_value" red="33" green="150" blue="243" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="540755935"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2512304820732392453"/>
+			<unsigned id="property" value="1953784684"/>
+			<colour id="new_value" red="255" green="235" blue="59" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="19100284"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2512304820732392453"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="352457858344038030"/>
+				<integer id="DBID" value="82062990"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="909856811"/>
+			<record id="odvl">
+				<large id="stad" value="352558639751662135"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2512304820732392453"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="2"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="340159815"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2512304820732392453"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="3"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="997862576"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2512304820732392453"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="33" green="150" blue="243" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="530253388"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2512304820732392453"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802727285"/>
+				<colour id="value" red="255" green="235" blue="59" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="33" green="150" blue="243" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="456738726"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2512304820732392453"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="1"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="3"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="426555865"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2512304820732392453"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="9" green="28" blue="173" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="53840023"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2512304820732392453"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="1"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="8"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="508946040"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="352558613981858353"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="3"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="2549455806806455302"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="405689147"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="Choiseul Football League"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="287893350"/>
+			<string id="odvl" value="Uptown Rebels Sports Club"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="Choiseul"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="221217359"/>
+			<string id="odvl" value="Uptown Rebels"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1131640942"/>
+			<string id="new_value" value="CFL"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="813763294"/>
+			<string id="odvl" value=""/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1130591353"/>
+			<record id="new_value">
+				<large id="city" value="8591786854481406111"/>
+				<integer id="DBID" value="2000431263"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="209071243"/>
+			<record id="odvl">
+				<large id="city" value="352558644046629432"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1131639913"/>
+			<null id="new_value"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="213859494"/>
+			<record id="odvl">
+				<large id="stad" value="352558639751662135"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="7"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="108196395"/>
+			<integer id="odvl" value="14"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1131373673"/>
+			<null id="new_value"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="917556831"/>
+			<record id="odvl">
+				<large id="competition" value="8590241538132847402"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1952605036"/>
+			<colour id="new_value" red="255" green="87" blue="34" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="907952877"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1953784684"/>
+			<colour id="new_value" red="7" green="19" blue="119" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="227596387"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="2"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="328539322"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="3"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="549562924"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="19"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="530635724"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="255" green="87" blue="34" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="19"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="66377666"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802727285"/>
+				<colour id="value" red="9" green="28" blue="173" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="19"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="255" green="87" blue="34" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="41457180"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802724967"/>
+				<colour id="value" red="9" green="28" blue="173" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="19"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="255" green="87" blue="34" alpha="255"/>
+					<colour id="ksou" red="9" green="28" blue="173" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="661890566"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1651471220"/>
+				<integer id="value" value="2"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="19"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="9" green="28" blue="173" alpha="255"/>
+					<colour id="ksbg" red="255" green="87" blue="34" alpha="255"/>
+					<colour id="ksou" red="9" green="28" blue="173" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="285495957"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="255" green="87" blue="34" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="3"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="655708762"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802724967"/>
+				<colour id="value" red="9" green="28" blue="173" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="3"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="255" green="87" blue="34" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="979545531"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802727285"/>
+				<colour id="value" red="9" green="28" blue="173" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="3"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="9" green="28" blue="173" alpha="255"/>
+					<colour id="ksbg" red="255" green="87" blue="34" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="62449678"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="1"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="8"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="606132088"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2549455806806455302"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="255" green="87" blue="34" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="395394225"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="352558613981858353"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="3"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="581805669305381895"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="954184188"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="581805669305381895"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="Canaries Football League"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="191823527"/>
+			<string id="odvl" value="Uptown Rebels Sports Club"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="581805669305381895"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="Canaries"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="480285501"/>
+			<string id="odvl" value="Uptown Rebels"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="581805669305381895"/>
+			<unsigned id="property" value="1131640942"/>
+			<string id="new_value" value="CFL"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="297958475"/>
+			<string id="odvl" value=""/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="581805669305381895"/>
+			<unsigned id="property" value="1130591353"/>
+			<record id="new_value">
+				<large id="city" value="352495757135466758"/>
+				<integer id="DBID" value="82071814"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="75810199"/>
+			<record id="odvl">
+				<large id="city" value="352558644046629432"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="581805669305381895"/>
+			<unsigned id="property" value="1952605036"/>
+			<colour id="new_value" red="255" green="235" blue="59" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="922282689"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="581805669305381895"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="352495752840499461"/>
+				<integer id="DBID" value="82071813"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="447285221"/>
+			<record id="odvl">
+				<large id="stad" value="352558639751662135"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="581805669305381895"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="9"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="354759086"/>
+			<integer id="odvl" value="14"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="581805669305381895"/>
+			<unsigned id="property" value="1131373673"/>
+			<null id="new_value"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="198573197"/>
+			<record id="odvl">
+				<large id="competition" value="8590241538132847402"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="581805669305381895"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="2"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="630096547"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="581805669305381895"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="3"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="860940688"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="581805669305381895"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="48"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="266240299"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="581805669305381895"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="255" green="235" blue="59" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="48"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="40553865"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="581805669305381895"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802724967"/>
+				<colour id="value" red="120" green="120" blue="120" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="48"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="255" green="235" blue="59" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="136979591"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="581805669305381895"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1651471220"/>
+				<integer id="value" value="1"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="48"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="120" green="120" blue="120" alpha="255"/>
+					<colour id="ksbg" red="255" green="235" blue="59" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="584255082"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="581805669305381895"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1651471220"/>
+				<integer id="value" value="2"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="48"/>
+					<integer id="bost" value="1"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="120" green="120" blue="120" alpha="255"/>
+					<colour id="ksbg" red="255" green="235" blue="59" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="470460268"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="581805669305381895"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="255" green="235" blue="59" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="8"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="378625508"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="581805669305381895"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802724967"/>
+				<colour id="value" red="0" green="0" blue="0" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="8"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="255" green="235" blue="59" alpha="255"/>
+					<colour id="ksou" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="76177152"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="352558613981858353"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="3"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="2709083540582134792"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="801334165"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2709083540582134792"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="Central Castries Football"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="291620437"/>
+			<string id="odvl" value="Uptown Rebels Sports Club"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2709083540582134792"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="Central Castries"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="168732939"/>
+			<string id="odvl" value="Uptown Rebels"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2709083540582134792"/>
+			<unsigned id="property" value="1131640942"/>
+			<string id="new_value" value="CC"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="899266641"/>
+			<string id="odvl" value=""/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2709083540582134792"/>
+			<unsigned id="property" value="1130591353"/>
+			<record id="new_value">
+				<large id="city" value="442970042110689"/>
+				<integer id="DBID" value="103137"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="433750871"/>
+			<record id="odvl">
+				<large id="city" value="352558644046629432"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2709083540582134792"/>
+			<unsigned id="property" value="1952605036"/>
+			<colour id="new_value" red="25" green="118" blue="210" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="849956106"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2709083540582134792"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="98861488522869248"/>
+				<integer id="DBID" value="23017984"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="180105180"/>
+			<record id="odvl">
+				<large id="stad" value="352558639751662135"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2709083540582134792"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="8"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="249340335"/>
+			<integer id="odvl" value="14"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2709083540582134792"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="2"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="26043986"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2709083540582134792"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="3"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="756024001"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2709083540582134792"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="26"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="592575310"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2709083540582134792"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="33" green="150" blue="243" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="26"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="856955882"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2709083540582134792"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1852662636"/>
+				<colour id="value" red="245" green="245" blue="245" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="26"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="33" green="150" blue="243" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="427169910"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2709083540582134792"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="4"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="3"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="378318578"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2709083540582134792"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="33" green="150" blue="243" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="4"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="291612386"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2709083540582134792"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="11" green="36" blue="235" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="4"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="33" green="150" blue="243" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="938476136"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2709083540582134792"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="11" green="36" blue="235" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="26"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="33" green="150" blue="243" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="245" green="245" blue="245" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="722483951"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2709083540582134792"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="1"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="8"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="490144700"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="352558613981858353"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="3"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="163213857374958601"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="314443830"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="163213857374958601"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="Dennery Football League"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="391595575"/>
+			<string id="odvl" value="Uptown Rebels Sports Club"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="163213857374958601"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="Dennery"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="363203014"/>
+			<string id="odvl" value="Uptown Rebels"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="163213857374958601"/>
+			<unsigned id="property" value="1131640942"/>
+			<string id="new_value" value="DFL"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="745880720"/>
+			<string id="odvl" value=""/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="163213857374958601"/>
+			<unsigned id="property" value="1130591353"/>
+			<record id="new_value">
+				<large id="city" value="352458038732664504"/>
+				<integer id="DBID" value="82063032"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="608179732"/>
+			<record id="odvl">
+				<large id="city" value="352558644046629432"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="163213857374958601"/>
+			<unsigned id="property" value="1952605036"/>
+			<colour id="new_value" red="236" green="73" blue="73" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="661405629"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="163213857374958601"/>
+			<unsigned id="property" value="1953784684"/>
+			<colour id="new_value" red="245" green="245" blue="245" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="796341765"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="163213857374958601"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="352458034437697207"/>
+				<integer id="DBID" value="82063031"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="256578021"/>
+			<record id="odvl">
+				<large id="stad" value="352558639751662135"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="163213857374958601"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="8"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="715202365"/>
+			<integer id="odvl" value="14"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="163213857374958601"/>
+			<unsigned id="property" value="1131373673"/>
+			<null id="new_value"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="356579256"/>
+			<record id="odvl">
+				<large id="competition" value="8590241538132847402"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="163213857374958601"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="2"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="896735374"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="163213857374958601"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="3"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="474902595"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="163213857374958601"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="5"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="517481346"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="163213857374958601"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="236" green="73" blue="73" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="5"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="590153378"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="163213857374958601"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802724967"/>
+				<colour id="value" red="245" green="245" blue="245" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="5"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="236" green="73" blue="73" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="695493395"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="163213857374958601"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="2"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="3"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="486495289"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="163213857374958601"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="245" green="245" blue="245" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="2"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="671655376"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="163213857374958601"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802724967"/>
+				<colour id="value" red="236" green="73" blue="73" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="2"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="245" green="245" blue="245" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="586606820"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="163213857374958601"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="1"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="8"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="292995692"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="163213857374958601"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="236" green="73" blue="73" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="887003332"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="352558613981858353"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="3"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="3280167917248934922"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="585453566"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3280167917248934922"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="La Clery Football League"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="734740498"/>
+			<string id="odvl" value="Uptown Rebels Sports Club"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3280167917248934922"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="La Clery"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="37252923"/>
+			<string id="odvl" value="Uptown Rebels"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3280167917248934922"/>
+			<unsigned id="property" value="1131640942"/>
+			<string id="new_value" value="LCFL"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="657705455"/>
+			<string id="odvl" value=""/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3280167917248934922"/>
+			<unsigned id="property" value="1130591353"/>
+			<record id="new_value">
+				<large id="city" value="442970042110689"/>
+				<integer id="DBID" value="103137"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="398828038"/>
+			<record id="odvl">
+				<large id="city" value="352558644046629432"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3280167917248934922"/>
+			<unsigned id="property" value="1952605036"/>
+			<colour id="new_value" red="0" green="0" blue="0" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="567247562"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3280167917248934922"/>
+			<unsigned id="property" value="1953784684"/>
+			<colour id="new_value" red="182" green="145" blue="52" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="373493415"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3280167917248934922"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="443081711260411"/>
+				<integer id="DBID" value="103163"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="435778263"/>
+			<record id="odvl">
+				<large id="stad" value="352558639751662135"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3280167917248934922"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="8"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="648135860"/>
+			<integer id="odvl" value="14"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3280167917248934922"/>
+			<unsigned id="property" value="1131373673"/>
+			<null id="new_value"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="127509667"/>
+			<record id="odvl">
+				<large id="competition" value="8590241538132847402"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3280167917248934922"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="2"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="244389323"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3280167917248934922"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="3"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="461445568"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3280167917248934922"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802727285"/>
+				<colour id="value" red="234" green="6" blue="6" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="221741843"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3280167917248934922"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="42"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="234" green="6" blue="6" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="437283070"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3280167917248934922"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802724967"/>
+				<colour id="value" red="255" green="235" blue="59" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="42"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="234" green="6" blue="6" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="61225672"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3280167917248934922"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="0" green="0" blue="0" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="42"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="255" green="235" blue="59" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="234" green="6" blue="6" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="353312485"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3280167917248934922"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1852662636"/>
+				<colour id="value" red="245" green="245" blue="245" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="42"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="255" green="235" blue="59" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="234" green="6" blue="6" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="211320803"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3280167917248934922"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1651471220"/>
+				<integer id="value" value="2"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="42"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="255" green="235" blue="59" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="234" green="6" blue="6" alpha="255"/>
+					<colour id="number_colour" red="245" green="245" blue="245" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="763083386"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3280167917248934922"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="1"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="3"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="588098637"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3280167917248934922"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="1"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="8"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="858140770"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="352558613981858353"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="3"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="2894982807623398411"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="359873694"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="Mabouya Valley Football League"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="659841499"/>
+			<string id="odvl" value="Uptown Rebels Sports Club"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="Mabouya Valley"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="400414898"/>
+			<string id="odvl" value="Uptown Rebels"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1131640942"/>
+			<string id="new_value" value="MBFL"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="227567215"/>
+			<string id="odvl" value=""/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1130591353"/>
+			<null id="new_value"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="364121277"/>
+			<record id="odvl">
+				<large id="city" value="352558644046629432"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1952605036"/>
+			<colour id="new_value" red="33" green="150" blue="243" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="84637723"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1953784684"/>
+			<colour id="new_value" red="245" green="245" blue="245" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="262353971"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1131639913"/>
+			<null id="new_value"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="739952208"/>
+			<record id="odvl">
+				<large id="stad" value="352558639751662135"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="6"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="262562135"/>
+			<integer id="odvl" value="14"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1131373673"/>
+			<null id="new_value"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="604115825"/>
+			<record id="odvl">
+				<large id="competition" value="8590241538132847402"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="2"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="898242152"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="3"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="990681677"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="42"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="54985708"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1651471220"/>
+				<integer id="value" value="2"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="42"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="580091599"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="33" green="150" blue="243" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="42"/>
+					<integer id="bost" value="2"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="522638170"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802724967"/>
+				<colour id="value" red="245" green="245" blue="245" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="42"/>
+					<integer id="bost" value="2"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="33" green="150" blue="243" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="667926463"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802727285"/>
+				<colour id="value" red="245" green="245" blue="245" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="42"/>
+					<integer id="bost" value="2"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="245" green="245" blue="245" alpha="255"/>
+					<colour id="ksbg" red="33" green="150" blue="243" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="797350033"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1852662636"/>
+				<colour id="value" red="245" green="245" blue="245" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="42"/>
+					<integer id="bost" value="2"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="245" green="245" blue="245" alpha="255"/>
+					<colour id="ksbg" red="33" green="150" blue="243" alpha="255"/>
+					<colour id="ksou" red="245" green="245" blue="245" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="142359913"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="33" green="150" blue="243" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="3"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="359490948"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="1"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="8"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="481820258"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2894982807623398411"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="186" green="104" blue="200" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="149175538"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="352558613981858353"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="3"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="320110795109266444"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="580046156"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="320110795109266444"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="Soufrière"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="92434936"/>
+			<string id="odvl" value="Uptown Rebels Sports Club"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="320110795109266444"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="Soufrière"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="451698502"/>
+			<string id="odvl" value="Uptown Rebels"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="320110795109266444"/>
+			<unsigned id="property" value="1413705326"/>
+			<string id="new_value" value="Sulphur City Boyz"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="857908294"/>
+			<string id="odvl" value="-"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="320110795109266444"/>
+			<unsigned id="property" value="1130591353"/>
+			<record id="new_value">
+				<large id="city" value="352457802509463169"/>
+				<integer id="DBID" value="82062977"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="206353076"/>
+			<record id="odvl">
+				<large id="city" value="352558644046629432"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="320110795109266444"/>
+			<unsigned id="property" value="1952605036"/>
+			<colour id="new_value" red="182" green="145" blue="52" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="44901184"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="320110795109266444"/>
+			<unsigned id="property" value="1953784684"/>
+			<colour id="new_value" red="234" green="6" blue="6" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="155393063"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="320110795109266444"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="352457798214495872"/>
+				<integer id="DBID" value="82062976"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="595637665"/>
+			<record id="odvl">
+				<large id="stad" value="352558639751662135"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="320110795109266444"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="8"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="137661946"/>
+			<integer id="odvl" value="14"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="320110795109266444"/>
+			<unsigned id="property" value="1131373673"/>
+			<null id="new_value"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="41128038"/>
+			<record id="odvl">
+				<large id="competition" value="8590241538132847402"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="320110795109266444"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="2"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="503744821"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="320110795109266444"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="3"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="467194125"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="320110795109266444"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="54"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="947135773"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="320110795109266444"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="240" green="98" blue="146" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="54"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="841952676"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="320110795109266444"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802724967"/>
+				<colour id="value" red="33" green="150" blue="243" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="54"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="240" green="98" blue="146" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="249940802"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="320110795109266444"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802727285"/>
+				<colour id="value" red="33" green="150" blue="243" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="54"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="33" green="150" blue="243" alpha="255"/>
+					<colour id="ksbg" red="240" green="98" blue="146" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="737524414"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="320110795109266444"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802724967"/>
+				<colour id="value" red="240" green="98" blue="146" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="54"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="33" green="150" blue="243" alpha="255"/>
+					<colour id="ksbg" red="240" green="98" blue="146" alpha="255"/>
+					<colour id="ksou" red="33" green="150" blue="243" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="781880182"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="320110795109266444"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1651471220"/>
+				<integer id="value" value="2"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="54"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="240" green="98" blue="146" alpha="255"/>
+					<colour id="ksbg" red="240" green="98" blue="146" alpha="255"/>
+					<colour id="ksou" red="33" green="150" blue="243" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="959876601"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="320110795109266444"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="1"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="8"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="425882801"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="352558613981858353"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="3"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="3289728042003428365"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="72685640"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="Vieux Fort-South"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="475412089"/>
+			<string id="odvl" value="Uptown Rebels Sports Club"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="Vieux Fort-South"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="177844043"/>
+			<string id="odvl" value="Uptown Rebels"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1131640942"/>
+			<string id="new_value" value="VFS"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="658180236"/>
+			<string id="odvl" value=""/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1130591353"/>
+			<record id="new_value">
+				<large id="city" value="352457935653449376"/>
+				<integer id="DBID" value="82063008"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="819217945"/>
+			<record id="odvl">
+				<large id="city" value="352558644046629432"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1952605036"/>
+			<colour id="new_value" red="56" green="142" blue="60" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="411936847"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1953784684"/>
+			<colour id="new_value" red="245" green="245" blue="245" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="222975160"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="352457931358482079"/>
+				<integer id="DBID" value="82063007"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="271083656"/>
+			<record id="odvl">
+				<large id="stad" value="352558639751662135"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="11"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="228274596"/>
+			<integer id="odvl" value="14"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1131373673"/>
+			<null id="new_value"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="623301140"/>
+			<record id="odvl">
+				<large id="competition" value="8590241538132847402"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="2"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="268860268"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="3"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="992941330"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="38"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="680634374"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1651471220"/>
+				<integer id="value" value="2"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="38"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="75966385"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="56" green="142" blue="60" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="38"/>
+					<integer id="bost" value="2"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="246284152"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802724967"/>
+				<colour id="value" red="245" green="245" blue="245" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="38"/>
+					<integer id="bost" value="2"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="56" green="142" blue="60" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="456732439"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802727285"/>
+				<colour id="value" red="56" green="142" blue="60" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="38"/>
+					<integer id="bost" value="2"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="245" green="245" blue="245" alpha="255"/>
+					<colour id="ksbg" red="56" green="142" blue="60" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="504100421"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802727285"/>
+				<colour id="value" red="245" green="245" blue="245" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="38"/>
+					<integer id="bost" value="2"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="245" green="245" blue="245" alpha="255"/>
+					<colour id="ksbg" red="56" green="142" blue="60" alpha="255"/>
+					<colour id="ksou" red="56" green="142" blue="60" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="389075649"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802724967"/>
+				<colour id="value" red="56" green="142" blue="60" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="38"/>
+					<integer id="bost" value="2"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="245" green="245" blue="245" alpha="255"/>
+					<colour id="ksbg" red="56" green="142" blue="60" alpha="255"/>
+					<colour id="ksou" red="245" green="245" blue="245" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="8239395"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1852662636"/>
+				<colour id="value" red="245" green="245" blue="245" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="38"/>
+					<integer id="bost" value="2"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="56" green="142" blue="60" alpha="255"/>
+					<colour id="ksbg" red="56" green="142" blue="60" alpha="255"/>
+					<colour id="ksou" red="245" green="245" blue="245" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="284078666"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="1"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="3"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="694128872"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="47" green="107" blue="50" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="105404673"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="1"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="8"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="495368082"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="8"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="968026298"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="3289728042003428365"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="47" green="107" blue="50" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="8"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="173063738"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="352558613981858353"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="3"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="496452651815367694"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="533238228"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="496452651815367694"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="South Castries Football League"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="740625414"/>
+			<string id="odvl" value="Uptown Rebels Sports Club"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="496452651815367694"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="South Castries"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="833670932"/>
+			<string id="odvl" value="Uptown Rebels"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="496452651815367694"/>
+			<unsigned id="property" value="1131640942"/>
+			<string id="new_value" value="SCFL"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="156367782"/>
+			<string id="odvl" value=""/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="496452651815367694"/>
+			<unsigned id="property" value="1130591353"/>
+			<record id="new_value">
+				<large id="city" value="442970042110689"/>
+				<integer id="DBID" value="103137"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="413049594"/>
+			<record id="odvl">
+				<large id="city" value="352558644046629432"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="496452651815367694"/>
+			<unsigned id="property" value="1952605036"/>
+			<colour id="new_value" red="0" green="0" blue="0" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="741437368"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="496452651815367694"/>
+			<unsigned id="property" value="1953784684"/>
+			<colour id="new_value" red="215" green="47" blue="103" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="919830050"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="496452651815367694"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="352457819689332357"/>
+				<integer id="DBID" value="82062981"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="462906599"/>
+			<record id="odvl">
+				<large id="stad" value="352558639751662135"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="496452651815367694"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="8"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="217544713"/>
+			<integer id="odvl" value="14"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="496452651815367694"/>
+			<unsigned id="property" value="1131373673"/>
+			<null id="new_value"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="748018808"/>
+			<record id="odvl">
+				<large id="competition" value="8590241538132847402"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="496452651815367694"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="2"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="264449259"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="496452651815367694"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="3"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="566821833"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="496452651815367694"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802724967"/>
+				<colour id="value" red="215" green="47" blue="103" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="406738920"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="496452651815367694"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802727285"/>
+				<colour id="value" red="215" green="47" blue="103" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="215" green="47" blue="103" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="24640405"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="496452651815367694"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="0" green="0" blue="0" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="215" green="47" blue="103" alpha="255"/>
+					<colour id="ksbg" red="120" green="248" blue="0" alpha="255"/>
+					<colour id="ksou" red="215" green="47" blue="103" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="951855147"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="496452651815367694"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1852662636"/>
+				<colour id="value" red="215" green="47" blue="103" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="215" green="47" blue="103" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="215" green="47" blue="103" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="212625584"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="496452651815367694"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="1"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="3"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="202114355"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="496452651815367694"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="1"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="8"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="209872661"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="496452651815367694"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="234" green="6" blue="6" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksbg" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="ksou" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="number_colour" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="nmoc" red="0" green="0" blue="0" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="520883834"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="193627571109226304"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="25"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="1933646565591571426"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="355579511"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="193627571109226304"/>
+			<unsigned id="property" value="1668178285"/>
+			<string id="new_value" value="St Lucia SemiPro Football League"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="209079933"/>
+			<string id="odvl" value="SLFA First Division"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="193627571109226304"/>
+			<unsigned id="property" value="1668509293"/>
+			<string id="new_value" value="SemiPro Football League"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="632101211"/>
+			<string id="odvl" value="First Division"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="193627571109226304"/>
+			<unsigned id="property" value="1664314478"/>
+			<string id="new_value" value="SFL"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="874256909"/>
+			<string id="odvl" value="D1"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="193627571109226304"/>
+			<unsigned id="property" value="1129608313"/>
+			<integer id="new_value" value="7"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="100321922"/>
+			<integer id="odvl" value="0"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590241503773109026"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="1933646565591571426"/>
+				<integer id="DBID" value="2000509922"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="634128001"/>
+			<record id="odvl">
+				<large id="competition" value="193627571109226304"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8591075307249312121"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="1933646565591571426"/>
+				<integer id="DBID" value="2000509922"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="613073715"/>
+			<record id="odvl">
+				<large id="competition" value="193627571109226304"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590679251134986563"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="1933646565591571426"/>
+				<integer id="DBID" value="2000509922"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="644416613"/>
+			<record id="odvl">
+				<large id="competition" value="193627571109226304"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590679238250084672"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="1933646565591571426"/>
+				<integer id="DBID" value="2000509922"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="708203321"/>
+			<record id="odvl">
+				<large id="competition" value="193627571109226304"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="98816249632329947"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="1933646565591571426"/>
+				<integer id="DBID" value="2000509922"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="515802902"/>
+			<record id="odvl">
+				<large id="competition" value="193627571109226304"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590241886025198459"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="1933646565591571426"/>
+				<integer id="DBID" value="2000509922"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="277372382"/>
+			<record id="odvl">
+				<large id="competition" value="193627571109226304"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="352544693992848776"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="1933646565591571426"/>
+				<integer id="DBID" value="2000509922"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="206820191"/>
+			<record id="odvl">
+				<large id="competition" value="193627571109226304"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590241301909646067"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="1933646565591571426"/>
+				<integer id="DBID" value="2000509922"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="394702670"/>
+			<record id="odvl">
+				<large id="competition" value="193627571109226304"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="352558613981858353"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="1933646565591571426"/>
+				<integer id="DBID" value="2000509922"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="820252154"/>
+			<record id="odvl">
+				<large id="competition" value="193627571109226304"/>
+			</record>
+		</record>
+	</list>
+</record>
