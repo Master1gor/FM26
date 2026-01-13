@@ -5,8 +5,8 @@
 	<string id="description" value="Rules for Suriname by MasterIgor"/>
 	<integer id="EDvb" value="1"/>
 	<string id="EDfb" value=""/>
-	<integer id="version" value="3725"/>
-	<integer id="rule_group_version" value="1629"/>
+	<integer id="version" value="3723"/>
+	<integer id="rule_group_version" value="1625"/>
 	<boolean id="beta" value="false"/>
 	<list id="files">
 		<record>
@@ -836,6 +836,7 @@
 					<boolean id="schedule_fixtures" value="false"/>
 					<string id="league_rules" value="do_not_rank_teams"/>
 					<string id="stage_flags" value="stage_sets_final_positions"/>
+					<boolean id="hide_stage" value="true"/>
 				</record>
 			</list>
 			<boolean id="do_automatic_add_history" value="false"/>
@@ -1822,7 +1823,7 @@
 			</record>
 		</record>
 	</list>
-	<date id="EdDt" day="1" month="1" year="2026" time="1445"/>
+	<date id="EdDt" day="13" month="1" year="2026" time="1845"/>
 	<list id="verf">
 		<string value="23.3.0"/>
 		<string value="23.4.0"/>
@@ -1830,7 +1831,7 @@
 		<string value="24.3.0"/>
 		<string value="26.0.0"/>
 	</list>
-	<integer id="XSvC" value="77"/>
+	<integer id="XSvC" value="80"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
 	<list id="db_changes"/>
 </record>

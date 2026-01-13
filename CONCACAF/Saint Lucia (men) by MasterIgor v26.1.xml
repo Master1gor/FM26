@@ -5,8 +5,8 @@
 	<string id="description" value="Rules for St_Lucia by MasterIgor"/>
 	<integer id="EDvb" value="1"/>
 	<string id="EDfb" value=""/>
-	<integer id="version" value="3725"/>
-	<integer id="rule_group_version" value="1629"/>
+	<integer id="version" value="3723"/>
+	<integer id="rule_group_version" value="1625"/>
 	<boolean id="beta" value="false"/>
 	<list id="files">
 		<record>
@@ -675,6 +675,7 @@
 					<boolean id="top_team_are_champions" value="false"/>
 					<boolean id="schedule_fixtures" value="false"/>
 					<string id="league_rules" value="do_not_rank_teams"/>
+					<boolean id="hide_stage" value="true"/>
 				</record>
 			</list>
 			<boolean id="do_automatic_add_history" value="false"/>
@@ -840,7 +841,7 @@
 			</list>
 		</record>
 	</list>
-	<date id="EdDt" day="4" month="1" year="2026" time="1515"/>
+	<date id="EdDt" day="13" month="1" year="2026" time="1830"/>
 	<list id="verf">
 		<string value="23.3.0"/>
 		<string value="23.4.0"/>
@@ -848,7 +849,7 @@
 		<string value="24.3.0"/>
 		<string value="26.0.0"/>
 	</list>
-	<integer id="XSvC" value="44"/>
+	<integer id="XSvC" value="48"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
 	<list id="db_changes">
 		<record>
