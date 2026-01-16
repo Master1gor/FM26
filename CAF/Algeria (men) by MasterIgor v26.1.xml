@@ -1,0 +1,3367 @@
+<record>
+	<string id="description" value="Rules for Algeria by MasterIgor"/>
+	<list id="files">
+		<record>
+			<integer id="version" value="999"/>
+			<string id="file_type" value="nation"/>
+			<large id="nation" value="5"/>
+			<record id="season_update_day">
+				<unsigned id="id" value="1970300025"/>
+				<integer id="day_of_month" value="30"/>
+				<string id="month" value="jun"/>
+			</record>
+			<list id="competitions">
+				<record>
+					<record id="competition">
+						<large id="competition" value="51605277613971130"/>
+						<integer id="DBID" value="12015290"/>
+					</record>
+				</record>
+				<record>
+					<record id="competition">
+						<large id="competition" value="51673331370792095"/>
+						<integer id="DBID" value="12031135"/>
+					</record>
+				</record>
+				<record>
+					<record id="competition">
+						<large id="competition" value="51605509542205168"/>
+						<integer id="DBID" value="12015344"/>
+					</record>
+				</record>
+				<record>
+					<record id="competition">
+						<large id="competition" value="56466532054113283"/>
+						<integer id="DBID" value="13147139"/>
+					</record>
+				</record>
+				<record>
+					<record id="competition">
+						<large id="competition" value="4030845904721107938"/>
+						<integer id="DBID" value="2000335005"/>
+					</record>
+				</record>
+			</list>
+			<list id="required_teams">
+				<record>
+					<record id="competition">
+						<large id="competition" value="51605277613971130"/>
+						<integer id="DBID" value="12015290"/>
+					</record>
+					<boolean id="ignore_minor_teams" value="false"/>
+					<boolean id="use_min_or_max" value="false"/>
+					<boolean id="next_season" value="false"/>
+					<integer id="number_teams" value="16"/>
+				</record>
+				<record>
+					<record id="competition">
+						<large id="competition" value="51673331370792095"/>
+						<integer id="DBID" value="12031135"/>
+					</record>
+					<boolean id="ignore_minor_teams" value="false"/>
+					<boolean id="use_min_or_max" value="false"/>
+					<boolean id="next_season" value="false"/>
+					<integer id="number_teams" value="32"/>
+				</record>
+				<record>
+					<boolean id="ignore_minor_teams" value="false"/>
+					<boolean id="use_min_or_max" value="false"/>
+					<boolean id="next_season" value="false"/>
+					<record id="competition">
+						<large id="competition" value="56783376086580270"/>
+						<integer id="DBID" value="13220910"/>
+					</record>
+					<integer id="minimum_number_teams" value="25"/>
+				</record>
+				<record>
+					<boolean id="ignore_minor_teams" value="false"/>
+					<boolean id="use_min_or_max" value="false"/>
+					<boolean id="next_season" value="false"/>
+					<record id="competition">
+						<large id="competition" value="4030845904721107938"/>
+						<integer id="DBID" value="2000335005"/>
+					</record>
+					<integer id="number_teams" value="2"/>
+				</record>
+			</list>
+			<list id="division_levels">
+				<record>
+					<record id="competition">
+						<large id="competition" value="51605277613971130"/>
+						<integer id="DBID" value="12015290"/>
+					</record>
+					<list id="verf">
+						<string value="26.0.0"/>
+					</list>
+				</record>
+				<record>
+					<record id="competition">
+						<large id="competition" value="51673331370792095"/>
+						<integer id="DBID" value="12031135"/>
+					</record>
+					<list id="verf">
+						<string value="26.0.0"/>
+					</list>
+				</record>
+			</list>
+			<record id="contract_rules">
+				<unsigned id="id" value="1131303532"/>
+				<list id="contract_durations">
+					<record>
+						<string id="type" value="weekly_wage_for_youth_contract"/>
+						<string id="contract_durations_players_effected_type" value="all_players"/>
+						<integer id="cash" value="3"/>
+					</record>
+				</list>
+			</record>
+			<record id="transfer_rules">
+				<unsigned id="id" value="1953657452"/>
+				<string id="main_contract_end_month" value="jun"/>
+				<boolean id="uses_bosman_rules" value="false"/>
+				<boolean id="free_transfers_can_join_outside_window" value="true"/>
+				<boolean id="loan_players_can_join_outside_window" value="false"/>
+				<boolean id="has_trial_day" value="false"/>
+				<string id="loan_players_can_play_against_own_club" value="always"/>
+				<string id="loan_players_can_be_recalled" value="always"/>
+			</record>
+			<list id="loan_rules">
+				<record>
+					<string id="type" value="expiry_date"/>
+					<string id="player_type" value="all_players"/>
+					<string id="expiry_dates" value="end_of_season, until_next_transfer_window"/>
+				</record>
+				<record>
+					<string id="type" value="max_players"/>
+					<string id="player_type" value="any_player"/>
+					<string id="subtype" value="max_players_on_loan_at_one_time"/>
+					<integer id="value" value="0"/>
+					<record id="competition">
+						<large id="competition" value="4030845904721107938"/>
+						<integer id="DBID" value="2000334997"/>
+					</record>
+				</record>
+			</list>
+			<list id="transfer_windows">
+				<record>
+					<record id="start_date">
+						<integer id="day_of_month" value="1"/>
+						<string id="month" value="jan"/>
+						<integer id="year" value="2000"/>
+						<string id="day_of_week" value="sat"/>
+					</record>
+					<record id="end_date">
+						<integer id="day_of_month" value="1"/>
+						<string id="month" value="jan"/>
+						<integer id="year" value="2000"/>
+						<string id="day_of_week" value="sat"/>
+					</record>
+					<string id="description" value="tw01"/>
+					<record id="start_date_fixture_date">
+						<integer id="id_1" value="1953968177"/>
+						<integer id="id_2" value="1937011316"/>
+						<record id="competition">
+							<large id="competition" value="51605277613971130"/>
+							<integer id="DBID" value="12015290"/>
+						</record>
+					</record>
+					<record id="end_date_fixture_date">
+						<integer id="id_1" value="1953968177"/>
+						<integer id="id_2" value="1701733408"/>
+						<record id="competition">
+							<large id="competition" value="51605277613971130"/>
+							<integer id="DBID" value="12015290"/>
+						</record>
+					</record>
+					<string id="window_type" value="normal"/>
+				</record>
+				<record>
+					<record id="start_date">
+						<integer id="day_of_month" value="1"/>
+						<string id="month" value="jan"/>
+						<integer id="year" value="2000"/>
+						<string id="day_of_week" value="sat"/>
+					</record>
+					<record id="end_date">
+						<integer id="day_of_month" value="1"/>
+						<string id="month" value="jan"/>
+						<integer id="year" value="2000"/>
+						<string id="day_of_week" value="sat"/>
+					</record>
+					<string id="description" value="tw02"/>
+					<record id="start_date_fixture_date">
+						<record id="competition">
+							<large id="competition" value="51605277613971130"/>
+							<integer id="DBID" value="12015290"/>
+						</record>
+						<integer id="id_1" value="1953968178"/>
+						<integer id="id_2" value="1937011316"/>
+					</record>
+					<record id="end_date_fixture_date">
+						<record id="competition">
+							<large id="competition" value="51605277613971130"/>
+							<integer id="DBID" value="12015290"/>
+						</record>
+						<integer id="id_1" value="1953968178"/>
+						<integer id="id_2" value="1701733408"/>
+					</record>
+					<string id="window_type" value="normal"/>
+				</record>
+			</list>
+			<list id="discipline_rules">
+				<record>
+					<null id="name"/>
+					<record id="accumulative_method">
+						<unsigned id="id" value="1633903469"/>
+						<string id="type" value="yellow_cards"/>
+						<string id="sequence" value="5_7_9_11"/>
+						<list id="games_banned_list">
+							<integer value="1"/>
+						</list>
+						<string id="decision_date" value="next_week"/>
+						<string id="ban_scope" value="all_comps_in_nation"/>
+						<boolean id="use_for_straight_red" value="false"/>
+					</record>
+					<record id="ban_info">
+						<unsigned id="id" value="1685283433"/>
+						<string id="ban_scope" value="all_comps_in_nation"/>
+						<string id="start_date" value="immediate"/>
+					</record>
+					<record id="red_card_info">
+						<unsigned id="id" value="1919181673"/>
+						<integer id="games_banned" value="1"/>
+						<string id="red_card_rule" value="x_match_per_red_card"/>
+					</record>
+				</record>
+			</list>
+			<list id="fixture_rules">
+				<record>
+					<string id="name" value="- League"/>
+					<record id="squad_number_registration_periods">
+						<unsigned id="id" value="1936618096"/>
+						<list id="squad_numbers_date_range">
+							<record>
+								<integer id="max_squad_size" value="35"/>
+								<record id="squad_numbers_date_range_start_date">
+									<integer id="day_of_month" value="1"/>
+									<string id="month" value="jan"/>
+									<integer id="year" value="2000"/>
+									<string id="day_of_week" value="sat"/>
+								</record>
+								<record id="squad_numbers_date_range_end_date">
+									<integer id="day_of_month" value="1"/>
+									<string id="month" value="jan"/>
+									<integer id="year" value="2000"/>
+									<string id="day_of_week" value="sat"/>
+								</record>
+								<list id="squad_selection_rules"/>
+								<record id="start_date_fixture_date">
+									<record id="competition">
+										<large id="competition" value="51605277613971130"/>
+										<integer id="DBID" value="12015290"/>
+									</record>
+									<integer id="id_1" value="1953968177"/>
+									<integer id="id_2" value="1937011316"/>
+								</record>
+								<record id="end_date_fixture_date">
+									<record id="competition">
+										<large id="competition" value="51605277613971130"/>
+										<integer id="DBID" value="12015290"/>
+									</record>
+									<integer id="id_1" value="1919248160"/>
+									<integer id="id_2" value="1701733408"/>
+								</record>
+								<string id="squad_number_flags" value="allow_any_numbers, free_transfers_can_be_registered"/>
+								<string id="deadline_date_flags" value="allow_registration_at_any_time_within_window"/>
+							</record>
+							<record>
+								<integer id="max_squad_size" value="35"/>
+								<record id="squad_numbers_date_range_start_date">
+									<integer id="day_of_month" value="1"/>
+									<string id="month" value="jan"/>
+									<integer id="year" value="2000"/>
+									<string id="day_of_week" value="sat"/>
+								</record>
+								<record id="squad_numbers_date_range_end_date">
+									<integer id="day_of_month" value="1"/>
+									<string id="month" value="jan"/>
+									<integer id="year" value="2000"/>
+									<string id="day_of_week" value="sat"/>
+								</record>
+								<list id="squad_selection_rules"/>
+								<record id="start_date_fixture_date">
+									<record id="competition">
+										<large id="competition" value="51605277613971130"/>
+										<integer id="DBID" value="12015290"/>
+									</record>
+									<integer id="id_1" value="1953968178"/>
+									<integer id="id_2" value="1937011316"/>
+								</record>
+								<record id="end_date_fixture_date">
+									<record id="competition">
+										<large id="competition" value="51605277613971130"/>
+										<integer id="DBID" value="12015290"/>
+									</record>
+									<integer id="id_1" value="1953968178"/>
+									<integer id="id_2" value="1701733408"/>
+								</record>
+								<string id="squad_number_flags" value="allow_any_numbers, free_transfers_can_be_registered"/>
+								<string id="deadline_date_flags" value="allow_registration_at_any_time_within_window"/>
+							</record>
+						</list>
+					</record>
+					<string id="squad_selection_value" value="domestic_division"/>
+					<boolean id="use_squad_numbers" value="true"/>
+					<boolean id="trialists_can_play_in_competitive_fixtures" value="false"/>
+					<list id="squad_selection_rules">
+						<record>
+							<string id="type" value="min_squad_size"/>
+							<string id="compare_type" value="more_than"/>
+							<integer id="value" value="18"/>
+						</record>
+						<record>
+							<string id="type" value="max_squad_size"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="35"/>
+						</record>
+						<record>
+							<string id="type" value="all_foreign_players_in_squad"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="5"/>
+						</record>
+						<record>
+							<string id="type" value="goalkeepers_in_squad"/>
+							<string id="compare_type" value="more_than"/>
+							<integer id="value" value="2"/>
+						</record>
+						<record>
+							<string id="type" value="homegrown_players_0_21_from_club"/>
+							<string id="compare_type" value="more_than"/>
+							<integer id="value" value="5"/>
+						</record>
+					</list>
+				</record>
+				<record>
+					<string id="name" value="- Cup"/>
+					<list id="squad_selection_eligibility_new">
+						<string value="player_cup_tied_for_whole_competition"/>
+					</list>
+					<boolean id="use_squad_numbers" value="true"/>
+					<boolean id="trialists_can_play_in_competitive_fixtures" value="false"/>
+					<list id="squad_selection_rules">
+						<record>
+							<string id="type" value="all_foreign_players_in_match_squad"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="3"/>
+						</record>
+					</list>
+				</record>
+				<record>
+					<string id="name" value="- SuperCup"/>
+					<list id="squad_selection_eligibility_new">
+						<string value="player_cup_tied_for_whole_competition"/>
+					</list>
+					<boolean id="use_squad_numbers" value="true"/>
+					<boolean id="trialists_can_play_in_competitive_fixtures" value="false"/>
+					<list id="squad_selection_rules">
+						<record>
+							<string id="type" value="all_foreign_players_in_match_squad"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="3"/>
+						</record>
+					</list>
+				</record>
+				<record>
+					<string id="name" value="- League 2"/>
+					<record id="squad_number_registration_periods">
+						<unsigned id="id" value="1936618096"/>
+						<list id="squad_numbers_date_range">
+							<record>
+								<integer id="max_squad_size" value="35"/>
+								<record id="squad_numbers_date_range_start_date">
+									<integer id="day_of_month" value="1"/>
+									<string id="month" value="jan"/>
+									<integer id="year" value="2000"/>
+									<string id="day_of_week" value="sat"/>
+								</record>
+								<record id="squad_numbers_date_range_end_date">
+									<integer id="day_of_month" value="1"/>
+									<string id="month" value="jan"/>
+									<integer id="year" value="2000"/>
+									<string id="day_of_week" value="sat"/>
+								</record>
+								<list id="squad_selection_rules"/>
+								<record id="start_date_fixture_date">
+									<record id="competition">
+										<large id="competition" value="51605277613971130"/>
+										<integer id="DBID" value="12015290"/>
+									</record>
+									<integer id="id_1" value="1953968177"/>
+									<integer id="id_2" value="1937011316"/>
+								</record>
+								<record id="end_date_fixture_date">
+									<record id="competition">
+										<large id="competition" value="51673331370792095"/>
+										<integer id="DBID" value="12031135"/>
+									</record>
+									<integer id="id_1" value="1919248160"/>
+									<integer id="id_2" value="1701733408"/>
+								</record>
+								<string id="squad_number_flags" value="allow_any_numbers, free_transfers_can_be_registered"/>
+								<string id="deadline_date_flags" value="allow_registration_at_any_time_within_window"/>
+							</record>
+							<record>
+								<integer id="max_squad_size" value="35"/>
+								<record id="squad_numbers_date_range_start_date">
+									<integer id="day_of_month" value="1"/>
+									<string id="month" value="jan"/>
+									<integer id="year" value="2000"/>
+									<string id="day_of_week" value="sat"/>
+								</record>
+								<record id="squad_numbers_date_range_end_date">
+									<integer id="day_of_month" value="1"/>
+									<string id="month" value="jan"/>
+									<integer id="year" value="2000"/>
+									<string id="day_of_week" value="sat"/>
+								</record>
+								<list id="squad_selection_rules"/>
+								<record id="start_date_fixture_date">
+									<record id="competition">
+										<large id="competition" value="51605277613971130"/>
+										<integer id="DBID" value="12015290"/>
+									</record>
+									<integer id="id_1" value="1953968178"/>
+									<integer id="id_2" value="1937011316"/>
+								</record>
+								<record id="end_date_fixture_date">
+									<record id="competition">
+										<large id="competition" value="51605277613971130"/>
+										<integer id="DBID" value="12015290"/>
+									</record>
+									<integer id="id_1" value="1953968178"/>
+									<integer id="id_2" value="1701733408"/>
+								</record>
+								<string id="squad_number_flags" value="allow_any_numbers, free_transfers_can_be_registered"/>
+								<string id="deadline_date_flags" value="allow_registration_at_any_time_within_window"/>
+							</record>
+						</list>
+					</record>
+					<string id="squad_selection_value" value="domestic_division"/>
+					<boolean id="use_squad_numbers" value="true"/>
+					<boolean id="trialists_can_play_in_competitive_fixtures" value="false"/>
+					<list id="squad_selection_rules">
+						<record>
+							<string id="type" value="min_squad_size"/>
+							<string id="compare_type" value="more_than"/>
+							<integer id="value" value="18"/>
+						</record>
+						<record>
+							<string id="type" value="max_squad_size"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="35"/>
+						</record>
+						<record>
+							<string id="type" value="all_foreign_players_in_squad"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="5"/>
+						</record>
+						<record>
+							<string id="type" value="goalkeepers_in_squad"/>
+							<string id="compare_type" value="more_than"/>
+							<integer id="value" value="2"/>
+						</record>
+						<record>
+							<string id="type" value="homegrown_players_0_21_from_club"/>
+							<string id="compare_type" value="more_than"/>
+							<integer id="value" value="5"/>
+						</record>
+					</list>
+				</record>
+			</list>
+			<integer id="default_division_level" value="0"/>
+			<integer id="late_preseason_preparation_days" value="15"/>
+			<integer id="preseason_preparation_days" value="30"/>
+			<integer id="weekend_default_fixture_time" value="1500"/>
+			<integer id="midweek_default_fixture_time" value="1900"/>
+			<string id="reserve_teams" value="create_u21s"/>
+			<list id="reserve_leagues">
+				<record>
+					<string id="reserve_teams" value="u21"/>
+					<string id="type" value="shadow"/>
+					<integer id="level" value="0"/>
+					<integer id="number_dates" value="30"/>
+					<integer id="discipline_index" value="0"/>
+					<record id="start_date">
+						<unsigned id="id" value="1937007732"/>
+						<integer id="day_of_month" value="21"/>
+						<string id="month" value="sep"/>
+					</record>
+					<record id="end_date">
+						<unsigned id="id" value="1701733492"/>
+						<integer id="day_of_month" value="31"/>
+						<string id="month" value="may"/>
+					</record>
+					<string id="subs_rules" value="five_from_nine_max_three_stoppages"/>
+					<string id="match_day_rule" value="day_after"/>
+					<boolean id="use_teams_in_reserve_cup" value="false"/>
+				</record>
+			</list>
+			<integer id="branch" value="0"/>
+			<string id="u21_team_type" value="first_youth_team"/>
+			<list id="start_date_rules">
+				<record>
+					<string id="type" value="early_preseason"/>
+					<integer id="base_year_offset" value="0"/>
+					<boolean id="base_year_interval" value="false"/>
+					<record id="competition">
+						<large id="competition" value="51605277613971130"/>
+						<integer id="DBID" value="12015290"/>
+					</record>
+				</record>
+				<record>
+					<string id="type" value="late_preseason"/>
+					<integer id="base_year_offset" value="0"/>
+					<boolean id="base_year_interval" value="false"/>
+					<record id="competition">
+						<large id="competition" value="51605277613971130"/>
+						<integer id="DBID" value="12015290"/>
+					</record>
+				</record>
+				<record>
+					<string id="type" value="start_of_season"/>
+					<integer id="base_year_offset" value="0"/>
+					<boolean id="base_year_interval" value="false"/>
+					<record id="competition">
+						<large id="competition" value="51605277613971130"/>
+						<integer id="DBID" value="12015290"/>
+					</record>
+				</record>
+			</list>
+			<list id="season_windows">
+				<record>
+					<record id="start_date">
+						<string id="day_of_week" value="tue"/>
+						<integer id="day_of_month" value="15"/>
+						<string id="month" value="aug"/>
+						<integer id="year" value="2000"/>
+					</record>
+					<record id="end_date">
+						<string id="day_of_week" value="fri"/>
+						<integer id="day_of_month" value="8"/>
+						<string id="month" value="jun"/>
+						<integer id="year" value="2001"/>
+					</record>
+				</record>
+			</list>
+			<string id="PLgn" value="male"/>
+		</record>
+		<record>
+			<integer id="version" value="999"/>
+			<integer id="base_year" value="2000"/>
+			<integer id="level" value="0"/>
+			<record id="date_range">
+				<unsigned id="id" value="1685353070"/>
+				<string id="start_month" value="sep"/>
+				<integer id="start_year_offset" value="0"/>
+				<string id="end_month" value="jun"/>
+				<integer id="end_year_offset" value="1"/>
+			</record>
+			<list id="stages">
+				<record>
+					<string id="id" value="leag"/>
+					<integer id="index" value="0"/>
+					<integer id="number_teams" value="16"/>
+					<list id="teams">
+						<record>
+							<string id="id" value="get_division_teams"/>
+						</record>
+					</list>
+					<string id="type" value="league"/>
+					<integer id="number_rounds" value="2"/>
+					<string id="subs_rules" value="five_from_nine_max_three_stoppages"/>
+					<list id="sort_rules">
+						<string value="points"/>
+						<string value="own_match"/>
+						<string value="goal_difference_own_match"/>
+						<string value="goal_difference"/>
+						<string value="goals_for"/>
+						<string value="discipline_red_3_yellow_1"/>
+					</list>
+					<list id="schedule">
+						<record>
+							<record id="start_date_fixture_date">
+								<unsigned id="id" value="1935959652"/>
+								<integer id="id_1" value="1818583399"/>
+								<integer id="id_2" value="1937011316"/>
+							</record>
+							<record id="end_date_fixture_date">
+								<unsigned id="id" value="1701078628"/>
+								<integer id="id_1" value="1818583399"/>
+								<integer id="id_2" value="1701733408"/>
+							</record>
+							<string id="stadium_rules" value="home"/>
+							<list id="match_days">
+								<record>
+									<string id="day_of_week" value="fri"/>
+								</record>
+								<record>
+									<string id="day_of_week" value="tue"/>
+								</record>
+							</list>
+							<string id="check_clashes" value="all"/>
+							<list id="tv_dates">
+								<record>
+									<integer id="number_matches" value="1"/>
+									<string id="tv_type" value="satellite"/>
+									<string id="matches_type" value="big"/>
+									<string id="day_of_week" value="fri"/>
+									<string id="new_day_of_week" value="fri"/>
+								</record>
+								<record>
+									<integer id="number_matches" value="4"/>
+									<string id="tv_type" value="satellite"/>
+									<string id="matches_type" value="shared"/>
+									<string id="day_of_week" value="fri"/>
+									<string id="new_day_of_week" value="fri"/>
+								</record>
+								<record>
+									<integer id="number_matches" value="2"/>
+									<string id="tv_type" value="satellite"/>
+									<string id="matches_type" value="shared"/>
+									<string id="day_of_week" value="tue"/>
+									<string id="new_day_of_week" value="tue"/>
+								</record>
+							</list>
+						</record>
+					</list>
+					<boolean id="top_team_are_champions" value="true"/>
+					<boolean id="store_league_history" value="true"/>
+					<list id="ranking_levels"/>
+					<string id="priority" value="league_low"/>
+					<list id="requirements"/>
+					<boolean id="store_league_history_store_stage_name" value="false"/>
+					<record id="relegation">
+						<integer id="number_places" value="2"/>
+						<record id="competition">
+							<large id="competition" value="51673331370792095"/>
+							<integer id="DBID" value="12031135"/>
+						</record>
+					</record>
+					<list id="prize_money">
+						<record>
+							<integer id="position" value="0"/>
+							<integer id="cash" value="100000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="1"/>
+							<integer id="cash" value="80000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="2"/>
+							<integer id="cash" value="70000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="3"/>
+							<integer id="cash" value="60000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="4"/>
+							<integer id="cash" value="50000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="5"/>
+							<integer id="cash" value="40000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="6"/>
+							<integer id="cash" value="35000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="7"/>
+							<integer id="cash" value="30000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="8"/>
+							<integer id="cash" value="10000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="9"/>
+							<integer id="cash" value="10000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="10"/>
+							<integer id="cash" value="10000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="11"/>
+							<integer id="cash" value="10000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="12"/>
+							<integer id="cash" value="10000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="13"/>
+							<integer id="cash" value="10000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="14"/>
+							<integer id="cash" value="10000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="15"/>
+							<integer id="cash" value="10000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+					</list>
+				</record>
+			</list>
+			<list id="fixture_dates">
+				<record>
+					<integer id="id_1" value="1953968177"/>
+					<integer id="id_2" value="1937011316"/>
+					<integer id="day_of_month" value="1"/>
+					<string id="month" value="jul"/>
+					<integer id="year" value="2000"/>
+				</record>
+				<record>
+					<integer id="id_1" value="1953968177"/>
+					<integer id="id_2" value="1701733408"/>
+					<integer id="day_of_month" value="31"/>
+					<string id="month" value="aug"/>
+					<integer id="year" value="2000"/>
+				</record>
+				<record>
+					<integer id="id_1" value="1953968178"/>
+					<integer id="id_2" value="1937011316"/>
+					<integer id="day_of_month" value="1"/>
+					<string id="month" value="jan"/>
+					<integer id="year" value="2001"/>
+				</record>
+				<record>
+					<integer id="id_1" value="1953968178"/>
+					<integer id="id_2" value="1701733408"/>
+					<integer id="day_of_month" value="31"/>
+					<string id="month" value="jan"/>
+					<integer id="year" value="2001"/>
+				</record>
+				<record>
+					<record id="calculate_from_other_date">
+						<integer id="day_offset" value="0"/>
+						<string id="id_1" value="tw01"/>
+						<string id="id_2" value="end "/>
+					</record>
+					<string id="id_1" value="reg "/>
+					<string id="id_2" value="end "/>
+				</record>
+				<record>
+					<string id="stadium_rules" value="home"/>
+					<integer id="id_1" value="1818583399"/>
+					<integer id="id_2" value="1937011316"/>
+					<string id="day_of_week" value="fri"/>
+					<integer id="day_of_month" value="25"/>
+					<string id="month" value="aug"/>
+					<integer id="year" value="2000"/>
+				</record>
+				<record>
+					<string id="stadium_rules" value="home"/>
+					<integer id="id_1" value="1818583399"/>
+					<integer id="id_2" value="1701733408"/>
+					<string id="day_of_week" value="fri"/>
+					<integer id="day_of_month" value="18"/>
+					<string id="month" value="may"/>
+					<integer id="year" value="2001"/>
+				</record>
+			</list>
+			<boolean id="do_automatic_add_history" value="true"/>
+			<integer id="fixture_rules_index" value="0"/>
+			<integer id="discipline_index" value="0"/>
+			<integer id="year" value="2000"/>
+			<integer id="year_interval" value="1"/>
+			<boolean id="comp_inactive" value="false"/>
+			<boolean id="comp_uses_third_placed_teams" value="false"/>
+			<boolean id="should_fixture_still_be_televised" value="true"/>
+			<integer id="last_day_of_season_stage_index" value="0"/>
+			<string id="file_type" value="comp"/>
+			<string id="type" value="division"/>
+			<integer id="branch" value="0"/>
+			<record id="competition">
+				<large id="competition" value="51605277613971130"/>
+				<integer id="DBID" value="12015290"/>
+			</record>
+			<list id="stage_finished_actions_list">
+				<record>
+					<string id="stage_finished_actions" value="send_teams_to_cont_cup_seedings"/>
+					<integer id="index" value="0"/>
+					<integer id="qualification_system_id" value="0"/>
+				</record>
+			</list>
+			<list id="cont_cup_qual_rules">
+				<record>
+					<string id="type" value="league_stage"/>
+					<boolean id="hide_rule" value="false"/>
+					<integer id="stage" value="0"/>
+					<record id="competition">
+						<large id="competition" value="51605277613971130"/>
+						<integer id="DBID" value="12015290"/>
+					</record>
+					<string id="ranked_team_info" value="league_position"/>
+					<integer id="qualification_system_id" value="0"/>
+				</record>
+			</list>
+			<boolean id="should_comp_allow_b_teams_from_lower_division" value="false"/>
+			<list id="derbies">
+				<record>
+					<large id="derbies" value="51710216549938731"/>
+				</record>
+				<record>
+					<large id="derbies" value="51710268089546295"/>
+				</record>
+				<record>
+					<large id="derbies" value="51710242319742513"/>
+				</record>
+				<record>
+					<large id="derbies" value="51710246614709810"/>
+				</record>
+			</list>
+			<list id="professional_status">
+				<record>
+					<integer id="type" value="1"/>
+				</record>
+			</list>
+		</record>
+		<record>
+			<integer id="version" value="999"/>
+			<integer id="base_year" value="2000"/>
+			<integer id="level" value="1"/>
+			<record id="date_range">
+				<unsigned id="id" value="1685353070"/>
+				<string id="start_month" value="sep"/>
+				<integer id="start_year_offset" value="0"/>
+				<string id="end_month" value="jun"/>
+				<integer id="end_year_offset" value="1"/>
+			</record>
+			<list id="stages">
+				<record>
+					<string id="id" value="leag"/>
+					<integer id="index" value="0"/>
+					<integer id="number_teams" value="32"/>
+					<list id="teams">
+						<record>
+							<string id="id" value="get_division_teams"/>
+						</record>
+					</list>
+					<string id="type" value="group"/>
+					<integer id="number_rounds" value="2"/>
+					<string id="subs_rules" value="five_from_nine_max_three_stoppages"/>
+					<list id="sort_rules">
+						<string value="points"/>
+						<string value="own_match"/>
+						<string value="goal_difference_own_match"/>
+						<string value="goal_difference"/>
+						<string value="goals_for"/>
+						<string value="discipline_red_3_yellow_1"/>
+					</list>
+					<list id="schedule">
+						<record>
+							<record id="start_date_fixture_date">
+								<unsigned id="id" value="1935959652"/>
+								<string id="id_1" value="leag"/>
+								<string id="id_2" value="strt"/>
+							</record>
+							<record id="end_date_fixture_date">
+								<unsigned id="id" value="1701078628"/>
+								<string id="id_1" value="leag"/>
+								<string id="id_2" value="end "/>
+							</record>
+							<string id="stadium_rules" value="home"/>
+							<list id="match_days">
+								<record>
+									<string id="day_of_week" value="fri"/>
+								</record>
+								<record>
+									<string id="day_of_week" value="tue"/>
+								</record>
+							</list>
+							<string id="check_clashes" value="domestic"/>
+						</record>
+					</list>
+					<boolean id="top_team_are_champions" value="true"/>
+					<boolean id="store_league_history" value="true"/>
+					<list id="ranking_levels"/>
+					<string id="priority" value="league_low"/>
+					<list id="requirements"/>
+					<boolean id="store_league_history_store_stage_name" value="false"/>
+					<record id="relegation">
+						<integer id="number_places" value="3"/>
+						<record id="competition">
+							<large id="competition" value="56783376086580270"/>
+							<integer id="DBID" value="13220910"/>
+						</record>
+						<integer id="min_places" value="6"/>
+						<integer id="max_places" value="6"/>
+					</record>
+					<record id="promotion">
+						<integer id="number_places" value="1"/>
+						<record id="competition">
+							<large id="competition" value="51605277613971130"/>
+							<integer id="DBID" value="12015290"/>
+						</record>
+						<integer id="min_places" value="2"/>
+						<integer id="max_places" value="2"/>
+					</record>
+					<integer id="number_groups" value="2"/>
+					<string id="group_rules" value=""/>
+					<string id="group_name_type" value="no_names"/>
+					<list id="group_data">
+						<record>
+							<list id="schedule"/>
+							<integer id="group_index" value="0"/>
+							<record id="competition">
+								<large id="competition" value="8590026828422703075"/>
+								<integer id="DBID" value="2000021475"/>
+							</record>
+						</record>
+						<record>
+							<list id="schedule"/>
+							<integer id="group_index" value="1"/>
+							<record id="competition">
+								<large id="competition" value="8590026832717670372"/>
+								<integer id="DBID" value="2000021476"/>
+							</record>
+						</record>
+					</list>
+					<list id="team_list_changes">
+						<record>
+							<string id="sort_stage_teams" value="desc_longitude"/>
+						</record>
+						<record>
+							<integer id="top_position" value="0"/>
+							<integer id="bottom_position" value="15"/>
+							<integer id="seeding" value="0"/>
+						</record>
+						<record>
+							<integer id="top_position" value="16"/>
+							<integer id="bottom_position" value="31"/>
+							<integer id="seeding" value="1"/>
+						</record>
+					</list>
+					<list id="valid_rules">
+						<record>
+							<string id="type" value="use_seeding_for_group"/>
+						</record>
+					</list>
+					<integer id="number_group_teams" value="16"/>
+					<string id="league_rules" value="no_promotion_for_b_teams"/>
+					<boolean id="add_sub_comp_history_to_main_comp_history" value="true"/>
+				</record>
+			</list>
+			<list id="fixture_dates">
+				<record>
+					<record id="calculate_from_other_date">
+						<integer id="day_offset" value="-10"/>
+						<string id="id_1" value="leag"/>
+						<string id="id_2" value="strt"/>
+					</record>
+					<string id="id_1" value="reg "/>
+					<string id="id_2" value="end "/>
+				</record>
+				<record>
+					<string id="stadium_rules" value="home"/>
+					<string id="id_1" value="leag"/>
+					<string id="id_2" value="strt"/>
+					<string id="day_of_week" value="fri"/>
+					<integer id="day_of_month" value="15"/>
+					<string id="month" value="sep"/>
+					<integer id="year" value="2000"/>
+				</record>
+				<record>
+					<string id="stadium_rules" value="home"/>
+					<string id="id_1" value="leag"/>
+					<string id="id_2" value="end "/>
+					<string id="day_of_week" value="fri"/>
+					<integer id="day_of_month" value="18"/>
+					<string id="month" value="may"/>
+					<integer id="year" value="2001"/>
+				</record>
+			</list>
+			<boolean id="do_automatic_add_history" value="false"/>
+			<integer id="fixture_rules_index" value="3"/>
+			<integer id="discipline_index" value="0"/>
+			<integer id="year" value="2000"/>
+			<integer id="year_interval" value="1"/>
+			<boolean id="comp_inactive" value="false"/>
+			<boolean id="comp_uses_third_placed_teams" value="false"/>
+			<boolean id="should_fixture_still_be_televised" value="true"/>
+			<integer id="last_day_of_season_stage_index" value="0"/>
+			<string id="file_type" value="comp"/>
+			<string id="type" value="division"/>
+			<integer id="branch" value="0"/>
+			<list id="stage_finished_actions_list">
+				<record>
+					<string id="stage_finished_actions" value="add_history_record"/>
+					<integer id="index" value="0"/>
+					<boolean id="store_league_history" value="true"/>
+					<record id="competition">
+						<large id="competition" value="8590026828422703075"/>
+						<integer id="DBID" value="2000021475"/>
+					</record>
+				</record>
+				<record>
+					<string id="stage_finished_actions" value="add_history_record"/>
+					<integer id="index" value="0"/>
+					<boolean id="store_league_history" value="true"/>
+					<record id="competition">
+						<large id="competition" value="8590026832717670372"/>
+						<integer id="DBID" value="2000021476"/>
+					</record>
+				</record>
+			</list>
+			<boolean id="should_comp_allow_b_teams_from_lower_division" value="false"/>
+			<record id="competition">
+				<large id="competition" value="51673331370792095"/>
+				<integer id="DBID" value="12031135"/>
+			</record>
+		</record>
+		<record>
+			<integer id="version" value="999"/>
+			<integer id="base_year" value="2000"/>
+			<integer id="level" value="0"/>
+			<list id="stages">
+				<record>
+					<string id="id" value="ko"/>
+					<integer id="index" value="0"/>
+					<integer id="number_teams" value="64"/>
+					<list id="teams">
+						<record>
+							<string id="id" value="get_qualified_teams_for_comp"/>
+							<boolean id="for_this_year" value="true"/>
+							<boolean id="remove_qualified_teams" value="true"/>
+							<string id="seeding_method" value="same_seeding"/>
+							<integer id="seeding" value="0"/>
+							<integer id="qualified_teams_seeding" value="0"/>
+						</record>
+						<record>
+							<string id="id" value="get_qualified_teams_for_comp"/>
+							<boolean id="for_this_year" value="true"/>
+							<boolean id="remove_qualified_teams" value="true"/>
+							<string id="seeding_method" value="same_seeding"/>
+							<integer id="seeding" value="1"/>
+							<integer id="qualified_teams_seeding" value="1"/>
+						</record>
+						<record>
+							<string id="id" value="get_qualified_teams_for_comp"/>
+							<boolean id="for_this_year" value="true"/>
+							<boolean id="remove_qualified_teams" value="true"/>
+							<string id="seeding_method" value="same_seeding"/>
+							<integer id="seeding" value="2"/>
+							<integer id="qualified_teams_seeding" value="2"/>
+						</record>
+					</list>
+					<string id="type" value="cup"/>
+					<list id="rounds">
+						<record>
+							<record id="stage_name">
+								<large id="stgn" value="25769803782"/>
+								<integer id="DBID" value="6"/>
+							</record>
+							<integer id="number_teams" value="64"/>
+							<integer id="number_extra_teams" value="64"/>
+							<integer id="number_matches" value="32"/>
+							<record id="date">
+								<unsigned id="id" value="1684108389"/>
+								<string id="match_rules" value="extra_time, pen"/>
+								<integer id="id_1" value="1378951200"/>
+							</record>
+							<integer id="number_legs" value="1"/>
+							<integer id="number_replays" value="0"/>
+							<string id="stadium_rules" value="home"/>
+							<boolean id="round_use_squad_numbers" value="true"/>
+							<record id="draw_date">
+								<record id="fixture_dates">
+									<integer id="id_1" value="1685217655"/>
+								</record>
+							</record>
+						</record>
+						<record>
+							<record id="stage_name">
+								<large id="stgn" value="30064771079"/>
+								<integer id="DBID" value="7"/>
+							</record>
+							<integer id="number_teams" value="32"/>
+							<integer id="number_extra_teams" value="0"/>
+							<integer id="number_matches" value="16"/>
+							<record id="date">
+								<unsigned id="id" value="1684108389"/>
+								<string id="match_rules" value="extra_time, pen"/>
+								<integer id="id_1" value="1379016736"/>
+							</record>
+							<record id="draw_date">
+								<unsigned id="id" value="1685218420"/>
+								<record id="previous_round_name">
+									<large id="stgn" value="25769803782"/>
+									<integer id="DBID" value="6"/>
+								</record>
+								<integer id="day_offset" value="1"/>
+							</record>
+							<integer id="number_legs" value="1"/>
+							<integer id="number_replays" value="0"/>
+							<string id="stadium_rules" value="home"/>
+							<boolean id="round_use_squad_numbers" value="true"/>
+						</record>
+						<record>
+							<large id="stage_name" value="2000223074"/>
+							<integer id="number_teams" value="16"/>
+							<integer id="number_extra_teams" value="0"/>
+							<integer id="number_matches" value="8"/>
+							<record id="date">
+								<unsigned id="id" value="1684108389"/>
+								<string id="match_rules" value="extra_time, pen"/>
+								<integer id="id_1" value="1383018806"/>
+							</record>
+							<record id="draw_date">
+								<unsigned id="id" value="1685218420"/>
+								<record id="previous_round_name">
+									<large id="stgn" value="30064771079"/>
+									<integer id="DBID" value="7"/>
+								</record>
+								<integer id="day_offset" value="1"/>
+							</record>
+							<integer id="number_legs" value="1"/>
+							<integer id="number_replays" value="0"/>
+							<string id="stadium_rules" value="home"/>
+							<boolean id="round_use_squad_numbers" value="true"/>
+						</record>
+						<record>
+							<large id="stage_name" value="17"/>
+							<integer id="number_teams" value="8"/>
+							<integer id="number_extra_teams" value="0"/>
+							<integer id="number_matches" value="4"/>
+							<record id="date">
+								<unsigned id="id" value="1684108389"/>
+								<string id="match_rules" value="extra_time, pen"/>
+								<integer id="id_1" value="1363550240"/>
+							</record>
+							<record id="draw_date">
+								<unsigned id="id" value="1685218420"/>
+								<record id="previous_round_name">
+									<large id="stgn" value="8590892689534810978"/>
+									<integer id="DBID" value="2000223074"/>
+								</record>
+								<integer id="day_offset" value="1"/>
+							</record>
+							<integer id="number_legs" value="1"/>
+							<integer id="number_replays" value="0"/>
+							<string id="stadium_rules" value="home"/>
+							<boolean id="round_use_squad_numbers" value="true"/>
+							<string id="tv_type" value="satellite"/>
+							<string id="priority" value="national_cup_high"/>
+						</record>
+						<record>
+							<large id="stage_name" value="18"/>
+							<integer id="number_teams" value="4"/>
+							<integer id="number_extra_teams" value="0"/>
+							<integer id="number_matches" value="2"/>
+							<record id="date">
+								<unsigned id="id" value="1684108389"/>
+								<string id="match_rules" value="extra_time, pen"/>
+								<integer id="id_1" value="1397104672"/>
+								<list id="offset_dates">
+									<record>
+										<integer id="day_offset" value="0"/>
+										<string id="stadium_rules" value="stadium_1"/>
+										<integer id="number_matches" value="1"/>
+									</record>
+								</list>
+							</record>
+							<record id="draw_date">
+								<unsigned id="id" value="1685218420"/>
+								<large id="previous_round_name" value="17"/>
+								<integer id="day_offset" value="1"/>
+							</record>
+							<integer id="number_legs" value="1"/>
+							<integer id="number_replays" value="0"/>
+							<string id="stadium_rules" value="stadium_0"/>
+							<boolean id="round_use_squad_numbers" value="true"/>
+							<string id="tv_type" value="satellite"/>
+							<string id="priority" value="national_cup_high"/>
+						</record>
+						<record>
+							<large id="stage_name" value="20"/>
+							<integer id="number_teams" value="2"/>
+							<integer id="number_extra_teams" value="0"/>
+							<integer id="number_matches" value="1"/>
+							<record id="date">
+								<unsigned id="id" value="1684108389"/>
+								<string id="match_rules" value="extra_time, pen"/>
+								<integer id="id_1" value="1176510496"/>
+							</record>
+							<integer id="number_legs" value="1"/>
+							<integer id="number_replays" value="0"/>
+							<string id="stadium_rules" value="stadium_0"/>
+							<boolean id="round_use_squad_numbers" value="true"/>
+							<string id="tv_type" value="satellite"/>
+							<string id="priority" value="national_cup_high"/>
+						</record>
+					</list>
+					<record id="shared_round_data">
+						<unsigned id="id" value="1936879204"/>
+						<string id="subs_rules" value="five_from_nine_max_three_stoppages_and_extra_time_sub"/>
+						<string id="priority" value="national_cup_low"/>
+						<string id="stadium_rules" value="home"/>
+					</record>
+					<list id="requirements"/>
+					<list id="fate_actions"/>
+				</record>
+			</list>
+			<list id="fixture_dates">
+				<record>
+					<string id="stadium_rules" value="home"/>
+					<integer id="id_1" value="1685217655"/>
+					<string id="day_of_week" value="wed"/>
+					<integer id="day_of_month" value="29"/>
+					<string id="month" value="nov"/>
+					<integer id="year" value="2000"/>
+				</record>
+				<record>
+					<string id="stadium_rules" value="home"/>
+					<integer id="id_1" value="1378951200"/>
+					<string id="day_of_week" value="fri"/>
+					<integer id="day_of_month" value="8"/>
+					<string id="month" value="dec"/>
+					<integer id="year" value="2000"/>
+				</record>
+				<record>
+					<string id="stadium_rules" value="home"/>
+					<integer id="id_1" value="1379016736"/>
+					<string id="day_of_week" value="fri"/>
+					<integer id="day_of_month" value="15"/>
+					<string id="month" value="dec"/>
+					<integer id="year" value="2000"/>
+				</record>
+				<record>
+					<string id="stadium_rules" value="home"/>
+					<integer id="id_1" value="1383018806"/>
+					<string id="day_of_week" value="tue"/>
+					<integer id="day_of_month" value="16"/>
+					<string id="month" value="jan"/>
+					<integer id="year" value="2001"/>
+				</record>
+				<record>
+					<string id="stadium_rules" value="home"/>
+					<integer id="id_1" value="1363550240"/>
+					<string id="day_of_week" value="tue"/>
+					<integer id="day_of_month" value="13"/>
+					<string id="month" value="feb"/>
+					<integer id="year" value="2001"/>
+				</record>
+				<record>
+					<string id="stadium_rules" value="stadium_0"/>
+					<integer id="id_1" value="1397104672"/>
+					<integer id="time" value="1800"/>
+					<string id="day_of_week" value="fri"/>
+					<integer id="day_of_month" value="23"/>
+					<string id="month" value="mar"/>
+					<integer id="year" value="2001"/>
+				</record>
+				<record>
+					<string id="stadium_rules" value="stadium_0"/>
+					<integer id="time" value="1700"/>
+					<integer id="id_1" value="1176510496"/>
+					<string id="day_of_week" value="fri"/>
+					<integer id="day_of_month" value="4"/>
+					<string id="month" value="may"/>
+					<integer id="year" value="2001"/>
+				</record>
+			</list>
+			<boolean id="do_automatic_add_history" value="true"/>
+			<integer id="fixture_rules_index" value="1"/>
+			<integer id="discipline_index" value="0"/>
+			<integer id="year" value="2000"/>
+			<integer id="year_interval" value="1"/>
+			<boolean id="comp_inactive" value="false"/>
+			<boolean id="comp_uses_third_placed_teams" value="false"/>
+			<boolean id="should_fixture_still_be_televised" value="true"/>
+			<string id="file_type" value="comp"/>
+			<string id="type" value="main_cup"/>
+			<integer id="branch" value="0"/>
+			<record id="date_range">
+				<string id="start_month" value="nov"/>
+				<integer id="start_year_offset" value="0"/>
+				<string id="end_month" value="may"/>
+				<integer id="end_year_offset" value="1"/>
+			</record>
+			<record id="competition">
+				<large id="competition" value="51605509542205168"/>
+				<integer id="DBID" value="12015344"/>
+			</record>
+			<list id="teams">
+				<record>
+					<string id="id" value="get_division_teams"/>
+					<record id="competition">
+						<large id="competition" value="51605277613971130"/>
+						<integer id="DBID" value="12015290"/>
+					</record>
+					<string id="seeding_method" value="same_seeding"/>
+					<integer id="seeding" value="0"/>
+				</record>
+				<record>
+					<string id="id" value="get_division_teams"/>
+					<record id="competition">
+						<large id="competition" value="51673331370792095"/>
+						<integer id="DBID" value="12031135"/>
+					</record>
+					<string id="seeding_method" value="same_seeding"/>
+					<integer id="seeding" value="1"/>
+				</record>
+				<record>
+					<string id="id" value="get_best_division_teams"/>
+					<record id="competition">
+						<large id="competition" value="56783376086580270"/>
+						<integer id="DBID" value="13220910"/>
+					</record>
+					<integer id="maximum_number_teams_overall" value="64"/>
+					<boolean id="ransomise_teams_slighty" value="true"/>
+					<string id="seeding_method" value="same_seeding"/>
+					<integer id="seeding" value="2"/>
+				</record>
+			</list>
+			<list id="stadium_pool">
+				<record>
+					<string id="sort_rules" value="capacity"/>
+					<integer id="minimum_stadium_capacity" value="40000"/>
+					<string id="minimum_stadium_condition" value="good"/>
+					<record id="nation">
+						<large id="Nnat" value="21474836485"/>
+						<integer id="DBID" value="5"/>
+					</record>
+					<integer id="number_stadiums" value="2"/>
+					<integer id="stage" value="0"/>
+				</record>
+			</list>
+			<boolean id="allow_multiple_matches_per_day_per_stadium" value="true"/>
+			<string id="actual_comp_flags" value="use_cup_for_double"/>
+			<integer id="last_day_of_season_stage_index" value="0"/>
+			<string id="qualification" value="winner_qualifies_only"/>
+			<integer id="number_teams" value="64"/>
+			<boolean id="all_qualified_teams_play" value="true"/>
+			<boolean id="clear_current_list_of_qualified_teams" value="true"/>
+			<boolean id="remove_unused_qualified_teams" value="true"/>
+		</record>
+		<record>
+			<integer id="version" value="999"/>
+			<integer id="base_year" value="2000"/>
+			<integer id="level" value="0"/>
+			<list id="stages">
+				<record>
+					<integer id="id" value="0"/>
+					<integer id="index" value="0"/>
+					<integer id="number_teams" value="2"/>
+					<list id="teams">
+						<record>
+							<string id="id" value="get_last_winner"/>
+							<record id="competition">
+								<large id="competition" value="51605277613971130"/>
+								<integer id="DBID" value="12015290"/>
+							</record>
+						</record>
+						<record>
+							<string id="id" value="get_last_winner"/>
+							<record id="competition">
+								<large id="competition" value="51605509542205168"/>
+								<integer id="DBID" value="12015344"/>
+							</record>
+							<boolean id="use_runner_up" value="true"/>
+						</record>
+					</list>
+					<string id="type" value="cup"/>
+					<list id="rounds">
+						<record>
+							<large id="stage_name" value="20"/>
+							<integer id="number_teams" value="2"/>
+							<integer id="number_extra_teams" value="2"/>
+							<integer id="number_matches" value="1"/>
+							<record id="date">
+								<unsigned id="id" value="1684108389"/>
+								<string id="match_rules" value="extra_time, pen"/>
+								<integer id="id_1" value="1176510496"/>
+							</record>
+							<integer id="next_round_for_winner" value="-1"/>
+							<integer id="next_round_for_loser" value="-1"/>
+							<integer id="number_legs" value="1"/>
+							<integer id="number_replays" value="0"/>
+							<string id="stadium_rules" value="stadium_0"/>
+							<boolean id="round_use_squad_numbers" value="true"/>
+							<string id="tv_type" value="satellite"/>
+						</record>
+					</list>
+					<record id="shared_round_data">
+						<unsigned id="id" value="1936879204"/>
+						<string id="subs_rules" value="five_from_nine_max_three_stoppages_and_extra_time_sub"/>
+						<string id="priority" value="national_cup_low"/>
+						<string id="stadium_rules" value="stadium_0"/>
+						<string id="tv_type" value="satellite"/>
+					</record>
+					<list id="requirements"/>
+					<list id="fate_actions"/>
+				</record>
+			</list>
+			<list id="fixture_dates">
+				<record>
+					<string id="stadium_rules" value="stadium_0"/>
+					<integer id="time" value="1800"/>
+					<integer id="id_1" value="1176510496"/>
+					<string id="day_of_week" value="fri"/>
+					<integer id="day_of_month" value="19"/>
+					<string id="month" value="jan"/>
+					<integer id="year" value="2001"/>
+				</record>
+			</list>
+			<boolean id="do_automatic_add_history" value="true"/>
+			<integer id="fixture_rules_index" value="2"/>
+			<integer id="discipline_index" value="0"/>
+			<integer id="year" value="2000"/>
+			<integer id="year_interval" value="1"/>
+			<boolean id="comp_inactive" value="false"/>
+			<boolean id="comp_uses_third_placed_teams" value="false"/>
+			<boolean id="should_fixture_still_be_televised" value="true"/>
+			<integer id="last_day_of_season_stage_index" value="0"/>
+			<string id="file_type" value="comp"/>
+			<string id="type" value="super_cup"/>
+			<integer id="branch" value="0"/>
+			<record id="date_range">
+				<string id="start_month" value="jan"/>
+				<integer id="start_year_offset" value="1"/>
+				<string id="end_month" value="jan"/>
+				<integer id="end_year_offset" value="1"/>
+			</record>
+			<record id="competition">
+				<large id="competition" value="56466532054113283"/>
+				<integer id="DBID" value="13147139"/>
+			</record>
+			<list id="stadium_pool">
+				<record>
+					<record id="stadium">
+						<large id="stad" value="442484710806128"/>
+						<integer id="DBID" value="103024"/>
+					</record>
+					<integer id="stage" value="0"/>
+				</record>
+			</list>
+			<boolean id="allow_multiple_matches_per_day_per_stadium" value="true"/>
+		</record>
+		<record>
+			<integer id="version" value="999"/>
+			<integer id="base_year" value="2000"/>
+			<integer id="level" value="0"/>
+			<record id="date_range">
+				<unsigned id="id" value="1685353070"/>
+				<string id="start_month" value="sep"/>
+				<integer id="start_year_offset" value="0"/>
+				<string id="end_month" value="jun"/>
+				<integer id="end_year_offset" value="1"/>
+			</record>
+			<list id="stages">
+				<record>
+					<integer id="id" value="0"/>
+					<integer id="index" value="0"/>
+					<large id="stage_name" value="145"/>
+					<list id="teams">
+						<record>
+							<string id="id" value="get_division_teams"/>
+						</record>
+					</list>
+					<string id="type" value="league"/>
+					<string id="subs_rules" value="five_from_nine_max_three_stoppages"/>
+					<list id="sort_rules">
+						<string value="points"/>
+						<string value="own_match"/>
+						<string value="goal_difference_own_match"/>
+						<string value="goal_difference"/>
+						<string value="goals_for"/>
+						<string value="discipline_red_3_yellow_1"/>
+					</list>
+					<list id="schedule">
+						<record>
+							<record id="start_date_fixture_date">
+								<unsigned id="id" value="1935959652"/>
+								<integer id="main_stage_name" value="145"/>
+								<integer id="id_2" value="1937011316"/>
+							</record>
+							<record id="end_date_fixture_date">
+								<unsigned id="id" value="1701078628"/>
+								<integer id="main_stage_name" value="145"/>
+								<integer id="id_2" value="1701733408"/>
+							</record>
+							<string id="stadium_rules" value="home"/>
+							<list id="match_days">
+								<record>
+									<string id="day_of_week" value="fri"/>
+								</record>
+							</list>
+							<string id="check_clashes" value="none"/>
+						</record>
+					</list>
+					<boolean id="top_team_are_champions" value="true"/>
+					<list id="ranking_levels"/>
+					<string id="priority" value="friendly"/>
+					<list id="requirements"/>
+					<integer id="number_teams" value="2"/>
+					<integer id="calculated_number_rounds_from_matches" value="12"/>
+					<string id="league_rules" value="do_not_rank_teams"/>
+				</record>
+			</list>
+			<list id="fixture_dates">
+				<record>
+					<string id="stadium_rules" value="home"/>
+					<string id="day_of_week" value="fri"/>
+					<integer id="day_of_month" value="15"/>
+					<string id="month" value="sep"/>
+					<integer id="year" value="2000"/>
+					<integer id="main_stage_name" value="145"/>
+					<integer id="id_2" value="1937011316"/>
+				</record>
+				<record>
+					<string id="stadium_rules" value="home"/>
+					<string id="day_of_week" value="fri"/>
+					<integer id="day_of_month" value="8"/>
+					<string id="month" value="jun"/>
+					<integer id="year" value="2001"/>
+					<integer id="main_stage_name" value="145"/>
+					<integer id="id_2" value="1701733408"/>
+				</record>
+			</list>
+			<boolean id="do_automatic_add_history" value="false"/>
+			<integer id="fixture_rules_index" value="-1"/>
+			<integer id="discipline_index" value="0"/>
+			<integer id="year" value="2000"/>
+			<integer id="year_interval" value="1"/>
+			<boolean id="comp_inactive" value="false"/>
+			<integer id="last_day_of_season_stage_index" value="0"/>
+			<string id="file_type" value="comp"/>
+			<string id="type" value="other_division"/>
+			<integer id="branch" value="0"/>
+			<record id="competition">
+				<large id="competition" value="4030845904721107938"/>
+				<integer id="DBID" value="2000335005"/>
+			</record>
+			<list id="derbies">
+				<record>
+					<large id="derbies" value="51710216549938731"/>
+				</record>
+				<record>
+					<large id="derbies" value="51710268089546295"/>
+				</record>
+				<record>
+					<large id="derbies" value="51710242319742513"/>
+				</record>
+				<record>
+					<large id="derbies" value="51710246614709810"/>
+				</record>
+			</list>
+		</record>
+	</list>
+	<string id="orvs" value=""/>
+	<string id="svvs" value="2600"/>
+	<string id="author" value="MasterIgor"/>
+	<integer id="EDvb" value="1"/>
+	<string id="EDfb" value=""/>
+	<integer id="version" value="3723"/>
+	<integer id="rule_group_version" value="1625"/>
+	<boolean id="beta" value="false"/>
+	<date id="EdDt" day="14" month="1" year="2026" time="1415"/>
+	<list id="verf">
+		<string value="24.0.0"/>
+		<string value="24.3.0"/>
+		<string value="26.0.0"/>
+	</list>
+	<integer id="XSvC" value="83"/>
+	<string id="EdBr" value="fm26-rel-prod"/>
+	<list id="db_changes">
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026828422703075"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="37045531750669495"/>
+				</record>
+			</record>
+			<integer id="version" value="3567"/>
+			<integer id="db_random_id" value="618177929"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026828422703075"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<large id="Ttea" value="37079775524928476"/>
+				</record>
+			</record>
+			<integer id="version" value="3567"/>
+			<integer id="db_random_id" value="243347079"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026828422703075"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<large id="Ttea" value="32648945527422475"/>
+				</record>
+			</record>
+			<integer id="version" value="3567"/>
+			<integer id="db_random_id" value="22401222"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026828422703075"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<large id="Ttea" value="32642253968373749"/>
+				</record>
+			</record>
+			<integer id="version" value="3567"/>
+			<integer id="db_random_id" value="615329239"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026828422703075"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="37059541933992309"/>
+				</record>
+			</record>
+			<integer id="version" value="3567"/>
+			<integer id="db_random_id" value="181656300"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026832717670372"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<large id="Ttea" value="37045501685898416"/>
+				</record>
+			</record>
+			<integer id="version" value="3567"/>
+			<integer id="db_random_id" value="605255981"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026832717670372"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<large id="Ttea" value="22935473258331057"/>
+				</record>
+			</record>
+			<integer id="version" value="3567"/>
+			<integer id="db_random_id" value="889570474"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026832717670372"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<large id="Ttea" value="37045505980865713"/>
+				</record>
+			</record>
+			<integer id="version" value="3567"/>
+			<integer id="db_random_id" value="407375082"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026832717670372"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="51717986145779004"/>
+				</record>
+			</record>
+			<integer id="version" value="3567"/>
+			<integer id="db_random_id" value="146890351"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026832717670372"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="37045518865767604"/>
+				</record>
+			</record>
+			<integer id="version" value="3567"/>
+			<integer id="db_random_id" value="641879496"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026832717670372"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="51602494475162674"/>
+				</record>
+			</record>
+			<integer id="version" value="3567"/>
+			<integer id="db_random_id" value="900447303"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="22935473258331057"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="56783376086580270"/>
+				<integer id="DBID" value="13220910"/>
+			</record>
+			<integer id="version" value="3567"/>
+			<integer id="db_random_id" value="749759024"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="32648945527422475"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="56783376086580270"/>
+				<integer id="DBID" value="13220910"/>
+			</record>
+			<integer id="version" value="3567"/>
+			<integer id="db_random_id" value="150171613"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="37045501685898416"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="56783376086580270"/>
+				<integer id="DBID" value="13220910"/>
+			</record>
+			<integer id="version" value="3567"/>
+			<integer id="db_random_id" value="693786568"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="32642253968373749"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="56783376086580270"/>
+				<integer id="DBID" value="13220910"/>
+			</record>
+			<integer id="version" value="3567"/>
+			<integer id="db_random_id" value="902467359"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="37045505980865713"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="56783376086580270"/>
+				<integer id="DBID" value="13220910"/>
+			</record>
+			<integer id="version" value="3567"/>
+			<integer id="db_random_id" value="730157305"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="37079775524928476"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="56783376086580270"/>
+				<integer id="DBID" value="13220910"/>
+			</record>
+			<integer id="version" value="3567"/>
+			<integer id="db_random_id" value="305352862"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="56783376086580270"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="25"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="4030845904720933021"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="265852352"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="4030845904720933021"/>
+			<unsigned id="property" value="1668178285"/>
+			<string id="new_value" value="Algerian Academies"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="309659335"/>
+			<string id="odvl" value="Algerian Lower Division"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="4030845904720933021"/>
+			<unsigned id="property" value="1668509293"/>
+			<string id="new_value" value="Algerian Academies"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="379410212"/>
+			<string id="odvl" value="Lower Division"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="4030845904720933021"/>
+			<unsigned id="property" value="1664314478"/>
+			<string id="new_value" value="AA"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="83933163"/>
+			<string id="odvl" value=""/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="4030845904720933021"/>
+			<unsigned id="property" value="1684173945"/>
+			<string id="new_value" value="0"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="886248507"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="4030845904720933021"/>
+			<unsigned id="property" value="1684173945"/>
+			<integer id="new_value" value="14"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="202254171"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="4030845904720933021"/>
+			<unsigned id="property" value="1818588780"/>
+			<integer id="new_value" value="1"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="561690078"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="51625107477981379"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="4030845904721107938"/>
+				<integer id="DBID" value="2000335005"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="85894196"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8591039903833882950"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="4030845904721107938"/>
+				<integer id="DBID" value="2000335005"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="467577147"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="51663603269864390"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="4030845904721107938"/>
+				<integer id="DBID" value="2000335005"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="443960687"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="51663603269864390"/>
+			<unsigned id="property" value="1131241831"/>
+			<integer id="new_value" value="19"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="22640954"/>
+			<integer id="odvl" value="20"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8591039903833882950"/>
+			<unsigned id="property" value="1131241831"/>
+			<integer id="new_value" value="19"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="286581309"/>
+			<integer id="odvl" value="20"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8591039903833882950"/>
+			<unsigned id="property" value="1131442803"/>
+			<integer id="new_value" value="2"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="787139429"/>
+			<integer id="odvl" value="3"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="51663603269864390"/>
+			<unsigned id="property" value="1131442803"/>
+			<integer id="new_value" value="2"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="321726040"/>
+			<integer id="odvl" value="3"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="51625107477981379"/>
+			<unsigned id="property" value="1131442803"/>
+			<integer id="new_value" value="2"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="989132363"/>
+			<integer id="odvl" value="3"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026832717670372"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="22935473258331057"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="67265370"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026828422703075"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8590284646719607391"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="112419854"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026828422703075"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="23021699021785629"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="269984579"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590874487463406292"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="56783376086580270"/>
+				<integer id="DBID" value="13220910"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="907903011"/>
+			<record id="odvl">
+				<large id="competition" value="8590026828422703075"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590874693621836548"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="56783376086580270"/>
+				<integer id="DBID" value="13220910"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="157880136"/>
+			<record id="odvl">
+				<large id="competition" value="8590026828422703075"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="51559531917290783"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="56783376086580270"/>
+				<integer id="DBID" value="13220910"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="827387905"/>
+			<record id="odvl">
+				<large id="competition" value="8590026832717670372"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="51673404385236144"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="56783376086580270"/>
+				<integer id="DBID" value="13220910"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="70910926"/>
+			<record id="odvl">
+				<large id="competition" value="8590026832717670372"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="56770461119918191"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="56783376086580270"/>
+				<integer id="DBID" value="13220910"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="340325113"/>
+			<record id="odvl">
+				<large id="competition" value="8590026832717670372"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026832717670372"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="37072035993859282"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="729699905"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026832717670372"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="22935451783494572"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="804145902"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026832717670372"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="37045501685898416"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="566565147"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026828422703075"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="32642253968373749"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="903533866"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026828422703075"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="32648902577749505"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="528325561"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="8590026828422703075"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="51559583456898347"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="701349754"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8591522434819766306"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="56783376086580270"/>
+				<integer id="DBID" value="13220910"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="325747402"/>
+			<record id="odvl">
+				<large id="competition" value="8590026828422703075"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="51602494475162674"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="3"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="1184733895577400325"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="630386017"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="Jeunesse Sportive Tixeraïne"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="746136542"/>
+			<string id="odvl" value="Espérance Sportive Madinet Koléa"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="JS "/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="14402701"/>
+			<string id="odvl" value="ESM Koléa"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="JS Tixeraïne"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="368898274"/>
+			<string id="odvl" value="JS "/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1131640942"/>
+			<string id="new_value" value="JST"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="4743482"/>
+			<string id="odvl" value="ESMK"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1952605036"/>
+			<colour id="new_value" red="0" green="0" blue="0" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="201893195"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1130591353"/>
+			<record id="new_value">
+				<large id="city" value="442390221525594"/>
+				<integer id="DBID" value="103002"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="402859565"/>
+			<record id="odvl">
+				<large id="city" value="37067655127216342"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1132029550"/>
+			<integer id="new_value" value="1963"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="34273688"/>
+			<integer id="odvl" value="1946"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1131639913"/>
+			<null id="new_value"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="873111385"/>
+			<record id="odvl">
+				<large id="stad" value="51602498770129971"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="54"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="3"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="224" green="0" blue="0" alpha="255"/>
+					<colour id="ksbg" red="0" green="128" blue="48" alpha="255"/>
+					<colour id="ksou" red="224" green="0" blue="0" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="801646558"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="0" green="0" blue="0" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="54"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="224" green="0" blue="0" alpha="255"/>
+					<colour id="ksbg" red="0" green="128" blue="48" alpha="255"/>
+					<colour id="ksou" red="224" green="0" blue="0" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="458009919"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802727285"/>
+				<colour id="value" red="0" green="0" blue="0" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="54"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="224" green="0" blue="0" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="224" green="0" blue="0" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="671686351"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802727285"/>
+				<colour id="value" red="255" green="7" blue="7" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="54"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="224" green="0" blue="0" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="194092595"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1651471220"/>
+				<integer id="value" value="2"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="54"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="224" green="0" blue="0" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="255" green="7" blue="7" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="500753853"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1852662636"/>
+				<colour id="value" red="255" green="7" blue="7" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="54"/>
+					<integer id="bost" value="2"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="224" green="0" blue="0" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="255" green="7" blue="7" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="809914290"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="162754683"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802793074"/>
+				<integer id="value" value="4"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="number_colour" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="nmoc" red="255" green="255" blue="255" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="613867521"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="631635668"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802793074"/>
+				<integer id="value" value="4"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="number_colour" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="nmoc" red="255" green="255" blue="255" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="826781540"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802793074"/>
+				<integer id="value" value="5"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="number_colour" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="nmoc" red="255" green="255" blue="255" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="781086243"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="36"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="0" green="128" blue="48" alpha="255"/>
+					<colour id="ksbg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksou" red="0" green="128" blue="48" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="175468314"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802724967"/>
+				<colour id="value" red="255" green="7" blue="7" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="36"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="0" green="128" blue="48" alpha="255"/>
+					<colour id="ksbg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksou" red="0" green="128" blue="48" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="504820288"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802727285"/>
+				<colour id="value" red="255" green="7" blue="7" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="36"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="255" green="7" blue="7" alpha="255"/>
+					<colour id="ksbg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksou" red="0" green="128" blue="48" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="120235614"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="24572679"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802793074"/>
+				<integer id="value" value="4"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="number_colour" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="nmoc" red="255" green="255" blue="255" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="89291923"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="245" green="245" blue="245" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="number_colour" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="nmoc" red="255" green="255" blue="255" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="493836265"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="494652725"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802793074"/>
+				<integer id="value" value="5"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="number_colour" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="nmoc" red="255" green="255" blue="255" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="932163818"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="1184733895577400325"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="245" green="245" blue="245" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="number_colour" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="nmoc" red="255" green="255" blue="255" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="72854653"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="51602494475162674"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="3"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="2359733477705872390"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="627514510"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="Chabab Riyadhi Baladiat Adrar"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="496222261"/>
+			<string id="odvl" value="Espérance Sportive Madinet Koléa"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="CRB Adrar"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="833128309"/>
+			<string id="odvl" value="ESM Koléa"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1131640942"/>
+			<string id="new_value" value="CRBA"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="334545995"/>
+			<string id="odvl" value="ESMK"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1130591353"/>
+			<record id="new_value">
+				<large id="city" value="51776324686574155"/>
+				<integer id="DBID" value="12055115"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="478913297"/>
+			<record id="odvl">
+				<large id="city" value="37067655127216342"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1952605036"/>
+			<colour id="new_value" red="255" green="7" blue="7" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="660377347"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1953784684"/>
+			<colour id="new_value" red="245" green="245" blue="245" alpha="255"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="211196091"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1132029550"/>
+			<integer id="new_value" value="1958"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="786851551"/>
+			<integer id="odvl" value="1946"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1131639913"/>
+			<null id="new_value"/>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="987758090"/>
+			<record id="odvl">
+				<large id="stad" value="51602498770129971"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="1"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="3"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="224" green="0" blue="0" alpha="255"/>
+					<colour id="ksbg" red="0" green="128" blue="48" alpha="255"/>
+					<colour id="ksou" red="224" green="0" blue="0" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="742720959"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="255" green="7" blue="7" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="224" green="0" blue="0" alpha="255"/>
+					<colour id="ksbg" red="0" green="128" blue="48" alpha="255"/>
+					<colour id="ksou" red="224" green="0" blue="0" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="825033701"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1852662636"/>
+				<colour id="value" red="245" green="245" blue="245" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="224" green="0" blue="0" alpha="255"/>
+					<colour id="ksbg" red="255" green="7" blue="7" alpha="255"/>
+					<colour id="ksou" red="224" green="0" blue="0" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="264377825"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1852665699"/>
+				<colour id="value" red="245" green="245" blue="245" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="224" green="0" blue="0" alpha="255"/>
+					<colour id="ksbg" red="255" green="7" blue="7" alpha="255"/>
+					<colour id="ksou" red="224" green="0" blue="0" alpha="255"/>
+					<colour id="number_colour" red="245" green="245" blue="245" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="208885180"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="775601217"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802793074"/>
+				<integer id="value" value="4"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="number_colour" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="nmoc" red="255" green="255" blue="255" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="825225905"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="255" green="7" blue="7" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="number_colour" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="nmoc" red="255" green="255" blue="255" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="869875401"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="434104353"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802793074"/>
+				<integer id="value" value="5"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="number_colour" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="nmoc" red="255" green="255" blue="255" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="26715697"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="255" green="7" blue="7" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="number_colour" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="nmoc" red="255" green="255" blue="255" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="785038140"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326961"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="7"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="ksbg" red="255" green="7" blue="7" alpha="255"/>
+					<colour id="ksou" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="number_colour" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="nmoc" red="255" green="255" blue="255" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="154134275"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802724967"/>
+				<colour id="value" red="245" green="245" blue="245" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="0" green="128" blue="48" alpha="255"/>
+					<colour id="ksbg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksou" red="0" green="128" blue="48" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="129683843"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802727285"/>
+				<colour id="value" red="245" green="245" blue="245" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="245" green="245" blue="245" alpha="255"/>
+					<colour id="ksbg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksou" red="0" green="128" blue="48" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="166445440"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<unsigned id="id" value="1852662636"/>
+				<colour id="value" red="255" green="7" blue="7" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="245" green="245" blue="245" alpha="255"/>
+					<colour id="ksbg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksou" red="245" green="245" blue="245" alpha="255"/>
+					<colour id="number_colour" red="8" green="8" blue="8" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="737481361"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<unsigned id="id" value="1852665699"/>
+				<colour id="value" red="255" green="7" blue="7" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="245" green="245" blue="245" alpha="255"/>
+					<colour id="ksbg" red="248" green="248" blue="248" alpha="255"/>
+					<colour id="ksou" red="245" green="245" blue="245" alpha="255"/>
+					<colour id="number_colour" red="255" green="7" blue="7" alpha="255"/>
+					<colour id="nmoc" red="8" green="8" blue="8" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="102934205"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="763423460"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802793074"/>
+				<integer id="value" value="4"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="number_colour" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="nmoc" red="255" green="255" blue="255" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="595691959"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="245" green="245" blue="245" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="4"/>
+					<colour id="ksfg" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="number_colour" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="nmoc" red="255" green="255" blue="255" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="696470725"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="96562780"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802793074"/>
+				<integer id="value" value="5"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="1"/>
+					<colour id="ksfg" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="number_colour" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="nmoc" red="255" green="255" blue="255" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="406002483"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802073203"/>
+				<integer id="value" value="7"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="1"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="number_colour" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="nmoc" red="255" green="255" blue="255" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="623938627"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802723943"/>
+				<colour id="value" red="245" green="245" blue="245" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="7"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="ksbg" red="0" green="0" blue="0" alpha="255"/>
+					<colour id="ksou" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="number_colour" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="nmoc" red="255" green="255" blue="255" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="65241844"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="2359733477705872390"/>
+			<unsigned id="property" value="1416326962"/>
+			<record id="new_value">
+				<unsigned id="id" value="1802724967"/>
+				<colour id="value" red="255" green="7" blue="7" alpha="255"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="kits" value="7"/>
+					<integer id="bost" value="0"/>
+					<integer id="kit_part" value="5"/>
+					<colour id="ksfg" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="ksbg" red="245" green="245" blue="245" alpha="255"/>
+					<colour id="ksou" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="number_colour" red="255" green="255" blue="255" alpha="255"/>
+					<colour id="nmoc" red="255" green="255" blue="255" alpha="255"/>
+					<integer id="ktal" value="0"/>
+					<null id="competition"/>
+					<null id="year"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="243312691"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+	</list>
+</record>
