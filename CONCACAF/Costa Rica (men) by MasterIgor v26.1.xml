@@ -3058,6 +3058,7 @@
 						<record>
 							<boolean id="process_early_finish" value="false"/>
 							<string id="stage" value="prpl"/>
+							<integer id="minimum_number_teams" value="1"/>
 						</record>
 					</list>
 					<list id="teams">
@@ -3968,7 +3969,7 @@
 			</list>
 		</record>
 	</list>
-	<date id="EdDt" day="7" month="12" year="2025" time="1700"/>
+	<date id="EdDt" day="18" month="1" year="2026" time="2330"/>
 	<list id="verf">
 		<string value="23.3.0"/>
 		<string value="23.4.0"/>
@@ -3976,7 +3977,7 @@
 		<string value="24.3.0"/>
 		<string value="26.0.0"/>
 	</list>
-	<integer id="XSvC" value="201"/>
+	<integer id="XSvC" value="209"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
 	<list id="db_changes">
 		<record>

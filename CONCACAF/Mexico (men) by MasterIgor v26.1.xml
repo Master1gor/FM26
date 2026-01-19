@@ -11174,7 +11174,9 @@
 						<string value="average_points"/>
 						<string value="goal_difference"/>
 						<string value="goals_for"/>
-						<string value="points"/>
+						<string value="own_match"/>
+						<string value="goals_for_away"/>
+						<string value="discipline_red_3_yellow_1"/>
 					</list>
 					<string id="subs_rules" value="three_from_seven"/>
 					<string id="priority" value="friendly"/>
@@ -11851,7 +11853,9 @@
 						<string value="average_points"/>
 						<string value="goal_difference"/>
 						<string value="goals_for"/>
-						<string value="points"/>
+						<string value="own_match"/>
+						<string value="goals_for_away"/>
+						<string value="discipline_red_3_yellow_1"/>
 					</list>
 					<string id="subs_rules" value="three_from_seven"/>
 					<string id="priority" value="friendly"/>
@@ -17673,9 +17677,9 @@
 	<list id="verf">
 		<string value="26.0.0"/>
 	</list>
-	<integer id="XSvC" value="72"/>
+	<integer id="XSvC" value="83"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
-	<date id="EdDt" day="17" month="12" year="2025" time="1130"/>
+	<date id="EdDt" day="19" month="1" year="2026" time="1130"/>
 	<integer id="version" value="3723"/>
 	<integer id="rule_group_version" value="1625"/>
 	<boolean id="beta" value="false"/>

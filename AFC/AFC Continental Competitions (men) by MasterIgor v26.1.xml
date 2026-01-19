@@ -92,14 +92,6 @@
 			<integer id="version" value="999"/>
 			<integer id="branch" value="0"/>
 			<integer id="year" value="2000"/>
-			<list id="fixture_rules">
-				<record>
-					<null id="name"/>
-				</record>
-				<record>
-					<null id="name"/>
-				</record>
-			</list>
 			<string id="PLgn" value="male"/>
 			<boolean id="dont_reimport_helpers" value="false"/>
 			<boolean id="sort_first_year" value="false"/>
@@ -11485,7 +11477,7 @@
 					<boolean id="reverse_teams" value="true"/>
 				</record>
 				<record>
-					<string id="id" value="qW1"/>
+					<string id="id" value="qW1 "/>
 					<integer id="index" value="2"/>
 					<string id="type" value="empty"/>
 					<list id="requirements">
@@ -11526,7 +11518,7 @@
 					</list>
 				</record>
 				<record>
-					<string id="id" value="qW2"/>
+					<string id="id" value="qW2 "/>
 					<integer id="index" value="3"/>
 					<string id="type" value="empty"/>
 					<list id="requirements">
@@ -11567,7 +11559,7 @@
 					</list>
 				</record>
 				<record>
-					<string id="id" value="qW3"/>
+					<string id="id" value="qW3 "/>
 					<integer id="index" value="4"/>
 					<string id="type" value="empty"/>
 					<list id="requirements">
@@ -11608,7 +11600,7 @@
 					</list>
 				</record>
 				<record>
-					<string id="id" value="qW4"/>
+					<string id="id" value="qW4 "/>
 					<integer id="index" value="5"/>
 					<string id="type" value="empty"/>
 					<list id="requirements">
@@ -11649,7 +11641,7 @@
 					</list>
 				</record>
 				<record>
-					<string id="id" value="qW5"/>
+					<string id="id" value="qW5 "/>
 					<integer id="index" value="6"/>
 					<string id="type" value="empty"/>
 					<list id="requirements">
@@ -11690,7 +11682,7 @@
 					</list>
 				</record>
 				<record>
-					<string id="id" value="qW6"/>
+					<string id="id" value="qW6 "/>
 					<integer id="index" value="7"/>
 					<string id="type" value="empty"/>
 					<list id="requirements">
@@ -11772,7 +11764,7 @@
 					</list>
 				</record>
 				<record>
-					<string id="id" value="qE2"/>
+					<string id="id" value="qE2 "/>
 					<integer id="index" value="9"/>
 					<string id="type" value="empty"/>
 					<list id="requirements">
@@ -11813,7 +11805,7 @@
 					</list>
 				</record>
 				<record>
-					<string id="id" value="qE3"/>
+					<string id="id" value="qE3 "/>
 					<integer id="index" value="10"/>
 					<string id="type" value="empty"/>
 					<list id="requirements">
@@ -11854,7 +11846,7 @@
 					</list>
 				</record>
 				<record>
-					<string id="id" value="qE4"/>
+					<string id="id" value="qE4 "/>
 					<integer id="index" value="11"/>
 					<string id="type" value="empty"/>
 					<list id="requirements">
@@ -11895,7 +11887,7 @@
 					</list>
 				</record>
 				<record>
-					<string id="id" value="qE5"/>
+					<string id="id" value="qE5 "/>
 					<integer id="index" value="12"/>
 					<string id="type" value="empty"/>
 					<list id="requirements">
@@ -11936,7 +11928,7 @@
 					</list>
 				</record>
 				<record>
-					<string id="id" value="qE6"/>
+					<string id="id" value="qE6 "/>
 					<integer id="index" value="13"/>
 					<string id="type" value="empty"/>
 					<list id="requirements">
@@ -11992,27 +11984,27 @@
 					<list id="requirements">
 						<record>
 							<boolean id="process_early_finish" value="false"/>
-							<string id="stage" value="qW1"/>
+							<string id="stage" value="qW1 "/>
 						</record>
 						<record>
 							<boolean id="process_early_finish" value="false"/>
-							<string id="stage" value="qW2"/>
+							<string id="stage" value="qW2 "/>
 						</record>
 						<record>
 							<boolean id="process_early_finish" value="false"/>
-							<string id="stage" value="qW3"/>
+							<string id="stage" value="qW3 "/>
 						</record>
 						<record>
 							<boolean id="process_early_finish" value="false"/>
-							<string id="stage" value="qW4"/>
+							<string id="stage" value="qW4 "/>
 						</record>
 						<record>
 							<boolean id="process_early_finish" value="false"/>
-							<string id="stage" value="qW5"/>
+							<string id="stage" value="qW5 "/>
 						</record>
 						<record>
 							<boolean id="process_early_finish" value="false"/>
-							<string id="stage" value="qW6"/>
+							<string id="stage" value="qW6 "/>
 						</record>
 					</list>
 					<list id="teams">
@@ -12027,7 +12019,7 @@
 									<string id="id" value="get_stage_teams"/>
 									<boolean id="clear_all_teams_if_max_teams_overall_exceeded" value="true"/>
 									<integer id="maximum_overall_number_teams" value="4"/>
-									<string id="stage" value="qW4"/>
+									<string id="stage" value="qW4 "/>
 								</record>
 							</list>
 							<string id="description" value="[Group 1 : A1 A2 A3 D1]"/>
@@ -12047,7 +12039,7 @@
 									<string id="id" value="get_stage_teams"/>
 									<boolean id="clear_all_teams_if_max_teams_overall_exceeded" value="true"/>
 									<integer id="maximum_overall_number_teams" value="4"/>
-									<string id="stage" value="qW5"/>
+									<string id="stage" value="qW5 "/>
 								</record>
 							</list>
 							<string id="description" value="[Group 1 : A1 A2 A3 E1]"/>
@@ -12067,7 +12059,7 @@
 									<string id="id" value="get_stage_teams"/>
 									<boolean id="clear_all_teams_if_max_teams_overall_exceeded" value="true"/>
 									<integer id="maximum_overall_number_teams" value="4"/>
-									<string id="stage" value="qW6"/>
+									<string id="stage" value="qW6 "/>
 								</record>
 							</list>
 							<string id="description" value="[Group 1 : A1 A2 A3 F1]"/>
@@ -12087,7 +12079,7 @@
 									<string id="id" value="get_stage_teams"/>
 									<boolean id="clear_all_teams_if_max_teams_overall_exceeded" value="true"/>
 									<integer id="maximum_overall_number_teams" value="4"/>
-									<string id="stage" value="qW3"/>
+									<string id="stage" value="qW3 "/>
 								</record>
 							</list>
 							<string id="description" value="[Group 2 : B1 B2 C1 C2]"/>
@@ -12107,7 +12099,7 @@
 									<string id="id" value="get_stage_teams"/>
 									<boolean id="clear_all_teams_if_max_teams_overall_exceeded" value="true"/>
 									<integer id="maximum_overall_number_teams" value="4"/>
-									<string id="stage" value="qW4"/>
+									<string id="stage" value="qW4 "/>
 								</record>
 							</list>
 							<string id="description" value="[Group 2 : B1 B2 B3 D1 or B1 B2 D1 D2]"/>
@@ -12127,7 +12119,7 @@
 									<string id="id" value="get_stage_teams"/>
 									<boolean id="clear_all_teams_if_max_teams_overall_exceeded" value="true"/>
 									<integer id="maximum_overall_number_teams" value="4"/>
-									<string id="stage" value="qW5"/>
+									<string id="stage" value="qW5 "/>
 								</record>
 							</list>
 							<string id="description" value="[Group 2 : B1 B2 B3 E1 or B1 B2 E1 E2]"/>
@@ -12147,7 +12139,7 @@
 									<string id="id" value="get_stage_teams"/>
 									<boolean id="clear_all_teams_if_max_teams_overall_exceeded" value="true"/>
 									<integer id="maximum_overall_number_teams" value="4"/>
-									<string id="stage" value="qW6"/>
+									<string id="stage" value="qW6 "/>
 								</record>
 							</list>
 							<string id="description" value="[Group 2 : B1 B2 B3 F1 or B1 B2 F1 F2]"/>
@@ -12165,13 +12157,13 @@
 								</record>
 								<record>
 									<string id="id" value="get_stage_teams"/>
-									<string id="stage" value="qW4"/>
+									<string id="stage" value="qW4 "/>
 								</record>
 								<record>
 									<string id="id" value="get_stage_teams"/>
 									<boolean id="clear_all_teams_if_max_teams_overall_exceeded" value="true"/>
 									<integer id="maximum_overall_number_teams" value="4"/>
-									<string id="stage" value="qW5"/>
+									<string id="stage" value="qW5 "/>
 								</record>
 							</list>
 							<string id="description" value="[Group 2 : B1 B2 D1 E1 - special case when ACL2 winner is not from top 6 nations]"/>
@@ -12506,6 +12498,7 @@
 						<large id="stgn" value="8590892693829778275"/>
 						<integer id="DBID" value="2000223075"/>
 					</record>
+					<boolean id="hide_stage" value="true"/>
 				</record>
 				<record>
 					<string id="id" value="drwE"/>
@@ -12523,27 +12516,27 @@
 					<list id="requirements">
 						<record>
 							<boolean id="process_early_finish" value="false"/>
-							<string id="stage" value="qE1"/>
+							<string id="stage" value="qE1 "/>
 						</record>
 						<record>
 							<boolean id="process_early_finish" value="false"/>
-							<string id="stage" value="qE2"/>
+							<string id="stage" value="qE2 "/>
 						</record>
 						<record>
 							<boolean id="process_early_finish" value="false"/>
-							<string id="stage" value="qE3"/>
+							<string id="stage" value="qE3 "/>
 						</record>
 						<record>
 							<boolean id="process_early_finish" value="false"/>
-							<string id="stage" value="qE4"/>
+							<string id="stage" value="qE4 "/>
 						</record>
 						<record>
 							<boolean id="process_early_finish" value="false"/>
-							<string id="stage" value="qE5"/>
+							<string id="stage" value="qE5 "/>
 						</record>
 						<record>
 							<boolean id="process_early_finish" value="false"/>
-							<string id="stage" value="qE6"/>
+							<string id="stage" value="qE6 "/>
 						</record>
 					</list>
 					<list id="teams">
@@ -12558,7 +12551,7 @@
 									<string id="id" value="get_stage_teams"/>
 									<boolean id="clear_all_teams_if_max_teams_overall_exceeded" value="true"/>
 									<integer id="maximum_overall_number_teams" value="4"/>
-									<string id="stage" value="qE4"/>
+									<string id="stage" value="qE4 "/>
 								</record>
 							</list>
 							<string id="description" value="[Group 1 : A1 A2 A3 D1]"/>
@@ -12578,7 +12571,7 @@
 									<string id="id" value="get_stage_teams"/>
 									<boolean id="clear_all_teams_if_max_teams_overall_exceeded" value="true"/>
 									<integer id="maximum_overall_number_teams" value="4"/>
-									<string id="stage" value="qE5"/>
+									<string id="stage" value="qE5 "/>
 								</record>
 							</list>
 							<string id="description" value="[Group 1 : A1 A2 A3 E1]"/>
@@ -12598,7 +12591,7 @@
 									<string id="id" value="get_stage_teams"/>
 									<boolean id="clear_all_teams_if_max_teams_overall_exceeded" value="true"/>
 									<integer id="maximum_overall_number_teams" value="4"/>
-									<string id="stage" value="qE6"/>
+									<string id="stage" value="qE6 "/>
 								</record>
 							</list>
 							<string id="description" value="[Group 1 : A1 A2 A3 F1]"/>
@@ -12618,7 +12611,7 @@
 									<string id="id" value="get_stage_teams"/>
 									<boolean id="clear_all_teams_if_max_teams_overall_exceeded" value="true"/>
 									<integer id="maximum_overall_number_teams" value="4"/>
-									<string id="stage" value="qE3"/>
+									<string id="stage" value="qE3 "/>
 								</record>
 							</list>
 							<string id="description" value="[Group 2 : B1 B2 C1 C2]"/>
@@ -12638,7 +12631,7 @@
 									<string id="id" value="get_stage_teams"/>
 									<boolean id="clear_all_teams_if_max_teams_overall_exceeded" value="true"/>
 									<integer id="maximum_overall_number_teams" value="4"/>
-									<string id="stage" value="qE4"/>
+									<string id="stage" value="qE4 "/>
 								</record>
 							</list>
 							<string id="description" value="[Group 2 : B1 B2 B3 D1 or B1 B2 D1 D2]"/>
@@ -12658,7 +12651,7 @@
 									<string id="id" value="get_stage_teams"/>
 									<boolean id="clear_all_teams_if_max_teams_overall_exceeded" value="true"/>
 									<integer id="maximum_overall_number_teams" value="4"/>
-									<string id="stage" value="qE5"/>
+									<string id="stage" value="qE5 "/>
 								</record>
 							</list>
 							<string id="description" value="[Group 2 : B1 B2 B3 E1 or B1 B2 E1 E2]"/>
@@ -12678,7 +12671,7 @@
 									<string id="id" value="get_stage_teams"/>
 									<boolean id="clear_all_teams_if_max_teams_overall_exceeded" value="true"/>
 									<integer id="maximum_overall_number_teams" value="4"/>
-									<string id="stage" value="qE6"/>
+									<string id="stage" value="qE6 "/>
 								</record>
 							</list>
 							<string id="description" value="[Group 2 : B1 B2 B3 F1 or B1 B2 F1 F2]"/>
@@ -12696,13 +12689,13 @@
 								</record>
 								<record>
 									<string id="id" value="get_stage_teams"/>
-									<string id="stage" value="qE4"/>
+									<string id="stage" value="qE4 "/>
 								</record>
 								<record>
 									<string id="id" value="get_stage_teams"/>
 									<boolean id="clear_all_teams_if_max_teams_overall_exceeded" value="true"/>
 									<integer id="maximum_overall_number_teams" value="4"/>
-									<string id="stage" value="qE5"/>
+									<string id="stage" value="qE5 "/>
 								</record>
 							</list>
 							<string id="description" value="[Group 2 : B1 B2 D1 E1 - special case when ACL2 winner is not from top 6 nations]"/>
@@ -13041,6 +13034,7 @@
 						<large id="stgn" value="339302416463"/>
 						<integer id="DBID" value="79"/>
 					</record>
+					<boolean id="hide_stage" value="true"/>
 				</record>
 				<record>
 					<string id="id" value="leag"/>
@@ -14259,7 +14253,7 @@
 					<integer id="stage" value="15"/>
 				</record>
 				<record>
-					<boolean id="teams_entering_this_round" value="true"/>
+					<boolean id="teams_entering_this_round" value="false"/>
 					<integer id="id_1" value="1936815457"/>
 					<integer id="id_2" value="1263476768"/>
 					<integer id="stage" value="17"/>
@@ -14374,6 +14368,7 @@
 						<integer id="day_of_month" value="1"/>
 						<string id="month" value="jan"/>
 						<integer id="year" value="2000"/>
+						<integer id="max_players_to_exchange" value="3"/>
 					</record>
 				</list>
 				<string id="squad_selection_value" value="custom_competition"/>
@@ -17005,6 +17000,7 @@
 						<integer id="day_of_month" value="1"/>
 						<string id="month" value="jan"/>
 						<integer id="year" value="2000"/>
+						<integer id="max_players_to_exchange" value="3"/>
 					</record>
 				</list>
 				<list id="squad_selection_rules">
@@ -17173,6 +17169,32 @@
 						<large id="stgn" value="85899345940"/>
 						<integer id="DBID" value="20"/>
 					</record>
+				</record>
+			</list>
+			<list id="squad_selection_teams">
+				<record>
+					<boolean id="teams_entering_this_round" value="true"/>
+					<integer id="id_1" value="1936815457"/>
+					<integer id="id_2" value="1347559456"/>
+					<integer id="stage" value="0"/>
+				</record>
+				<record>
+					<boolean id="teams_entering_this_round" value="true"/>
+					<integer id="id_1" value="1936815457"/>
+					<integer id="id_2" value="1347559456"/>
+					<integer id="stage" value="1"/>
+				</record>
+				<record>
+					<boolean id="teams_entering_this_round" value="true"/>
+					<integer id="id_1" value="1936815457"/>
+					<integer id="id_2" value="1196576800"/>
+					<integer id="stage" value="2"/>
+				</record>
+				<record>
+					<boolean id="teams_entering_this_round" value="false"/>
+					<integer id="id_1" value="1936815457"/>
+					<integer id="id_2" value="1263476768"/>
+					<integer id="stage" value="3"/>
 				</record>
 			</list>
 		</record>
@@ -20035,6 +20057,7 @@
 						<integer id="day_of_month" value="1"/>
 						<string id="month" value="jan"/>
 						<integer id="year" value="2000"/>
+						<integer id="max_players_to_exchange" value="3"/>
 					</record>
 				</list>
 				<list id="squad_selection_rules">
@@ -20200,6 +20223,32 @@
 						<large id="stgn" value="85899345940"/>
 						<integer id="DBID" value="20"/>
 					</record>
+				</record>
+			</list>
+			<list id="squad_selection_teams">
+				<record>
+					<boolean id="teams_entering_this_round" value="true"/>
+					<integer id="stage" value="0"/>
+					<integer id="id_1" value="1936815457"/>
+					<integer id="id_2" value="1347559456"/>
+				</record>
+				<record>
+					<boolean id="teams_entering_this_round" value="true"/>
+					<integer id="stage" value="1"/>
+					<integer id="id_1" value="1936815457"/>
+					<integer id="id_2" value="1347559456"/>
+				</record>
+				<record>
+					<boolean id="teams_entering_this_round" value="true"/>
+					<integer id="stage" value="2"/>
+					<integer id="id_1" value="1936815457"/>
+					<integer id="id_2" value="1196576800"/>
+				</record>
+				<record>
+					<boolean id="teams_entering_this_round" value="false"/>
+					<integer id="stage" value="4"/>
+					<integer id="id_1" value="1936815457"/>
+					<integer id="id_2" value="1263476768"/>
 				</record>
 			</list>
 		</record>
@@ -21316,6 +21365,7 @@
 						<integer id="day_of_month" value="1"/>
 						<string id="month" value="jan"/>
 						<integer id="year" value="2000"/>
+						<integer id="max_players_to_exchange" value="3"/>
 					</record>
 				</list>
 				<list id="squad_selection_rules">
@@ -21591,10 +21641,6 @@
 					<integer id="id_1" value="1936815457"/>
 					<integer id="id_2" value="1347559456"/>
 					<integer id="stage" value="1"/>
-					<record id="stage_name">
-						<large id="stgn" value="120259084316"/>
-						<integer id="DBID" value="28"/>
-					</record>
 				</record>
 				<record>
 					<boolean id="teams_entering_this_round" value="true"/>
@@ -21607,10 +21653,6 @@
 					<integer id="id_1" value="1936815457"/>
 					<integer id="id_2" value="1263476768"/>
 					<integer id="stage" value="3"/>
-					<record id="stage_name">
-						<large id="stgn" value="77309411346"/>
-						<integer id="DBID" value="18"/>
-					</record>
 				</record>
 			</list>
 		</record>
@@ -21624,9 +21666,9 @@
 	<integer id="version" value="3723"/>
 	<integer id="rule_group_version" value="1625"/>
 	<boolean id="beta" value="false"/>
-	<integer id="XSvC" value="1098"/>
+	<integer id="XSvC" value="1109"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
-	<date id="EdDt" day="2" month="12" year="2025" time="0"/>
+	<date id="EdDt" day="19" month="1" year="2026" time="2230"/>
 	<list id="db_changes">
 		<record>
 			<integer id="database_table_type" value="55"/>

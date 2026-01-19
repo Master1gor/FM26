@@ -58,7 +58,7 @@
 					<list id="squad_selection_rules">
 						<record>
 							<string id="compare_type" value="less_than"/>
-							<string id="type" value="non_eec_players_in_match_squad"/>
+							<string id="type" value="all_foreign_players_in_match_squad"/>
 							<integer id="value" value="3"/>
 						</record>
 					</list>
@@ -207,13 +207,13 @@
 						<record>
 							<record id="start_date_fixture_date">
 								<unsigned id="id" value="1935959652"/>
-								<string id="id_1" value="leag"/>
-								<string id="id_2" value="strt"/>
+								<integer id="id_1" value="1818583399"/>
+								<integer id="id_2" value="1937011316"/>
 							</record>
 							<record id="end_date_fixture_date">
 								<unsigned id="id" value="1701078628"/>
-								<string id="id_1" value="leag"/>
-								<string id="id_2" value="end "/>
+								<integer id="id_1" value="1818583399"/>
+								<integer id="id_2" value="1701733408"/>
 							</record>
 							<string id="check_clashes" value="all"/>
 							<list id="match_days">
@@ -228,7 +228,7 @@
 									<integer id="number_matches" value="1"/>
 									<integer id="day_offset_first_date_index" value="-1"/>
 									<integer id="day_offset_last_date_index" value="-1"/>
-									<string id="time" value="1530"/>
+									<integer id="time" value="1530"/>
 									<string id="stadium_rules" value="stadium_0"/>
 								</record>
 								<record>
@@ -244,7 +244,7 @@
 									<integer id="number_matches" value="1"/>
 									<integer id="day_offset_first_date_index" value="-1"/>
 									<integer id="day_offset_last_date_index" value="-1"/>
-									<string id="time" value="1530"/>
+									<integer id="time" value="1530"/>
 									<string id="stadium_rules" value="stadium_0"/>
 								</record>
 							</list>
@@ -252,20 +252,20 @@
 								<record>
 									<record id="start_date_fixture_date">
 										<unsigned id="id" value="1935959652"/>
-										<string id="id_1" value="leag"/>
-										<string id="id_2" value="br1s"/>
+										<integer id="id_1" value="1818583399"/>
+										<integer id="id_2" value="1651650931"/>
 									</record>
 									<record id="end_date_fixture_date">
 										<unsigned id="id" value="1701078628"/>
-										<string id="id_1" value="leag"/>
-										<string id="id_2" value="br1e"/>
+										<integer id="id_1" value="1818583399"/>
+										<integer id="id_2" value="1651650917"/>
 									</record>
 								</record>
 							</list>
 							<integer id="number_dates_before_cutoff_date" value="3"/>
 							<record id="cutoff_date_fixture_date">
-								<string id="id_1" value="leag"/>
-								<string id="id_2" value="br1s"/>
+								<integer id="id_1" value="1818583399"/>
+								<integer id="id_2" value="1651650931"/>
 							</record>
 						</record>
 					</list>
@@ -286,8 +286,8 @@
 				<record>
 					<string id="stadium_rules" value="national"/>
 					<integer id="time" value="1500"/>
-					<string id="id_1" value="leag"/>
-					<string id="id_2" value="strt"/>
+					<integer id="id_1" value="1818583399"/>
+					<integer id="id_2" value="1937011316"/>
 					<string id="day_of_week" value="sat"/>
 					<integer id="day_of_month" value="21"/>
 					<string id="month" value="oct"/>
@@ -300,8 +300,8 @@
 					<integer id="day_of_month" value="5"/>
 					<string id="month" value="nov"/>
 					<integer id="year" value="2000"/>
-					<string id="id_1" value="leag"/>
-					<string id="id_2" value="br1s"/>
+					<integer id="id_1" value="1818583399"/>
+					<integer id="id_2" value="1651650931"/>
 				</record>
 				<record>
 					<string id="stadium_rules" value="national"/>
@@ -310,14 +310,14 @@
 					<integer id="day_of_month" value="13"/>
 					<string id="month" value="jan"/>
 					<integer id="year" value="2001"/>
-					<string id="id_1" value="leag"/>
-					<string id="id_2" value="br1e"/>
+					<integer id="id_1" value="1818583399"/>
+					<integer id="id_2" value="1651650917"/>
 				</record>
 				<record>
 					<string id="stadium_rules" value="national"/>
 					<integer id="time" value="1500"/>
-					<string id="id_1" value="leag"/>
-					<string id="id_2" value="end "/>
+					<integer id="id_1" value="1818583399"/>
+					<integer id="id_2" value="1701733408"/>
 					<string id="day_of_week" value="sun"/>
 					<integer id="day_of_month" value="8"/>
 					<string id="month" value="apr"/>
@@ -351,7 +351,7 @@
 			</list>
 		</record>
 	</list>
-	<date id="EdDt" day="17" month="12" year="2025" time="1430"/>
+	<date id="EdDt" day="19" month="1" year="2026" time="1400"/>
 	<list id="verf">
 		<string value="23.3.0"/>
 		<string value="23.4.0"/>
@@ -359,7 +359,80 @@
 		<string value="24.3.0"/>
 		<string value="26.0.0"/>
 	</list>
-	<integer id="XSvC" value="44"/>
+	<integer id="XSvC" value="52"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
-	<list id="db_changes"/>
+	<list id="db_changes">
+		<record>
+			<integer id="database_table_type" value="10"/>
+			<large id="db_unique_id" value="3940658264801282"/>
+			<unsigned id="property" value="1315858034"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="30418153"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="10"/>
+			<large id="db_unique_id" value="3940658264801282"/>
+			<unsigned id="property" value="1315858034"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="731086666"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="10"/>
+			<large id="db_unique_id" value="3940658264801282"/>
+			<unsigned id="property" value="1315858034"/>
+			<record id="new_value">
+				<unsigned id="id" value="1852207726"/>
+				<record id="value">
+					<large id="Nnat" value="3940666854735876"/>
+					<integer id="DBID" value="917508"/>
+				</record>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<null id="nfrn"/>
+					<null id="nfrc"/>
+					<null id="fren"/>
+					<null id="nfrr"/>
+					<null id="nfra"/>
+					<date id="start_date" day="1" month="1" year="1900" time="0"/>
+					<date id="end_date" day="1" month="1" year="1900" time="0"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="589080970"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="10"/>
+			<large id="db_unique_id" value="3940658264801282"/>
+			<unsigned id="property" value="1315858034"/>
+			<record id="new_value">
+				<unsigned id="id" value="1852207726"/>
+				<record id="value">
+					<large id="Nnat" value="3367254360848"/>
+					<integer id="DBID" value="784"/>
+				</record>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<null id="nfrn"/>
+					<null id="nfrc"/>
+					<null id="fren"/>
+					<null id="nfrr"/>
+					<null id="nfra"/>
+					<date id="start_date" day="1" month="1" year="1900" time="0"/>
+					<date id="end_date" day="1" month="1" year="1900" time="0"/>
+				</record>
+			</record>
+			<integer id="version" value="3723"/>
+			<integer id="db_random_id" value="603304916"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+	</list>
 </record>
