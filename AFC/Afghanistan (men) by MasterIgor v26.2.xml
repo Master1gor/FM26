@@ -8,7 +8,7 @@
 			<record id="season_update_day">
 				<unsigned id="id" value="1970300025"/>
 				<integer id="day_of_month" value="28"/>
-				<string id="month" value="feb"/>
+				<string id="month" value="jun"/>
 			</record>
 			<list id="competitions">
 				<record>
@@ -44,7 +44,7 @@
 			</record>
 			<record id="transfer_rules">
 				<unsigned id="id" value="1953657452"/>
-				<string id="main_contract_end_month" value="feb"/>
+				<string id="main_contract_end_month" value="jun"/>
 				<boolean id="uses_bosman_rules" value="false"/>
 				<boolean id="free_transfers_can_join_outside_window" value="true"/>
 				<boolean id="loan_players_can_join_outside_window" value="true"/>
@@ -273,32 +273,16 @@
 			<list id="season_windows">
 				<record>
 					<record id="start_date">
+						<string id="day_of_week" value="sun"/>
 						<integer id="day_of_month" value="1"/>
-						<string id="month" value="jan"/>
+						<string id="month" value="oct"/>
 						<integer id="year" value="2000"/>
-						<string id="day_of_week" value="sat"/>
 					</record>
 					<record id="end_date">
+						<string id="day_of_week" value="tue"/>
 						<integer id="day_of_month" value="1"/>
-						<string id="month" value="jan"/>
-						<integer id="year" value="2000"/>
-						<string id="day_of_week" value="sat"/>
-					</record>
-					<record id="start_date_fixture_date">
-						<record id="competition">
-							<large id="competition" value="99239600263827940"/>
-							<integer id="DBID" value="23106020"/>
-						</record>
-						<integer id="id_1" value="1818583399"/>
-						<integer id="id_2" value="1"/>
-					</record>
-					<record id="end_date_fixture_date">
-						<record id="competition">
-							<large id="competition" value="99239600263827940"/>
-							<integer id="DBID" value="23106020"/>
-						</record>
-						<integer id="id_1" value="1818583399"/>
-						<integer id="id_2" value="11"/>
+						<string id="month" value="may"/>
+						<integer id="year" value="2001"/>
 					</record>
 				</record>
 			</list>
@@ -317,11 +301,11 @@
 					<string id="type" value="shadow"/>
 					<record id="start_date">
 						<integer id="day_of_month" value="1"/>
-						<string id="month" value="dec"/>
+						<string id="month" value="feb"/>
 					</record>
 					<record id="end_date">
 						<integer id="day_of_month" value="10"/>
-						<string id="month" value="jan"/>
+						<string id="month" value="mar"/>
 					</record>
 					<boolean id="use_teams_in_reserve_cup" value="false"/>
 					<string id="subs_rules" value="five_from_seven_max_three_stoppages"/>
@@ -899,8 +883,8 @@
 						<integer id="id_2" value="1"/>
 						<integer id="day_offset" value="-7"/>
 					</record>
-					<integer id="id_1" value="1919248160"/>
-					<integer id="id_2" value="1701733408"/>
+					<string id="id_1" value="reg "/>
+					<string id="id_2" value="end "/>
 				</record>
 				<record>
 					<string id="day_of_week" value="fri"/>
@@ -1066,13 +1050,13 @@
 	<integer id="version" value="3723"/>
 	<integer id="rule_group_version" value="1625"/>
 	<boolean id="beta" value="false"/>
-	<date id="EdDt" day="11" month="2" year="2026" time="1815"/>
+	<date id="EdDt" day="20" month="2" year="2026" time="2200"/>
 	<list id="verf">
 		<string value="24.0.0"/>
 		<string value="24.3.0"/>
 		<string value="26.0.0"/>
 	</list>
-	<integer id="XSvC" value="63"/>
+	<integer id="XSvC" value="67"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
 	<list id="nation_list"/>
 	<list id="grouped_nations_list"/>
