@@ -1,77 +1,4 @@
 <record>
-	<record id="rule_group">
-		<boolean id="use_game_rules" value="false"/>
-		<record id="season_update_day">
-			<integer id="day_of_month" value="20"/>
-			<string id="month" value="jun"/>
-		</record>
-		<date id="start_date" day="10" month="8" year="2023" time="0"/>
-		<date id="end_date" day="15" month="5" year="2024" time="0"/>
-		<integer id="bosman_number_days" value="183"/>
-		<unsigned id="nation" value="23008660"/>
-		<list id="transfer_windows"/>
-		<record id="discipline_rules">
-			<record id="accumulative_method">
-				<string id="sequence" value="2_3_4"/>
-				<integer id="games_banned" value="1"/>
-				<string id="start_date" value="immediate"/>
-			</record>
-			<record id="red_card_info">
-				<string id="red_card_rule" value="x_match_per_red_card"/>
-				<integer id="games_banned" value="1"/>
-			</record>
-		</record>
-		<record id="work_permit_rules"/>
-		<list id="league_comps">
-			<record>
-				<unsigned id="competition" value="23090919"/>
-				<string id="use_game_rules" value="not_in_game"/>
-				<boolean id="has_sub_divisions" value="false"/>
-				<string id="type" value="league"/>
-				<integer id="minimum_number_teams" value="8"/>
-				<integer id="maximum_number_teams" value="8"/>
-				<boolean id="use_specified_fixtures" value="false"/>
-				<date id="start_date" day="10" month="8" year="2023" time="0"/>
-				<date id="end_date" day="15" month="5" year="2024" time="0"/>
-				<list id="league_fixtures"/>
-				<list id="opening_league_fixtures"/>
-				<list id="closing_league_fixtures"/>
-				<list id="prize_money"/>
-				<list id="match_fixture_rules"/>
-				<list id="squad_fixture_rules"/>
-				<integer id="number_rounds" value="2"/>
-				<string id="priority" value="league_low"/>
-				<integer id="promotion_places" value="0"/>
-				<integer id="relegation_places" value="0"/>
-				<boolean id="b_teams_cannot_be_promoted" value="false"/>
-				<boolean id="c_teams_cannot_be_promoted" value="false"/>
-				<boolean id="b_teams_cannot_be_promoted_if_main_team_is_2_divisions_above" value="false"/>
-				<list id="sort_rules"/>
-				<integer id="initial_tv_money" value="0"/>
-				<integer id="parachute_money" value="0"/>
-				<record id="match_days">
-					<string id="day_of_week" value="sun"/>
-					<integer id="time" value="1500"/>
-				</record>
-				<boolean id="can_play_on_xmas_day" value="false"/>
-				<list id="tv_dates"/>
-				<string id="subs_rules" value="five_from_ten_max_three_stoppages"/>
-				<null id="child_competitions"/>
-				<null id="upper_division"/>
-				<null id="lower_division"/>
-			</record>
-		</list>
-		<list id="secondary_league_comps"/>
-		<list id="cup_comps"/>
-		<boolean id="uses_bosman_rules" value="true"/>
-		<boolean id="free_transfers_can_join_outside_window" value="true"/>
-		<boolean id="loan_players_can_join_outside_window" value="false"/>
-	</record>
-	<list id="verf">
-		<string value="24.0.0"/>
-		<string value="24.3.0"/>
-		<string value="26.0.0"/>
-	</list>
 	<list id="files">
 		<record>
 			<string id="file_type" value="nation"/>
@@ -105,6 +32,7 @@
 								<record>
 									<string id="type" value="except_specified_team"/>
 									<record id="team">
+										<unsigned id="id" value="1952801133"/>
 										<large id="Ttea" value="100771610803700543"/>
 										<integer id="DBID" value="23462719"/>
 									</record>
@@ -112,6 +40,7 @@
 								<record>
 									<string id="type" value="except_specified_team"/>
 									<record id="team">
+										<unsigned id="id" value="1952801133"/>
 										<large id="Ttea" value="8590308406478694395"/>
 										<integer id="DBID" value="2000087035"/>
 									</record>
@@ -126,6 +55,7 @@
 								<record>
 									<string id="type" value="specified_team"/>
 									<record id="team">
+										<unsigned id="id" value="1952801133"/>
 										<large id="Ttea" value="100771610803700543"/>
 										<integer id="DBID" value="23462719"/>
 									</record>
@@ -140,6 +70,7 @@
 								<record>
 									<string id="type" value="specified_team"/>
 									<record id="team">
+										<unsigned id="id" value="1952801133"/>
 										<large id="Ttea" value="8590308406478694395"/>
 										<integer id="DBID" value="2000087035"/>
 									</record>
@@ -151,7 +82,8 @@
 				</record>
 				<record>
 					<record id="competition">
-						<large id="competition" value="680422885834980347"/>
+						<unsigned id="id" value="1668246896"/>
+						<large id="competition" value="680422885834972130"/>
 						<integer id="DBID" value="2000518139"/>
 					</record>
 					<string id="name" value="- U19"/>
@@ -172,6 +104,7 @@
 			<list id="discipline_rules">
 				<record>
 					<record id="accumulative_method">
+						<unsigned id="id" value="1633903469"/>
 						<string id="type" value="yellow_cards"/>
 						<string id="sequence" value="3_6_9"/>
 						<list id="games_banned_list">
@@ -179,14 +112,17 @@
 						</list>
 					</record>
 					<record id="ban_info">
+						<unsigned id="id" value="1685283433"/>
 						<string id="ban_scope" value="all_comps_in_nation"/>
 						<string id="start_date" value="immediate"/>
 					</record>
 					<record id="red_card_info">
+						<unsigned id="id" value="1919181673"/>
 						<integer id="games_banned" value="1"/>
 						<string id="red_card_rule" value="x_match_per_red_card"/>
 					</record>
 					<record id="serious_red_card_info">
+						<unsigned id="id" value="1936876393"/>
 						<string id="decision_date" value="next_week"/>
 						<string id="ban_scope" value="all_comps_in_nation"/>
 						<boolean id="use_for_straight_red" value="false"/>
@@ -207,12 +143,14 @@
 			<list id="season_windows">
 				<record>
 					<record id="start_date">
+						<unsigned id="id" value="1937007732"/>
 						<string id="day_of_week" value="sat"/>
 						<integer id="day_of_month" value="5"/>
 						<string id="month" value="feb"/>
 						<integer id="year" value="2000"/>
 					</record>
 					<record id="end_date">
+						<unsigned id="id" value="1701733492"/>
 						<string id="day_of_week" value="sat"/>
 						<integer id="day_of_month" value="25"/>
 						<string id="month" value="nov"/>
@@ -221,10 +159,12 @@
 				</record>
 			</list>
 			<record id="season_update_day">
+				<unsigned id="id" value="1970300025"/>
 				<integer id="day_of_month" value="27"/>
 				<string id="month" value="dec"/>
 			</record>
 			<record id="transfer_rules">
+				<unsigned id="id" value="1953657452"/>
 				<boolean id="uses_bosman_rules" value="false"/>
 				<boolean id="free_transfers_can_join_outside_window" value="true"/>
 				<boolean id="loan_players_can_join_outside_window" value="true"/>
@@ -256,6 +196,7 @@
 			<integer id="preseason_preparation_days" value="30"/>
 			<integer id="late_preseason_preparation_days" value="15"/>
 			<record id="contract_rules">
+				<unsigned id="id" value="1131303532"/>
 				<list id="contract_durations">
 					<record>
 						<string id="type" value="weekly_wage_for_youth_contract"/>
@@ -282,15 +223,18 @@
 					<string id="type" value="custom"/>
 					<boolean id="use_teams_in_reserve_cup" value="false"/>
 					<record id="start_date">
+						<unsigned id="id" value="1937007732"/>
 						<integer id="day_of_month" value="1"/>
 						<string id="month" value="mar"/>
 					</record>
 					<record id="end_date">
+						<unsigned id="id" value="1701733492"/>
 						<integer id="day_of_month" value="1"/>
 						<string id="month" value="nov"/>
 					</record>
 					<record id="rsid">
-						<large id="competition" value="680422885834980347"/>
+						<unsigned id="id" value="1920166244"/>
+						<large id="competition" value="680422885834972130"/>
 						<integer id="DBID" value="2000518139"/>
 					</record>
 				</record>
@@ -306,6 +250,7 @@
 			<integer id="base_year" value="2000"/>
 			<integer id="discipline_index" value="0"/>
 			<record id="date_range">
+				<unsigned id="id" value="1685353070"/>
 				<string id="start_month" value="feb"/>
 				<integer id="start_year_offset" value="0"/>
 				<string id="end_month" value="nov"/>
@@ -350,10 +295,12 @@
 								</record>
 							</list>
 							<record id="start_date_fixture_date">
+								<unsigned id="id" value="1935959652"/>
 								<integer id="id_1" value="1936749159"/>
 								<integer id="id_2" value="1937011316"/>
 							</record>
 							<record id="end_date_fixture_date">
+								<unsigned id="id" value="1701078628"/>
 								<integer id="id_1" value="1936749159"/>
 								<integer id="id_2" value="1701733408"/>
 							</record>
@@ -410,6 +357,7 @@
 						</record>
 					</list>
 					<record id="stage_name">
+						<unsigned id="id" value="1937010285"/>
 						<large id="stgn" value="309237645384"/>
 						<integer id="DBID" value="72"/>
 					</record>
@@ -417,6 +365,7 @@
 					<list id="qualification">
 						<record>
 							<record id="next_stage_main_stage_name">
+								<unsigned id="id" value="1852666734"/>
 								<large id="stgn" value="77309411346"/>
 								<integer id="DBID" value="18"/>
 							</record>
@@ -426,6 +375,7 @@
 						</record>
 						<record>
 							<record id="next_stage_main_stage_name">
+								<unsigned id="id" value="1852666734"/>
 								<large id="stgn" value="90194313237"/>
 								<integer id="DBID" value="21"/>
 							</record>
@@ -447,6 +397,7 @@
 							<string id="type" value="stage_achievement"/>
 							<integer id="level" value="1"/>
 							<record id="main_stage_name">
+								<unsigned id="id" value="1835955054"/>
 								<large id="stgn" value="85899345940"/>
 								<integer id="DBID" value="20"/>
 							</record>
@@ -455,6 +406,7 @@
 							<integer id="number_teams" value="1"/>
 							<string id="type" value="stage_achievement"/>
 							<record id="main_stage_name">
+								<unsigned id="id" value="1835955054"/>
 								<large id="stgn" value="77309411346"/>
 								<integer id="DBID" value="18"/>
 							</record>
@@ -483,6 +435,7 @@
 							<string id="id" value="get_qualified_teams"/>
 							<string id="stage" value="splg"/>
 							<record id="next_stage_main_stage_name">
+								<unsigned id="id" value="1852666734"/>
 								<large id="stgn" value="77309411346"/>
 								<integer id="DBID" value="18"/>
 							</record>
@@ -491,12 +444,14 @@
 							<string id="id" value="get_qualified_teams"/>
 							<string id="stage" value="splg"/>
 							<record id="next_stage_main_stage_name">
+								<unsigned id="id" value="1852666734"/>
 								<large id="stgn" value="90194313237"/>
 								<integer id="DBID" value="21"/>
 							</record>
 						</record>
 					</list>
 					<record id="shared_round_data">
+						<unsigned id="id" value="1936879204"/>
 						<string id="subs_rules" value="five_from_nine_max_three_stoppages_and_extra_time_sub"/>
 						<string id="priority" value="league_high"/>
 						<string id="stadium_rules" value="stadium_0"/>
@@ -504,15 +459,18 @@
 					<list id="rounds">
 						<record>
 							<record id="stage_name">
+								<unsigned id="id" value="1937010285"/>
 								<large id="stgn" value="90194313237"/>
 								<integer id="DBID" value="21"/>
 							</record>
 							<integer id="number_teams" value="5"/>
 							<integer id="number_matches" value="1"/>
 							<record id="draw_date">
+								<unsigned id="id" value="1685218420"/>
 								<boolean id="draw_date_to_stage_setup_day" value="true"/>
 							</record>
 							<record id="date">
+								<unsigned id="id" value="1684108389"/>
 								<string id="match_rules" value="extra_time, pen"/>
 								<integer id="id_1" value="1936749159"/>
 								<integer id="id_2" value="1346969632"/>
@@ -524,11 +482,13 @@
 							<string id="stadium_rules" value="stadium_0"/>
 							<boolean id="round_use_squad_numbers" value="true"/>
 							<record id="winner_ranking_levels">
+								<unsigned id="id" value="2003988075"/>
 								<integer id="current" value="0"/>
 								<integer id="high" value="0"/>
 								<integer id="low" value="3"/>
 							</record>
 							<record id="loser_ranking_levels">
+								<unsigned id="id" value="1819438699"/>
 								<integer id="current" value="4"/>
 							</record>
 							<list id="cup_tie_mappings">
@@ -541,15 +501,18 @@
 						</record>
 						<record>
 							<record id="stage_name">
+								<unsigned id="id" value="1937010285"/>
 								<large id="stgn" value="77309411346"/>
 								<integer id="DBID" value="18"/>
 							</record>
 							<integer id="number_teams" value="4"/>
 							<integer id="number_matches" value="2"/>
 							<record id="draw_date">
+								<unsigned id="id" value="1685218420"/>
 								<boolean id="draw_date_to_stage_setup_day" value="true"/>
 							</record>
 							<record id="date">
+								<unsigned id="id" value="1684108389"/>
 								<string id="match_rules" value="extra_time, pen"/>
 								<list id="offset_dates">
 									<record>
@@ -573,11 +536,13 @@
 							<string id="stadium_rules" value="stadium_0"/>
 							<boolean id="round_use_squad_numbers" value="true"/>
 							<record id="winner_ranking_levels">
+								<unsigned id="id" value="2003988075"/>
 								<integer id="current" value="0"/>
 								<integer id="high" value="0"/>
 								<integer id="low" value="1"/>
 							</record>
 							<record id="loser_ranking_levels">
+								<unsigned id="id" value="1819438699"/>
 								<integer id="current" value="2"/>
 								<integer id="high" value="2"/>
 								<integer id="low" value="3"/>
@@ -598,12 +563,14 @@
 						</record>
 						<record>
 							<record id="stage_name">
+								<unsigned id="id" value="1937010285"/>
 								<large id="stgn" value="85899345940"/>
 								<integer id="DBID" value="20"/>
 							</record>
 							<integer id="number_teams" value="2"/>
 							<integer id="number_matches" value="1"/>
 							<record id="date">
+								<unsigned id="id" value="1684108389"/>
 								<string id="match_rules" value="extra_time, pen"/>
 								<integer id="id_1" value="1936749159"/>
 								<integer id="id_2" value="1176510496"/>
@@ -614,12 +581,15 @@
 							<string id="stadium_rules" value="stadium_0"/>
 							<boolean id="round_use_squad_numbers" value="true"/>
 							<record id="winner_ranking_levels">
+								<unsigned id="id" value="2003988075"/>
 								<integer id="current" value="0"/>
 							</record>
 							<record id="loser_ranking_levels">
+								<unsigned id="id" value="1819438699"/>
 								<integer id="current" value="1"/>
 							</record>
 							<record id="draw_date">
+								<unsigned id="id" value="1685218420"/>
 								<boolean id="draw_date_to_stage_setup_day" value="true"/>
 							</record>
 						</record>
@@ -632,6 +602,7 @@
 							<boolean id="search_child_comps" value="false"/>
 							<string id="stage" value="splg"/>
 							<record id="stage_name">
+								<unsigned id="id" value="1937010285"/>
 								<large id="stgn" value="85899345940"/>
 								<integer id="DBID" value="20"/>
 							</record>
@@ -643,6 +614,7 @@
 							<boolean id="search_child_comps" value="false"/>
 							<string id="stage" value="splg"/>
 							<record id="stage_name">
+								<unsigned id="id" value="1937010285"/>
 								<large id="stgn" value="85899345940"/>
 								<integer id="DBID" value="20"/>
 							</record>
@@ -654,6 +626,7 @@
 							<boolean id="search_child_comps" value="false"/>
 							<string id="stage" value="splg"/>
 							<record id="stage_name">
+								<unsigned id="id" value="1937010285"/>
 								<large id="stgn" value="77309411346"/>
 								<integer id="DBID" value="18"/>
 							</record>
@@ -665,6 +638,7 @@
 							<boolean id="search_child_comps" value="false"/>
 							<string id="stage" value="splg"/>
 							<record id="stage_name">
+								<unsigned id="id" value="1937010285"/>
 								<large id="stgn" value="90194313237"/>
 								<integer id="DBID" value="21"/>
 							</record>
@@ -672,6 +646,7 @@
 					</list>
 					<integer id="number_teams" value="5"/>
 					<record id="stage_name">
+						<unsigned id="id" value="1937010285"/>
 						<large id="stgn" value="309237645384"/>
 						<integer id="DBID" value="72"/>
 					</record>
@@ -687,6 +662,7 @@
 							<boolean id="process_early_finish" value="false"/>
 							<string id="stage" value="spko"/>
 							<record id="sub_stage_name">
+								<unsigned id="id" value="1935831918"/>
 								<large id="stgn" value="77309411346"/>
 								<integer id="DBID" value="18"/>
 							</record>
@@ -698,12 +674,14 @@
 							<string id="stage" value="spko"/>
 							<string id="cup_tie_team" value="loser"/>
 							<record id="sub_stage_name">
+								<unsigned id="id" value="1935831918"/>
 								<large id="stgn" value="77309411346"/>
 								<integer id="DBID" value="18"/>
 							</record>
 						</record>
 					</list>
 					<record id="shared_round_data">
+						<unsigned id="id" value="1936879204"/>
 						<string id="subs_rules" value="five_from_nine_max_three_stoppages_and_extra_time_sub"/>
 						<string id="priority" value="league_high"/>
 						<string id="stadium_rules" value="stadium_0"/>
@@ -711,12 +689,14 @@
 					<list id="rounds">
 						<record>
 							<record id="stage_name">
+								<unsigned id="id" value="1937010285"/>
 								<large id="stgn" value="81604378643"/>
 								<integer id="DBID" value="19"/>
 							</record>
 							<integer id="number_teams" value="2"/>
 							<integer id="number_matches" value="1"/>
 							<record id="date">
+								<unsigned id="id" value="1684108389"/>
 								<string id="match_rules" value="extra_time, pen"/>
 								<integer id="id_1" value="1936749159"/>
 								<integer id="id_2" value="1176510496"/>
@@ -734,12 +714,15 @@
 							<string id="stadium_rules" value="stadium_0"/>
 							<boolean id="round_use_squad_numbers" value="true"/>
 							<record id="winner_ranking_levels">
+								<unsigned id="id" value="2003988075"/>
 								<integer id="current" value="2"/>
 							</record>
 							<record id="loser_ranking_levels">
+								<unsigned id="id" value="1819438699"/>
 								<integer id="current" value="3"/>
 							</record>
 							<record id="draw_date">
+								<unsigned id="id" value="1685218420"/>
 								<boolean id="draw_date_to_stage_setup_day" value="true"/>
 							</record>
 							<boolean id="dont_process_as_champions" value="true"/>
@@ -748,6 +731,7 @@
 					<list id="fate_actions"/>
 					<integer id="number_teams" value="2"/>
 					<record id="stage_name">
+						<unsigned id="id" value="1937010285"/>
 						<large id="stgn" value="309237645384"/>
 						<integer id="DBID" value="72"/>
 					</record>
@@ -789,10 +773,12 @@
 								</record>
 							</list>
 							<record id="start_date_fixture_date">
+								<unsigned id="id" value="1935959652"/>
 								<integer id="id_1" value="1635087469"/>
 								<integer id="id_2" value="1937011316"/>
 							</record>
 							<record id="end_date_fixture_date">
+								<unsigned id="id" value="1701078628"/>
 								<integer id="id_1" value="1635087469"/>
 								<integer id="id_2" value="1701733408"/>
 							</record>
@@ -854,6 +840,7 @@
 						</record>
 					</list>
 					<record id="stage_name">
+						<unsigned id="id" value="1937010285"/>
 						<large id="stgn" value="304942678087"/>
 						<integer id="DBID" value="71"/>
 					</record>
@@ -861,6 +848,7 @@
 					<list id="qualification">
 						<record>
 							<record id="next_stage_main_stage_name">
+								<unsigned id="id" value="1852666734"/>
 								<large id="stgn" value="77309411346"/>
 								<integer id="DBID" value="18"/>
 							</record>
@@ -870,6 +858,7 @@
 						</record>
 						<record>
 							<record id="next_stage_main_stage_name">
+								<unsigned id="id" value="1852666734"/>
 								<large id="stgn" value="90194313237"/>
 								<integer id="DBID" value="21"/>
 							</record>
@@ -891,6 +880,7 @@
 							<string id="type" value="stage_achievement"/>
 							<integer id="level" value="1"/>
 							<record id="main_stage_name">
+								<unsigned id="id" value="1835955054"/>
 								<large id="stgn" value="85899345940"/>
 								<integer id="DBID" value="20"/>
 							</record>
@@ -899,6 +889,7 @@
 							<integer id="number_teams" value="1"/>
 							<string id="type" value="stage_achievement"/>
 							<record id="main_stage_name">
+								<unsigned id="id" value="1835955054"/>
 								<large id="stgn" value="77309411346"/>
 								<integer id="DBID" value="18"/>
 							</record>
@@ -927,6 +918,7 @@
 							<string id="id" value="get_qualified_teams"/>
 							<string id="stage" value="aulg"/>
 							<record id="next_stage_main_stage_name">
+								<unsigned id="id" value="1852666734"/>
 								<large id="stgn" value="77309411346"/>
 								<integer id="DBID" value="18"/>
 							</record>
@@ -935,12 +927,14 @@
 							<string id="id" value="get_qualified_teams"/>
 							<string id="stage" value="aulg"/>
 							<record id="next_stage_main_stage_name">
+								<unsigned id="id" value="1852666734"/>
 								<large id="stgn" value="90194313237"/>
 								<integer id="DBID" value="21"/>
 							</record>
 						</record>
 					</list>
 					<record id="shared_round_data">
+						<unsigned id="id" value="1936879204"/>
 						<string id="subs_rules" value="five_from_nine_max_three_stoppages_and_extra_time_sub"/>
 						<string id="priority" value="league_high"/>
 						<string id="stadium_rules" value="stadium_0"/>
@@ -948,15 +942,18 @@
 					<list id="rounds">
 						<record>
 							<record id="stage_name">
+								<unsigned id="id" value="1937010285"/>
 								<large id="stgn" value="90194313237"/>
 								<integer id="DBID" value="21"/>
 							</record>
 							<integer id="number_teams" value="5"/>
 							<integer id="number_matches" value="1"/>
 							<record id="draw_date">
+								<unsigned id="id" value="1685218420"/>
 								<boolean id="draw_date_to_stage_setup_day" value="true"/>
 							</record>
 							<record id="date">
+								<unsigned id="id" value="1684108389"/>
 								<string id="match_rules" value="extra_time, pen"/>
 								<integer id="id_1" value="1635087469"/>
 								<integer id="id_2" value="1346969632"/>
@@ -968,11 +965,13 @@
 							<string id="stadium_rules" value="stadium_0"/>
 							<boolean id="round_use_squad_numbers" value="true"/>
 							<record id="winner_ranking_levels">
+								<unsigned id="id" value="2003988075"/>
 								<integer id="current" value="0"/>
 								<integer id="high" value="0"/>
 								<integer id="low" value="3"/>
 							</record>
 							<record id="loser_ranking_levels">
+								<unsigned id="id" value="1819438699"/>
 								<integer id="current" value="4"/>
 							</record>
 							<list id="cup_tie_mappings">
@@ -985,15 +984,18 @@
 						</record>
 						<record>
 							<record id="stage_name">
+								<unsigned id="id" value="1937010285"/>
 								<large id="stgn" value="77309411346"/>
 								<integer id="DBID" value="18"/>
 							</record>
 							<integer id="number_teams" value="4"/>
 							<integer id="number_matches" value="2"/>
 							<record id="draw_date">
+								<unsigned id="id" value="1685218420"/>
 								<boolean id="draw_date_to_stage_setup_day" value="true"/>
 							</record>
 							<record id="date">
+								<unsigned id="id" value="1684108389"/>
 								<string id="match_rules" value="extra_time, pen"/>
 								<list id="offset_dates">
 									<record>
@@ -1017,11 +1019,13 @@
 							<string id="stadium_rules" value="stadium_0"/>
 							<boolean id="round_use_squad_numbers" value="true"/>
 							<record id="winner_ranking_levels">
+								<unsigned id="id" value="2003988075"/>
 								<integer id="current" value="0"/>
 								<integer id="high" value="0"/>
 								<integer id="low" value="1"/>
 							</record>
 							<record id="loser_ranking_levels">
+								<unsigned id="id" value="1819438699"/>
 								<integer id="current" value="2"/>
 								<integer id="high" value="2"/>
 								<integer id="low" value="3"/>
@@ -1042,12 +1046,14 @@
 						</record>
 						<record>
 							<record id="stage_name">
+								<unsigned id="id" value="1937010285"/>
 								<large id="stgn" value="85899345940"/>
 								<integer id="DBID" value="20"/>
 							</record>
 							<integer id="number_teams" value="2"/>
 							<integer id="number_matches" value="1"/>
 							<record id="date">
+								<unsigned id="id" value="1684108389"/>
 								<string id="match_rules" value="extra_time, pen"/>
 								<integer id="id_1" value="1635087469"/>
 								<integer id="id_2" value="1176510496"/>
@@ -1058,12 +1064,15 @@
 							<string id="stadium_rules" value="stadium_0"/>
 							<boolean id="round_use_squad_numbers" value="true"/>
 							<record id="winner_ranking_levels">
+								<unsigned id="id" value="2003988075"/>
 								<integer id="current" value="0"/>
 							</record>
 							<record id="loser_ranking_levels">
+								<unsigned id="id" value="1819438699"/>
 								<integer id="current" value="1"/>
 							</record>
 							<record id="draw_date">
+								<unsigned id="id" value="1685218420"/>
 								<boolean id="draw_date_to_stage_setup_day" value="true"/>
 							</record>
 						</record>
@@ -1076,6 +1085,7 @@
 							<boolean id="search_child_comps" value="false"/>
 							<string id="stage" value="aulg"/>
 							<record id="stage_name">
+								<unsigned id="id" value="1937010285"/>
 								<large id="stgn" value="85899345940"/>
 								<integer id="DBID" value="20"/>
 							</record>
@@ -1087,6 +1097,7 @@
 							<boolean id="search_child_comps" value="false"/>
 							<string id="stage" value="aulg"/>
 							<record id="stage_name">
+								<unsigned id="id" value="1937010285"/>
 								<large id="stgn" value="85899345940"/>
 								<integer id="DBID" value="20"/>
 							</record>
@@ -1098,6 +1109,7 @@
 							<boolean id="search_child_comps" value="false"/>
 							<string id="stage" value="aulg"/>
 							<record id="stage_name">
+								<unsigned id="id" value="1937010285"/>
 								<large id="stgn" value="77309411346"/>
 								<integer id="DBID" value="18"/>
 							</record>
@@ -1109,6 +1121,7 @@
 							<boolean id="search_child_comps" value="false"/>
 							<string id="stage" value="aulg"/>
 							<record id="stage_name">
+								<unsigned id="id" value="1937010285"/>
 								<large id="stgn" value="90194313237"/>
 								<integer id="DBID" value="21"/>
 							</record>
@@ -1116,6 +1129,7 @@
 					</list>
 					<integer id="number_teams" value="5"/>
 					<record id="stage_name">
+						<unsigned id="id" value="1937010285"/>
 						<large id="stgn" value="304942678087"/>
 						<integer id="DBID" value="71"/>
 					</record>
@@ -1131,6 +1145,7 @@
 							<boolean id="process_early_finish" value="false"/>
 							<string id="stage" value="auko"/>
 							<record id="sub_stage_name">
+								<unsigned id="id" value="1935831918"/>
 								<large id="stgn" value="77309411346"/>
 								<integer id="DBID" value="18"/>
 							</record>
@@ -1142,12 +1157,14 @@
 							<string id="stage" value="auko"/>
 							<string id="cup_tie_team" value="loser"/>
 							<record id="sub_stage_name">
+								<unsigned id="id" value="1935831918"/>
 								<large id="stgn" value="77309411346"/>
 								<integer id="DBID" value="18"/>
 							</record>
 						</record>
 					</list>
 					<record id="shared_round_data">
+						<unsigned id="id" value="1936879204"/>
 						<string id="subs_rules" value="five_from_nine_max_three_stoppages_and_extra_time_sub"/>
 						<string id="priority" value="league_high"/>
 						<string id="stadium_rules" value="stadium_0"/>
@@ -1155,12 +1172,14 @@
 					<list id="rounds">
 						<record>
 							<record id="stage_name">
+								<unsigned id="id" value="1937010285"/>
 								<large id="stgn" value="81604378643"/>
 								<integer id="DBID" value="19"/>
 							</record>
 							<integer id="number_teams" value="2"/>
 							<integer id="number_matches" value="1"/>
 							<record id="date">
+								<unsigned id="id" value="1684108389"/>
 								<string id="match_rules" value="extra_time, pen"/>
 								<list id="offset_dates">
 									<record>
@@ -1178,12 +1197,15 @@
 							<string id="stadium_rules" value="stadium_0"/>
 							<boolean id="round_use_squad_numbers" value="true"/>
 							<record id="winner_ranking_levels">
+								<unsigned id="id" value="2003988075"/>
 								<integer id="current" value="2"/>
 							</record>
 							<record id="loser_ranking_levels">
+								<unsigned id="id" value="1819438699"/>
 								<integer id="current" value="3"/>
 							</record>
 							<record id="draw_date">
+								<unsigned id="id" value="1685218420"/>
 								<boolean id="draw_date_to_stage_setup_day" value="true"/>
 							</record>
 							<boolean id="dont_process_as_champions" value="true"/>
@@ -1192,6 +1214,7 @@
 					<list id="fate_actions"/>
 					<integer id="number_teams" value="2"/>
 					<record id="stage_name">
+						<unsigned id="id" value="1937010285"/>
 						<large id="stgn" value="304942678087"/>
 						<integer id="DBID" value="71"/>
 					</record>
@@ -1265,6 +1288,7 @@
 						<record>
 							<string id="id" value="get_specific_team"/>
 							<record id="team">
+								<unsigned id="id" value="1952801133"/>
 								<large id="Ttea" value="100771610803700543"/>
 								<integer id="DBID" value="23462719"/>
 							</record>
@@ -1274,6 +1298,7 @@
 						<record>
 							<string id="id" value="get_specific_team"/>
 							<record id="team">
+								<unsigned id="id" value="1952801133"/>
 								<large id="Ttea" value="8590308406478694395"/>
 								<integer id="DBID" value="2000087035"/>
 							</record>
@@ -1285,6 +1310,7 @@
 							<string id="stage" value="spko"/>
 							<string id="cup_tie_team" value="winner"/>
 							<record id="sub_stage_name">
+								<unsigned id="id" value="1935831918"/>
 								<large id="stgn" value="85899345940"/>
 								<integer id="DBID" value="20"/>
 							</record>
@@ -1296,6 +1322,7 @@
 							<string id="stage" value="auko"/>
 							<string id="cup_tie_team" value="winner"/>
 							<record id="sub_stage_name">
+								<unsigned id="id" value="1935831918"/>
 								<large id="stgn" value="85899345940"/>
 								<integer id="DBID" value="20"/>
 							</record>
@@ -1316,6 +1343,7 @@
 					<string id="league_rules" value="do_not_rank_teams"/>
 					<string id="stage_flags" value="stage_sets_final_positions"/>
 					<record id="transfer_standings">
+						<unsigned id="id" value="1416778612"/>
 						<boolean id="search_child_comps" value="false"/>
 						<integer id="stage" value="6"/>
 						<string id="type" value="table"/>
@@ -1424,6 +1452,7 @@
 					<integer id="qualification_system_id" value="0"/>
 					<integer id="stage" value="7"/>
 					<record id="competition">
+						<unsigned id="id" value="1668246896"/>
 						<large id="competition" value="99174741962675943"/>
 						<integer id="DBID" value="23090919"/>
 					</record>
@@ -1456,6 +1485,7 @@
 					<string id="type" value="specific_team"/>
 					<integer id="qualification_system_id" value="0"/>
 					<record id="team">
+						<unsigned id="id" value="1952801133"/>
 						<large id="Ttea" value="100771610803700543"/>
 						<integer id="DBID" value="23462719"/>
 					</record>
@@ -1464,6 +1494,7 @@
 					<string id="type" value="specific_team"/>
 					<integer id="qualification_system_id" value="0"/>
 					<record id="team">
+						<unsigned id="id" value="1952801133"/>
 						<large id="Ttea" value="8590308406478694395"/>
 						<integer id="DBID" value="2000087035"/>
 					</record>
@@ -1480,13 +1511,15 @@
 			<boolean id="comp_inactive" value="false"/>
 			<integer id="base_year" value="2000"/>
 			<record id="date_range">
+				<unsigned id="id" value="1685353070"/>
 				<string id="start_month" value="mar"/>
 				<integer id="start_year_offset" value="0"/>
 				<string id="end_month" value="nov"/>
 				<integer id="end_year_offset" value="0"/>
 			</record>
 			<record id="competition">
-				<large id="competition" value="680422885834980347"/>
+				<unsigned id="id" value="1668246896"/>
+				<large id="competition" value="680422885834972130"/>
 				<integer id="DBID" value="2000518139"/>
 			</record>
 			<integer id="level" value="0"/>
@@ -1507,6 +1540,7 @@
 						<record>
 							<string id="id" value="get_reserve_teams"/>
 							<record id="competition">
+								<unsigned id="id" value="1668246896"/>
 								<large id="competition" value="99174741962675943"/>
 								<integer id="DBID" value="23090919"/>
 							</record>
@@ -1517,6 +1551,7 @@
 						<record>
 							<string id="id" value="get_reserve_teams"/>
 							<record id="competition">
+								<unsigned id="id" value="1668246896"/>
 								<large id="competition" value="99620396359347257"/>
 								<integer id="DBID" value="23194681"/>
 							</record>
@@ -1529,12 +1564,14 @@
 						<record>
 							<string id="check_clashes" value="none"/>
 							<record id="start_date">
+								<unsigned id="id" value="1937007732"/>
 								<string id="day_of_week" value="sun"/>
 								<integer id="day_of_month" value="5"/>
 								<string id="month" value="mar"/>
 								<integer id="year" value="2000"/>
 							</record>
 							<record id="end_date">
+								<unsigned id="id" value="1701733492"/>
 								<string id="day_of_week" value="sun"/>
 								<integer id="day_of_month" value="5"/>
 								<string id="month" value="nov"/>
@@ -1565,11 +1602,11 @@
 	<string id="svvs" value="2600"/>
 	<integer id="EDvb" value="1"/>
 	<string id="EDfb" value=""/>
-	<integer id="XSvC" value="44"/>
+	<integer id="XSvC" value="48"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
-	<date id="EdDt" day="16" month="2" year="2026" time="0"/>
-	<integer id="version" value="3727"/>
-	<integer id="rule_group_version" value="1630"/>
+	<date id="EdDt" day="22" month="2" year="2026" time="1400"/>
+	<integer id="version" value="3723"/>
+	<integer id="rule_group_version" value="1625"/>
 	<boolean id="beta" value="false"/>
 	<list id="db_changes">
 		<record>
@@ -1577,8 +1614,10 @@
 			<large id="db_unique_id" value="99174741962675943"/>
 			<unsigned id="property" value="1668574579"/>
 			<record id="new_value">
+				<unsigned id="id" value="1853322860"/>
 				<integer id="lsop" value="2"/>
 				<record id="olvl">
+					<unsigned id="id" value="1869379180"/>
 					<large id="Ttea" value="8589992623303149767"/>
 				</record>
 			</record>
@@ -1590,8 +1629,10 @@
 			<large id="db_unique_id" value="99174741962675943"/>
 			<unsigned id="property" value="1668574579"/>
 			<record id="new_value">
+				<unsigned id="id" value="1853322860"/>
 				<integer id="lsop" value="0"/>
 				<record id="value">
+					<unsigned id="id" value="1986096245"/>
 					<large id="Ttea" value="8590592741903690389"/>
 				</record>
 			</record>
@@ -1603,8 +1644,10 @@
 			<large id="db_unique_id" value="99174741962675943"/>
 			<unsigned id="property" value="1668574579"/>
 			<record id="new_value">
+				<unsigned id="id" value="1853322860"/>
 				<integer id="lsop" value="2"/>
 				<record id="olvl">
+					<unsigned id="id" value="1869379180"/>
 					<large id="Ttea" value="8590308402183727098"/>
 				</record>
 			</record>
@@ -1616,8 +1659,10 @@
 			<large id="db_unique_id" value="99174741962675943"/>
 			<unsigned id="property" value="1668574579"/>
 			<record id="new_value">
+				<unsigned id="id" value="1853322860"/>
 				<integer id="lsop" value="2"/>
 				<record id="olvl">
+					<unsigned id="id" value="1869379180"/>
 					<large id="Ttea" value="100771619393635137"/>
 				</record>
 			</record>
@@ -1629,8 +1674,10 @@
 			<large id="db_unique_id" value="99174741962675943"/>
 			<unsigned id="property" value="1668574579"/>
 			<record id="new_value">
+				<unsigned id="id" value="1853322860"/>
 				<integer id="lsop" value="0"/>
 				<record id="value">
+					<unsigned id="id" value="1986096245"/>
 					<large id="Ttea" value="99172246586676386"/>
 				</record>
 			</record>
@@ -1642,12 +1689,14 @@
 			<large id="db_unique_id" value="99477653121231462"/>
 			<unsigned id="property" value="1130657385"/>
 			<record id="new_value">
+				<unsigned id="id" value="1853322860"/>
 				<large id="competition" value="99620396359347257"/>
 				<integer id="DBID" value="23194681"/>
 			</record>
 			<integer id="version" value="3721"/>
 			<integer id="db_random_id" value="100921356"/>
 			<record id="odvl">
+				<unsigned id="id" value="1868854892"/>
 				<large id="competition" value="99174741962675943"/>
 			</record>
 		</record>
@@ -1656,12 +1705,14 @@
 			<large id="db_unique_id" value="8591314910589909860"/>
 			<unsigned id="property" value="1130657385"/>
 			<record id="new_value">
+				<unsigned id="id" value="1853322860"/>
 				<large id="competition" value="99620396359347257"/>
 				<integer id="DBID" value="23194681"/>
 			</record>
 			<integer id="version" value="3721"/>
 			<integer id="db_random_id" value="157708568"/>
 			<record id="odvl">
+				<unsigned id="id" value="1868854892"/>
 				<large id="competition" value="99174741962675943"/>
 			</record>
 		</record>
@@ -1670,12 +1721,14 @@
 			<large id="db_unique_id" value="8590592741903690389"/>
 			<unsigned id="property" value="1130657385"/>
 			<record id="new_value">
+				<unsigned id="id" value="1853322860"/>
 				<large id="competition" value="99620396359347257"/>
 				<integer id="DBID" value="23194681"/>
 			</record>
 			<integer id="version" value="3721"/>
 			<integer id="db_random_id" value="202457492"/>
 			<record id="odvl">
+				<unsigned id="id" value="1868854892"/>
 				<large id="competition" value="99174741962675943"/>
 			</record>
 		</record>
@@ -1684,8 +1737,10 @@
 			<large id="db_unique_id" value="99174741962675943"/>
 			<unsigned id="property" value="1668574579"/>
 			<record id="new_value">
+				<unsigned id="id" value="1853322860"/>
 				<integer id="lsop" value="0"/>
 				<record id="value">
+					<unsigned id="id" value="1986096245"/>
 					<large id="Ttea" value="8590308406478694395"/>
 				</record>
 			</record>
@@ -1697,6 +1752,7 @@
 			<large id="db_unique_id" value="99174741962675943"/>
 			<unsigned id="property" value="1129271385"/>
 			<record id="new_value">
+				<unsigned id="id" value="1853322860"/>
 				<integer id="database_table_type" value="25"/>
 				<integer id="dcty" value="0"/>
 				<large id="db_unique_id" value="680422885834980347"/>
@@ -1776,5 +1832,8 @@
 			<integer id="db_random_id" value="447302964"/>
 			<integer id="odvl" value="0"/>
 		</record>
+	</list>
+	<list id="verf">
+		<string value="26.0.0"/>
 	</list>
 </record>

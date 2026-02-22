@@ -7,8 +7,8 @@
 			<large id="nation" value="136"/>
 			<record id="season_update_day">
 				<unsigned id="id" value="1970300025"/>
-				<integer id="day_of_month" value="31"/>
-				<string id="month" value="jan"/>
+				<integer id="day_of_month" value="29"/>
+				<string id="month" value="jun"/>
 			</record>
 			<list id="competitions">
 				<record>
@@ -44,7 +44,7 @@
 			</record>
 			<record id="transfer_rules">
 				<unsigned id="id" value="1953657452"/>
-				<string id="main_contract_end_month" value="jan"/>
+				<string id="main_contract_end_month" value="jun"/>
 				<boolean id="uses_bosman_rules" value="false"/>
 				<boolean id="free_transfers_can_join_outside_window" value="true"/>
 				<boolean id="loan_players_can_join_outside_window" value="true"/>
@@ -271,10 +271,10 @@
 						<integer id="year" value="2000"/>
 					</record>
 					<record id="end_date">
-						<string id="day_of_week" value="sun"/>
+						<string id="day_of_week" value="thu"/>
 						<integer id="day_of_month" value="31"/>
-						<string id="month" value="dec"/>
-						<integer id="year" value="2000"/>
+						<string id="month" value="may"/>
+						<integer id="year" value="2001"/>
 					</record>
 				</record>
 			</list>
@@ -319,11 +319,11 @@
 					<string id="type" value="shadow"/>
 					<record id="start_date">
 						<integer id="day_of_month" value="1"/>
-						<string id="month" value="dec"/>
+						<string id="month" value="jan"/>
 					</record>
 					<record id="end_date">
 						<integer id="day_of_month" value="1"/>
-						<string id="month" value="feb"/>
+						<string id="month" value="apr"/>
 					</record>
 					<string id="subs_rules" value="five_from_seven_max_three_stoppages"/>
 					<boolean id="use_teams_in_reserve_cup" value="false"/>
@@ -872,13 +872,13 @@
 	<integer id="version" value="3723"/>
 	<integer id="rule_group_version" value="1625"/>
 	<boolean id="beta" value="false"/>
-	<date id="EdDt" day="12" month="2" year="2026" time="1600"/>
+	<date id="EdDt" day="22" month="2" year="2026" time="1415"/>
 	<list id="verf">
 		<string value="24.0.0"/>
 		<string value="24.3.0"/>
 		<string value="26.0.0"/>
 	</list>
-	<integer id="XSvC" value="42"/>
+	<integer id="XSvC" value="48"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
 	<list id="db_changes">
 		<record>
