@@ -774,6 +774,7 @@
 					<list id="verf">
 						<string value="26.0.0"/>
 						<string value="26.0.0"/>
+						<string value="26.2.0"/>
 					</list>
 				</record>
 				<record>
@@ -784,6 +785,7 @@
 					<list id="verf">
 						<string value="26.0.0"/>
 						<string value="26.0.0"/>
+						<string value="26.2.0"/>
 					</list>
 				</record>
 			</list>
@@ -17076,17 +17078,18 @@
 	<string id="description" value=""/>
 	<string id="author" value=""/>
 	<string id="orvs" value=""/>
-	<string id="svvs" value="2600"/>
+	<string id="svvs" value="2620"/>
 	<integer id="EDvb" value="1"/>
 	<string id="EDfb" value=""/>
-	<integer id="XSvC" value="20"/>
+	<integer id="XSvC" value="23"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
-	<date id="EdDt" day="8" month="3" year="2026" time="2230"/>
+	<date id="EdDt" day="12" month="3" year="2026" time="1330"/>
 	<integer id="version" value="3727"/>
-	<integer id="rule_group_version" value="1630"/>
+	<integer id="rule_group_version" value="1637"/>
 	<boolean id="beta" value="false"/>
 	<list id="verf">
 		<string value="26.0.0"/>
+		<string value="26.2.0"/>
 	</list>
 	<list id="db_changes">
 		<record>

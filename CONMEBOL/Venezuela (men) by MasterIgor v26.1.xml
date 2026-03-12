@@ -50,13 +50,13 @@
 				<record>
 					<large id="competition" value="86000001"/>
 					<list id="verf">
-						<string value="26.0.0"/>
+						<string value="26.2.0"/>
 					</list>
 				</record>
 				<record>
 					<large id="competition" value="86000002"/>
 					<list id="verf">
-						<string value="26.0.0"/>
+						<string value="26.2.0"/>
 					</list>
 				</record>
 			</list>
@@ -608,7 +608,7 @@
 					</record>
 					<string id="stage_flags" value="store_stats_for_stage"/>
 					<record id="competition">
-						<large id="competition" value="1981662186836950004"/>
+						<large id="competition" value="1981662186836960243"/>
 						<integer id="DBID" value="2000340049"/>
 					</record>
 					<record id="sub_comp_stage_name_for_parent_comp_history">
@@ -897,7 +897,7 @@
 					<string id="group_name_type" value="letters"/>
 					<list id="group_data"/>
 					<record id="competition">
-						<large id="competition" value="1981662186836950004"/>
+						<large id="competition" value="1981662186836960243"/>
 						<integer id="DBID" value="2000340049"/>
 					</record>
 					<record id="stage_name">
@@ -969,7 +969,7 @@
 						</record>
 					</list>
 					<record id="competition">
-						<large id="competition" value="1981662186836950004"/>
+						<large id="competition" value="1981662186836960243"/>
 						<integer id="DBID" value="2000340049"/>
 					</record>
 					<record id="shared_round_data">
@@ -1263,7 +1263,7 @@
 					</record>
 					<string id="stage_flags" value="store_stats_for_stage"/>
 					<record id="competition">
-						<large id="competition" value="4139062450466946037"/>
+						<large id="competition" value="4139062450466956276"/>
 						<integer id="DBID" value="2000340050"/>
 					</record>
 					<record id="sub_comp_stage_name_for_parent_comp_history">
@@ -1517,7 +1517,7 @@
 					<string id="group_name_type" value="letters"/>
 					<list id="group_data"/>
 					<record id="competition">
-						<large id="competition" value="4139062450466946037"/>
+						<large id="competition" value="4139062450466956276"/>
 						<integer id="DBID" value="2000340050"/>
 					</record>
 					<record id="stage_name">
@@ -1580,7 +1580,7 @@
 						</record>
 					</list>
 					<record id="competition">
-						<large id="competition" value="4139062450466946037"/>
+						<large id="competition" value="4139062450466956276"/>
 						<integer id="DBID" value="2000340050"/>
 					</record>
 					<record id="shared_round_data">
@@ -2093,7 +2093,7 @@
 					<integer id="index" value="2"/>
 					<boolean id="store_league_history" value="true"/>
 					<record id="competition">
-						<large id="competition" value="1981662186836950004"/>
+						<large id="competition" value="1981662186836960243"/>
 						<integer id="DBID" value="2000340049"/>
 					</record>
 				</record>
@@ -2102,7 +2102,7 @@
 					<integer id="index" value="2"/>
 					<integer id="other_stage_index" value="0"/>
 					<record id="competition">
-						<large id="competition" value="1981662186836950004"/>
+						<large id="competition" value="1981662186836960243"/>
 						<integer id="DBID" value="2000340049"/>
 					</record>
 				</record>
@@ -2111,7 +2111,7 @@
 					<integer id="index" value="5"/>
 					<boolean id="store_league_history" value="true"/>
 					<record id="competition">
-						<large id="competition" value="4139062450466946037"/>
+						<large id="competition" value="4139062450466956276"/>
 						<integer id="DBID" value="2000340050"/>
 					</record>
 				</record>
@@ -2120,7 +2120,7 @@
 					<integer id="index" value="5"/>
 					<integer id="other_stage_index" value="3"/>
 					<record id="competition">
-						<large id="competition" value="4139062450466946037"/>
+						<large id="competition" value="4139062450466956276"/>
 						<integer id="DBID" value="2000340050"/>
 					</record>
 				</record>
@@ -2196,13 +2196,13 @@
 						<record>
 							<record id="start_date_fixture_date">
 								<unsigned id="id" value="1935959652"/>
-								<string id="id_1" value="leag"/>
-								<string id="id_2" value="strt"/>
+								<integer id="id_1" value="1818583399"/>
+								<integer id="id_2" value="1937011316"/>
 							</record>
 							<record id="end_date_fixture_date">
 								<unsigned id="id" value="1701078628"/>
-								<string id="id_1" value="leag"/>
-								<string id="id_2" value="end "/>
+								<integer id="id_1" value="1818583399"/>
+								<integer id="id_2" value="1701733408"/>
 							</record>
 							<string id="stadium_rules" value="home"/>
 							<list id="match_days">
@@ -2669,7 +2669,7 @@
 					<integer id="number_teams" value="16"/>
 					<boolean id="top_team_are_champions" value="false"/>
 					<boolean id="schedule_fixtures" value="false"/>
-					<string id="league_rules" value="do_not_rank_teams, no_promotion_for_b_teams"/>
+					<string id="league_rules" value="no_promotion_for_b_teams, do_not_rank_teams"/>
 					<record id="transfer_standings">
 						<boolean id="search_child_comps" value="false"/>
 						<integer id="stage" value="0"/>
@@ -2714,8 +2714,8 @@
 					<integer id="day_of_month" value="29"/>
 					<string id="month" value="mar"/>
 					<integer id="year" value="2000"/>
-					<string id="id_1" value="leag"/>
-					<string id="id_2" value="strt"/>
+					<integer id="id_1" value="1818583399"/>
+					<integer id="id_2" value="1937011316"/>
 				</record>
 				<record>
 					<string id="stadium_rules" value="home"/>
@@ -2723,8 +2723,8 @@
 					<integer id="day_of_month" value="7"/>
 					<string id="month" value="oct"/>
 					<integer id="year" value="2000"/>
-					<string id="id_1" value="leag"/>
-					<string id="id_2" value="end "/>
+					<integer id="id_1" value="1818583399"/>
+					<integer id="id_2" value="1701733408"/>
 				</record>
 				<record>
 					<string id="stadium_rules" value="home"/>
@@ -2732,7 +2732,7 @@
 					<integer id="day_of_month" value="14"/>
 					<string id="month" value="oct"/>
 					<integer id="year" value="2000"/>
-					<string id="id_1" value="QF1 "/>
+					<integer id="id_1" value="1363554592"/>
 				</record>
 				<record>
 					<string id="stadium_rules" value="home"/>
@@ -2740,7 +2740,7 @@
 					<integer id="day_of_month" value="21"/>
 					<string id="month" value="oct"/>
 					<integer id="year" value="2000"/>
-					<string id="id_1" value="QF2 "/>
+					<integer id="id_1" value="1363554848"/>
 				</record>
 				<record>
 					<string id="stadium_rules" value="home"/>
@@ -2748,7 +2748,7 @@
 					<integer id="day_of_month" value="28"/>
 					<string id="month" value="oct"/>
 					<integer id="year" value="2000"/>
-					<string id="id_1" value="SF1 "/>
+					<integer id="id_1" value="1397109024"/>
 				</record>
 				<record>
 					<string id="stadium_rules" value="home"/>
@@ -2756,7 +2756,7 @@
 					<integer id="day_of_month" value="4"/>
 					<string id="month" value="nov"/>
 					<integer id="year" value="2000"/>
-					<string id="id_1" value="SF2 "/>
+					<integer id="id_1" value="1397109280"/>
 				</record>
 				<record>
 					<string id="stadium_rules" value="home"/>
@@ -2764,7 +2764,7 @@
 					<integer id="day_of_month" value="11"/>
 					<string id="month" value="nov"/>
 					<integer id="year" value="2000"/>
-					<string id="id_1" value="F1  "/>
+					<integer id="id_1" value="1177624608"/>
 				</record>
 				<record>
 					<string id="stadium_rules" value="home"/>
@@ -2772,7 +2772,7 @@
 					<integer id="day_of_month" value="19"/>
 					<string id="month" value="nov"/>
 					<integer id="year" value="2000"/>
-					<string id="id_1" value="F2  "/>
+					<integer id="id_1" value="1177690144"/>
 				</record>
 			</list>
 			<boolean id="do_automatic_add_history" value="false"/>
@@ -3606,21 +3606,22 @@
 		</record>
 	</list>
 	<string id="orvs" value=""/>
-	<string id="svvs" value="2600"/>
+	<string id="svvs" value="2620"/>
 	<string id="author" value="MasterIgor"/>
 	<integer id="EDvb" value="1"/>
 	<string id="EDfb" value=""/>
 	<integer id="version" value="3727"/>
-	<integer id="rule_group_version" value="1630"/>
+	<integer id="rule_group_version" value="1637"/>
 	<boolean id="beta" value="false"/>
-	<date id="EdDt" day="27" month="2" year="2026" time="2245"/>
+	<date id="EdDt" day="12" month="3" year="2026" time="1345"/>
 	<list id="verf">
 		<string value="23.4.0"/>
 		<string value="24.0.0"/>
 		<string value="24.3.0"/>
 		<string value="26.0.0"/>
+		<string value="26.2.0"/>
 	</list>
-	<integer id="XSvC" value="136"/>
+	<integer id="XSvC" value="141"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
 	<list id="db_changes">
 		<record>
@@ -3766,6 +3767,60 @@
 			<integer id="db_random_id" value="755428906"/>
 			<boolean id="odvl" value="true"/>
 			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="326435231312100125"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="82317927329854392"/>
+				<integer id="DBID" value="19166136"/>
+			</record>
+			<integer id="version" value="3727"/>
+			<integer id="db_random_id" value="508167207"/>
+			<record id="odvl">
+				<large id="competition" value="369367196131934594"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="369367196131934594"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="22764890042196108"/>
+				</record>
+			</record>
+			<integer id="version" value="3727"/>
+			<integer id="db_random_id" value="100889874"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="369690697363711931"/>
+			<unsigned id="property" value="1130657385"/>
+			<record id="new_value">
+				<large id="competition" value="82317927329854392"/>
+				<integer id="DBID" value="19166136"/>
+			</record>
+			<integer id="version" value="3727"/>
+			<integer id="db_random_id" value="722821631"/>
+			<record id="odvl">
+				<large id="competition" value="369367196131934594"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="369367191836967297"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="369392184251668540"/>
+				</record>
+			</record>
+			<integer id="version" value="3727"/>
+			<integer id="db_random_id" value="22486096"/>
 		</record>
 	</list>
 </record>

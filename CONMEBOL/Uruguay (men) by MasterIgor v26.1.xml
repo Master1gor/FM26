@@ -1210,12 +1210,14 @@
 					<large id="competition" value="5512770"/>
 					<list id="verf">
 						<string value="26.0.0"/>
+						<string value="26.2.0"/>
 					</list>
 				</record>
 				<record>
 					<large id="competition" value="5512771"/>
 					<list id="verf">
 						<string value="26.0.0"/>
+						<string value="26.2.0"/>
 					</list>
 				</record>
 				<record>
@@ -1226,6 +1228,7 @@
 					</record>
 					<list id="verf">
 						<string value="26.0.0"/>
+						<string value="26.2.0"/>
 					</list>
 				</record>
 			</list>
@@ -1285,7 +1288,7 @@
 					<integer id="competition" value="5512770"/>
 					<integer id="year_2" value="0"/>
 					<integer id="base_year_interval" value="0"/>
-					<date id="start_date" day="1" month="2" year="2025" time="2145"/>
+					<date id="start_date" day="8" month="2" year="2025" time="1600"/>
 					<integer id="base_year_offset" value="0"/>
 				</record>
 				<record>
@@ -5355,7 +5358,7 @@
 					<string id="stage_flags" value="store_stats_for_stage, store_stage_name_with_history"/>
 					<record id="competition">
 						<unsigned id="id" value="1668246896"/>
-						<large id="competition" value="736340873242835954"/>
+						<large id="competition" value="736340873242846195"/>
 						<integer id="DBID" value="2000518130"/>
 					</record>
 					<boolean id="add_sub_comp_history_to_main_comp_history" value="true"/>
@@ -5490,7 +5493,7 @@
 					</list>
 					<record id="competition">
 						<unsigned id="id" value="1668246896"/>
-						<large id="competition" value="736340873242835954"/>
+						<large id="competition" value="736340873242846195"/>
 						<integer id="DBID" value="2000518130"/>
 					</record>
 					<record id="stage_name">
@@ -5564,7 +5567,7 @@
 					<list id="ranking_levels"/>
 					<record id="competition">
 						<unsigned id="id" value="1668246896"/>
-						<large id="competition" value="736340873242835954"/>
+						<large id="competition" value="736340873242846195"/>
 						<integer id="DBID" value="2000518130"/>
 					</record>
 					<record id="stage_name">
@@ -5644,7 +5647,7 @@
 					</list>
 					<record id="competition">
 						<unsigned id="id" value="1668246896"/>
-						<large id="competition" value="736340873242835954"/>
+						<large id="competition" value="736340873242846195"/>
 						<integer id="DBID" value="2000518130"/>
 					</record>
 					<record id="shared_round_data">
@@ -5889,7 +5892,7 @@
 					<string id="stage_flags" value="store_stats_for_stage, store_stage_name_with_history"/>
 					<record id="competition">
 						<unsigned id="id" value="1668246896"/>
-						<large id="competition" value="1682074658729196531"/>
+						<large id="competition" value="1682074658729206772"/>
 						<integer id="DBID" value="2000518131"/>
 					</record>
 					<boolean id="add_sub_comp_history_to_main_comp_history" value="true"/>
@@ -5977,7 +5980,7 @@
 					</list>
 					<record id="competition">
 						<unsigned id="id" value="1668246896"/>
-						<large id="competition" value="1682074658729196531"/>
+						<large id="competition" value="1682074658729206772"/>
 						<integer id="DBID" value="2000518131"/>
 					</record>
 					<record id="shared_round_data">
@@ -6236,7 +6239,7 @@
 					<integer id="index" value="4"/>
 					<boolean id="store_league_history" value="true"/>
 					<record id="competition">
-						<large id="competition" value="736340873242835954"/>
+						<large id="competition" value="736340873242846195"/>
 						<integer id="DBID" value="2000518130"/>
 					</record>
 				</record>
@@ -6244,7 +6247,7 @@
 					<string id="stage_finished_actions" value="process_league_finshed_into_records"/>
 					<integer id="index" value="4"/>
 					<record id="competition">
-						<large id="competition" value="736340873242835954"/>
+						<large id="competition" value="736340873242846195"/>
 						<integer id="DBID" value="2000518130"/>
 					</record>
 					<integer id="other_stage_index" value="1"/>
@@ -6254,7 +6257,7 @@
 					<integer id="index" value="6"/>
 					<boolean id="store_league_history" value="true"/>
 					<record id="competition">
-						<large id="competition" value="1682074658729196531"/>
+						<large id="competition" value="1682074658729206772"/>
 						<integer id="DBID" value="2000518131"/>
 					</record>
 				</record>
@@ -6262,7 +6265,7 @@
 					<string id="stage_finished_actions" value="process_league_finshed_into_records"/>
 					<integer id="index" value="6"/>
 					<record id="competition">
-						<large id="competition" value="1682074658729196531"/>
+						<large id="competition" value="1682074658729206772"/>
 						<integer id="DBID" value="2000518131"/>
 					</record>
 					<integer id="other_stage_index" value="5"/>
@@ -11716,17 +11719,18 @@
 	<string id="description" value=""/>
 	<string id="author" value=""/>
 	<string id="orvs" value=""/>
-	<string id="svvs" value="2600"/>
+	<string id="svvs" value="2620"/>
 	<integer id="EDvb" value="1"/>
 	<string id="EDfb" value=""/>
-	<integer id="XSvC" value="34"/>
+	<integer id="XSvC" value="38"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
-	<date id="EdDt" day="9" month="3" year="2026" time="1315"/>
+	<date id="EdDt" day="12" month="3" year="2026" time="1330"/>
 	<integer id="version" value="3727"/>
-	<integer id="rule_group_version" value="1630"/>
+	<integer id="rule_group_version" value="1637"/>
 	<boolean id="beta" value="false"/>
 	<list id="verf">
 		<string value="26.0.0"/>
+		<string value="26.2.0"/>
 	</list>
 	<list id="db_changes">
 		<record>

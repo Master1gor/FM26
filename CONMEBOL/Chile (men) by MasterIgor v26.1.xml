@@ -879,12 +879,14 @@
 					<large id="competition" value="5250792"/>
 					<list id="verf">
 						<string value="26.0.0"/>
+						<string value="26.2.0"/>
 					</list>
 				</record>
 				<record>
 					<large id="competition" value="5250793"/>
 					<list id="verf">
 						<string value="26.0.0"/>
+						<string value="26.2.0"/>
 					</list>
 				</record>
 				<record>
@@ -894,6 +896,7 @@
 					</record>
 					<list id="verf">
 						<string value="26.0.0"/>
+						<string value="26.2.0"/>
 					</list>
 				</record>
 			</list>
@@ -956,7 +959,7 @@
 				</record>
 				<record>
 					<record id="competition">
-						<large id="competition" value="733841472859503602"/>
+						<large id="competition" value="733841472859513843"/>
 						<integer id="DBID" value="2000518130"/>
 					</record>
 				</record>
@@ -1009,7 +1012,7 @@
 					<integer id="competition" value="317567"/>
 					<integer id="year_2" value="0"/>
 					<integer id="base_year_interval" value="0"/>
-					<date id="start_date" day="4" month="3" year="2025" time="2000"/>
+					<date id="start_date" day="5" month="3" year="2025" time="2045"/>
 					<integer id="base_year_offset" value="0"/>
 				</record>
 			</list>
@@ -2818,7 +2821,7 @@
 							<boolean id="process_early_finish" value="false"/>
 							<string id="stage" value="ko  "/>
 							<record id="competition">
-								<large id="competition" value="733841472859503602"/>
+								<large id="competition" value="733841472859513843"/>
 								<integer id="DBID" value="2000518130"/>
 							</record>
 						</record>
@@ -2839,7 +2842,7 @@
 							<string id="description" value="--ignore Chile League Cup Winner--"/>
 							<string id="cup_tie_team" value="winner"/>
 							<record id="competition">
-								<large id="competition" value="733841472859503602"/>
+								<large id="competition" value="733841472859513843"/>
 								<integer id="DBID" value="2000518130"/>
 							</record>
 							<record id="sub_stage_name">
@@ -2849,7 +2852,7 @@
 						</record>
 						<record>
 							<string id="id" value="get_cup_round_teams"/>
-							<string id="stage" value="ko"/>
+							<string id="stage" value="ko  "/>
 							<string id="cup_tie_team" value="winner"/>
 							<record id="sub_stage_name">
 								<large id="stgn" value="85899345940"/>
@@ -3468,7 +3471,7 @@
 					<boolean id="hide_rule" value="false"/>
 					<integer id="stage" value="1"/>
 					<record id="competition">
-						<large id="competition" value="733841472859503602"/>
+						<large id="competition" value="733841472859513843"/>
 						<integer id="DBID" value="2000518130"/>
 					</record>
 					<string id="team" value="winner"/>
@@ -5531,7 +5534,7 @@
 		<record>
 			<string id="file_type" value="comp"/>
 			<record id="competition">
-				<large id="competition" value="733841472859503602"/>
+				<large id="competition" value="733841472859513843"/>
 				<integer id="DBID" value="2000518130"/>
 			</record>
 			<integer id="version" value="999"/>
@@ -6361,11 +6364,11 @@
 							<record id="date">
 								<integer id="id" value="1684108389"/>
 								<string id="match_rules" value="pen"/>
-								<string id="id_1" value="SF  "/>
+								<integer id="id_1" value="1397104672"/>
 								<list id="offset_dates">
 									<record>
 										<integer id="day_offset" value="1"/>
-										<string id="time" value="1900"/>
+										<integer id="time" value="1900"/>
 										<string id="stadium_rules" value="stadium_0"/>
 										<integer id="number_matches" value="1"/>
 									</record>
@@ -6406,7 +6409,7 @@
 							<record id="date">
 								<integer id="id" value="1684108389"/>
 								<string id="match_rules" value="pen"/>
-								<string id="id_1" value="F   "/>
+								<integer id="id_1" value="1176510496"/>
 							</record>
 							<integer id="number_extra_teams" value="0"/>
 							<integer id="number_legs" value="1"/>
@@ -6439,7 +6442,7 @@
 				<record>
 					<string id="stadium_rules" value="stadium_0"/>
 					<integer id="time" value="1900"/>
-					<string id="id_1" value="SF  "/>
+					<integer id="id_1" value="1397104672"/>
 					<string id="day_of_week" value="tue"/>
 					<integer id="day_of_month" value="25"/>
 					<string id="month" value="jan"/>
@@ -6448,7 +6451,7 @@
 				<record>
 					<string id="stadium_rules" value="stadium_0"/>
 					<integer id="time" value="1900"/>
-					<string id="id_1" value="F   "/>
+					<integer id="id_1" value="1176510496"/>
 					<string id="day_of_week" value="sun"/>
 					<integer id="day_of_month" value="30"/>
 					<string id="month" value="jan"/>
@@ -8051,18 +8054,19 @@
 	<string id="description" value=""/>
 	<string id="author" value=""/>
 	<string id="orvs" value=""/>
-	<string id="svvs" value="2600"/>
+	<string id="svvs" value="2620"/>
 	<integer id="EDvb" value="1"/>
 	<string id="EDfb" value=""/>
 	<integer id="version" value="3727"/>
-	<integer id="rule_group_version" value="1630"/>
+	<integer id="rule_group_version" value="1637"/>
 	<boolean id="beta" value="false"/>
 	<list id="verf">
 		<string value="26.0.0"/>
+		<string value="26.2.0"/>
 	</list>
-	<integer id="XSvC" value="34"/>
+	<integer id="XSvC" value="38"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
-	<date id="EdDt" day="6" month="3" year="2026" time="2315"/>
+	<date id="EdDt" day="12" month="3" year="2026" time="1330"/>
 	<list id="db_changes">
 		<record>
 			<integer id="database_table_type" value="25"/>
