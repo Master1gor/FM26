@@ -63,21 +63,18 @@
 				<record>
 					<large id="competition" value="5624920"/>
 					<list id="verf">
-						<string value="26.0.0"/>
 						<string value="26.2.0"/>
 					</list>
 				</record>
 				<record>
 					<large id="competition" value="5637986"/>
 					<list id="verf">
-						<string value="26.0.0"/>
 						<string value="26.2.0"/>
 					</list>
 				</record>
 				<record>
 					<large id="competition" value="23366086"/>
 					<list id="verf">
-						<string value="26.0.0"/>
 						<string value="26.2.0"/>
 					</list>
 				</record>
@@ -321,7 +318,7 @@
 							</list>
 						</record>
 						<record>
-							<string id="type" value="all_foreign_players_in_match_squad"/>
+							<string id="type" value="all_foreign_players_in_11"/>
 							<string id="compare_type" value="less_than"/>
 							<integer id="value" value="7"/>
 							<list id="info">
@@ -335,7 +332,7 @@
 							</list>
 						</record>
 						<record>
-							<string id="type" value="all_foreign_players_except_southeast_asian_in_match_squad"/>
+							<string id="type" value="all_foreign_players_except_southeast_asian_in_11"/>
 							<string id="compare_type" value="less_than"/>
 							<integer id="value" value="5"/>
 							<list id="info">
@@ -4235,14 +4232,14 @@
 	<integer id="version" value="3727"/>
 	<integer id="rule_group_version" value="1637"/>
 	<boolean id="beta" value="false"/>
-	<date id="EdDt" day="12" month="3" year="2026" time="2330"/>
+	<date id="EdDt" day="16" month="3" year="2026" time="815"/>
 	<list id="verf">
 		<string value="24.0.0"/>
 		<string value="24.3.0"/>
 		<string value="26.0.0"/>
 		<string value="26.2.0"/>
 	</list>
-	<integer id="XSvC" value="206"/>
+	<integer id="XSvC" value="211"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
 	<list id="db_changes">
 		<record>
