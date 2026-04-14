@@ -36,6 +36,7 @@
 					<list id="verf">
 						<string value="26.0.0"/>
 						<string value="26.2.0"/>
+						<string value="26.2.0"/>
 					</list>
 				</record>
 			</list>
@@ -2229,17 +2230,17 @@
 	<string id="author" value="MasterIgor"/>
 	<integer id="EDvb" value="1"/>
 	<string id="EDfb" value=""/>
-	<integer id="version" value="3727"/>
-	<integer id="rule_group_version" value="1637"/>
+	<integer id="version" value="3729"/>
+	<integer id="rule_group_version" value="1639"/>
 	<boolean id="beta" value="false"/>
-	<date id="EdDt" day="12" month="3" year="2026" time="1330"/>
+	<date id="EdDt" day="14" month="4" year="2026" time="1800"/>
 	<list id="verf">
 		<string value="24.0.0"/>
 		<string value="24.3.0"/>
 		<string value="26.0.0"/>
 		<string value="26.2.0"/>
 	</list>
-	<integer id="XSvC" value="111"/>
+	<integer id="XSvC" value="113"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
 	<list id="db_changes"/>
 </record>

@@ -46,12 +46,14 @@
 					<list id="verf">
 						<string value="26.0.0"/>
 						<string value="26.2.0"/>
+						<string value="26.2.0"/>
 					</list>
 				</record>
 				<record>
 					<large id="competition" value="79010962"/>
 					<list id="verf">
 						<string value="26.0.0"/>
+						<string value="26.2.0"/>
 						<string value="26.2.0"/>
 					</list>
 				</record>
@@ -418,7 +420,7 @@
 					<string id="id" value="open"/>
 					<integer id="index" value="0"/>
 					<integer id="number_teams" value="12"/>
-					<large id="competition" value="4856062559989375987"/>
+					<large id="competition" value="4856062559989382418"/>
 					<large id="sub_comp_stage_name_for_parent_comp_history" value="97"/>
 					<boolean id="add_sub_comp_history_to_main_comp_history" value="true"/>
 					<list id="teams">
@@ -526,7 +528,7 @@
 					<string id="id" value="clos"/>
 					<integer id="index" value="1"/>
 					<integer id="number_teams" value="12"/>
-					<large id="competition" value="1934821179017503732"/>
+					<large id="competition" value="1934821179017510163"/>
 					<large id="sub_comp_stage_name_for_parent_comp_history" value="98"/>
 					<boolean id="add_sub_comp_history_to_main_comp_history" value="true"/>
 					<list id="teams">
@@ -802,24 +804,24 @@
 					<integer id="index" value="0"/>
 					<string id="stage_finished_actions" value="add_history_record"/>
 					<boolean id="store_league_history" value="true"/>
-					<large id="competition" value="4856062559989375987"/>
+					<large id="competition" value="4856062559989382418"/>
 				</record>
 				<record>
 					<integer id="index" value="0"/>
 					<string id="stage_finished_actions" value="process_league_finshed_into_records"/>
-					<large id="competition" value="4856062559989375987"/>
+					<large id="competition" value="4856062559989382418"/>
 					<integer id="other_stage_index" value="0"/>
 				</record>
 				<record>
 					<integer id="index" value="1"/>
 					<string id="stage_finished_actions" value="add_history_record"/>
 					<boolean id="store_league_history" value="true"/>
-					<large id="competition" value="1934821179017503732"/>
+					<large id="competition" value="1934821179017510163"/>
 				</record>
 				<record>
 					<integer id="index" value="1"/>
 					<string id="stage_finished_actions" value="process_league_finshed_into_records"/>
-					<large id="competition" value="1934821179017503732"/>
+					<large id="competition" value="1934821179017510163"/>
 					<integer id="other_stage_index" value="1"/>
 				</record>
 			</list>
@@ -1985,10 +1987,10 @@
 	<string id="author" value="MasterIgor"/>
 	<integer id="EDvb" value="1"/>
 	<string id="EDfb" value=""/>
-	<integer id="version" value="3727"/>
-	<integer id="rule_group_version" value="1637"/>
+	<integer id="version" value="3729"/>
+	<integer id="rule_group_version" value="1639"/>
 	<boolean id="beta" value="false"/>
-	<date id="EdDt" day="12" month="3" year="2026" time="1330"/>
+	<date id="EdDt" day="14" month="4" year="2026" time="1815"/>
 	<list id="verf">
 		<string value="23.4.0"/>
 		<string value="24.0.0"/>
@@ -1996,7 +1998,7 @@
 		<string value="26.0.0"/>
 		<string value="26.2.0"/>
 	</list>
-	<integer id="XSvC" value="93"/>
+	<integer id="XSvC" value="96"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
 	<list id="db_changes">
 		<record>

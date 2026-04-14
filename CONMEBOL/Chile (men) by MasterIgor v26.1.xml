@@ -880,12 +880,14 @@
 					<list id="verf">
 						<string value="26.0.0"/>
 						<string value="26.2.0"/>
+						<string value="26.2.0"/>
 					</list>
 				</record>
 				<record>
 					<large id="competition" value="5250793"/>
 					<list id="verf">
 						<string value="26.0.0"/>
+						<string value="26.2.0"/>
 						<string value="26.2.0"/>
 					</list>
 				</record>
@@ -896,6 +898,7 @@
 					</record>
 					<list id="verf">
 						<string value="26.0.0"/>
+						<string value="26.2.0"/>
 						<string value="26.2.0"/>
 					</list>
 				</record>
@@ -959,7 +962,7 @@
 				</record>
 				<record>
 					<record id="competition">
-						<large id="competition" value="733841472859513843"/>
+						<large id="competition" value="733841472859520274"/>
 						<integer id="DBID" value="2000518130"/>
 					</record>
 				</record>
@@ -2821,7 +2824,7 @@
 							<boolean id="process_early_finish" value="false"/>
 							<string id="stage" value="ko  "/>
 							<record id="competition">
-								<large id="competition" value="733841472859513843"/>
+								<large id="competition" value="733841472859520274"/>
 								<integer id="DBID" value="2000518130"/>
 							</record>
 						</record>
@@ -2842,7 +2845,7 @@
 							<string id="description" value="--ignore Chile League Cup Winner--"/>
 							<string id="cup_tie_team" value="winner"/>
 							<record id="competition">
-								<large id="competition" value="733841472859513843"/>
+								<large id="competition" value="733841472859520274"/>
 								<integer id="DBID" value="2000518130"/>
 							</record>
 							<record id="sub_stage_name">
@@ -3471,7 +3474,7 @@
 					<boolean id="hide_rule" value="false"/>
 					<integer id="stage" value="1"/>
 					<record id="competition">
-						<large id="competition" value="733841472859513843"/>
+						<large id="competition" value="733841472859520274"/>
 						<integer id="DBID" value="2000518130"/>
 					</record>
 					<string id="team" value="winner"/>
@@ -5534,7 +5537,7 @@
 		<record>
 			<string id="file_type" value="comp"/>
 			<record id="competition">
-				<large id="competition" value="733841472859513843"/>
+				<large id="competition" value="733841472859520274"/>
 				<integer id="DBID" value="2000518130"/>
 			</record>
 			<integer id="version" value="999"/>
@@ -8057,16 +8060,16 @@
 	<string id="svvs" value="2620"/>
 	<integer id="EDvb" value="1"/>
 	<string id="EDfb" value=""/>
-	<integer id="version" value="3727"/>
-	<integer id="rule_group_version" value="1637"/>
+	<integer id="version" value="3729"/>
+	<integer id="rule_group_version" value="1639"/>
 	<boolean id="beta" value="false"/>
 	<list id="verf">
 		<string value="26.0.0"/>
 		<string value="26.2.0"/>
 	</list>
-	<integer id="XSvC" value="38"/>
+	<integer id="XSvC" value="42"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
-	<date id="EdDt" day="12" month="3" year="2026" time="1330"/>
+	<date id="EdDt" day="14" month="4" year="2026" time="1815"/>
 	<list id="db_changes">
 		<record>
 			<integer id="database_table_type" value="25"/>

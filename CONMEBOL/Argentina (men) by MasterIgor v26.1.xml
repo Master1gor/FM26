@@ -1076,11 +1076,13 @@
 					<large id="competition" value="102421"/>
 					<list id="verf">
 						<string value="26.2.0"/>
+						<string value="26.2.0"/>
 					</list>
 				</record>
 				<record>
 					<large id="competition" value="102422"/>
 					<list id="verf">
+						<string value="26.2.0"/>
 						<string value="26.2.0"/>
 					</list>
 				</record>
@@ -1090,6 +1092,7 @@
 						<integer id="DBID" value="108573"/>
 					</record>
 					<list id="verf">
+						<string value="26.2.0"/>
 						<string value="26.2.0"/>
 					</list>
 					<integer id="number_child_competitions" value="2"/>
@@ -1278,7 +1281,7 @@
 					<integer id="competition" value="102422"/>
 					<integer id="year_2" value="0"/>
 					<integer id="base_year_interval" value="0"/>
-					<date id="start_date" day="7" month="2" year="2026" time="1530"/>
+					<date id="start_date" day="6" month="2" year="2026" time="1900"/>
 					<integer id="base_year_offset" value="1"/>
 				</record>
 				<record>
@@ -33051,11 +33054,11 @@
 	<string id="svvs" value="2620"/>
 	<integer id="EDvb" value="1"/>
 	<string id="EDfb" value=""/>
-	<integer id="XSvC" value="130"/>
+	<integer id="XSvC" value="134"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
-	<date id="EdDt" day="12" month="3" year="2026" time="1330"/>
-	<integer id="version" value="3727"/>
-	<integer id="rule_group_version" value="1637"/>
+	<date id="EdDt" day="14" month="4" year="2026" time="1800"/>
+	<integer id="version" value="3729"/>
+	<integer id="rule_group_version" value="1639"/>
 	<boolean id="beta" value="false"/>
 	<list id="verf">
 		<string value="26.0.0"/>
