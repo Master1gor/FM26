@@ -20378,7 +20378,7 @@
 							<string id="description" value="[Q1 Bottom 6]"/>
 							<integer id="maximum_number_teams" value="6"/>
 							<string id="seeding_method" value="incremental_seeding"/>
-							<integer id="seeding" value="14"/>
+							<integer id="seeding" value="13"/>
 						</record>
 					</list>
 				</record>
@@ -20453,17 +20453,27 @@
 								<record>
 									<integer id="cup_tie_index" value="0"/>
 									<integer id="home_team_index" value="0"/>
-									<integer id="away_team_index" value="5"/>
+									<integer id="away_team_index" value="9"/>
 								</record>
 								<record>
 									<integer id="cup_tie_index" value="1"/>
 									<integer id="home_team_index" value="1"/>
-									<integer id="away_team_index" value="4"/>
+									<integer id="away_team_index" value="8"/>
 								</record>
 								<record>
 									<integer id="cup_tie_index" value="2"/>
 									<integer id="home_team_index" value="2"/>
-									<integer id="away_team_index" value="3"/>
+									<integer id="away_team_index" value="7"/>
+								</record>
+								<record>
+									<integer id="cup_tie_index" value="3"/>
+									<integer id="home_team_index" value="3"/>
+									<integer id="away_team_index" value="6"/>
+								</record>
+								<record>
+									<integer id="cup_tie_index" value="4"/>
+									<integer id="home_team_index" value="4"/>
+									<integer id="away_team_index" value="5"/>
 								</record>
 							</list>
 						</record>
@@ -20483,16 +20493,8 @@
 								<integer id="DBID" value="28"/>
 							</record>
 						</record>
-						<record>
-							<string id="type" value="insert_into_cup"/>
-							<string id="team" value="winner"/>
-							<string id="stage" value="2"/>
-							<record id="stage_name">
-								<large id="stgn" value="120259084316"/>
-								<integer id="DBID" value="28"/>
-							</record>
-						</record>
 					</list>
+					<integer id="number_teams" value="10"/>
 				</record>
 				<record>
 					<string id="id" value="grps"/>
@@ -20512,20 +20514,24 @@
 					<list id="requirements">
 						<record>
 							<boolean id="process_early_finish" value="false"/>
-							<string id="stage" value="seed"/>
+							<string id="stage" value="pre"/>
 						</record>
 					</list>
 					<list id="teams">
 						<record>
-							<string id="id" value="get_stage_teams"/>
-							<string id="stage" value="seed"/>
-							<string id="description" value="[11 direct qualifiers]"/>
-							<integer id="maximum_number_teams" value="11"/>
-							<string id="sort_teams" value="asc_seeding"/>
+							<string id="id" value="get_cup_round_teams"/>
+							<string id="stage" value="pre"/>
+							<string id="cup_tie_team" value="loser"/>
+							<record id="sub_stage_name">
+								<large id="stgn" value="120259084316"/>
+								<integer id="DBID" value="28"/>
+							</record>
+							<boolean id="ignore_teams" value="true"/>
+							<string id="description" value="--ignore losers of preliminary round--"/>
 						</record>
 						<record>
-							<string id="id" value="add_null_team"/>
-							<integer id="maximum_number_teams" value="3"/>
+							<string id="id" value="get_stage_teams"/>
+							<string id="stage" value="seed"/>
 						</record>
 					</list>
 					<list id="schedule"/>
@@ -20573,7 +20579,7 @@
 						<integer id="DBID" value="73"/>
 					</record>
 					<integer id="number_groups" value="2"/>
-					<string id="group_rules" value=""/>
+					<string id="group_rules" value="avoid_teams_from_same_nations"/>
 					<string id="group_name_type" value="letters"/>
 					<list id="group_data">
 						<record>
@@ -20740,11 +20746,6 @@
 						</record>
 					</list>
 					<integer id="number_teams" value="14"/>
-					<list id="valid_rules">
-						<record>
-							<string id="type" value="keep_teams_from_same_nations_apart"/>
-						</record>
-					</list>
 					<integer id="number_group_teams" value="7"/>
 					<integer id="number_rounds" value="1"/>
 					<boolean id="top_team_are_champions" value="false"/>
@@ -20787,38 +20788,6 @@
 							<string id="stage" value="3"/>
 						</record>
 					</list>
-					<list id="cup_team_league_links">
-						<record>
-							<integer id="index_1" value="11"/>
-							<integer id="other_stage_index" value="1"/>
-							<record id="previous_round_name">
-								<large id="stgn" value="120259084316"/>
-								<integer id="DBID" value="28"/>
-							</record>
-							<integer id="cup_tie_index" value="0"/>
-							<string id="team" value="winner"/>
-						</record>
-						<record>
-							<integer id="index_1" value="12"/>
-							<integer id="other_stage_index" value="1"/>
-							<record id="previous_round_name">
-								<large id="stgn" value="120259084316"/>
-								<integer id="DBID" value="28"/>
-							</record>
-							<integer id="cup_tie_index" value="1"/>
-							<string id="team" value="winner"/>
-						</record>
-						<record>
-							<integer id="index_1" value="13"/>
-							<integer id="other_stage_index" value="1"/>
-							<record id="previous_round_name">
-								<large id="stgn" value="120259084316"/>
-								<integer id="DBID" value="28"/>
-							</record>
-							<integer id="cup_tie_index" value="2"/>
-							<string id="team" value="winner"/>
-						</record>
-					</list>
 				</record>
 				<record>
 					<string id="id" value="ko  "/>
@@ -20827,7 +20796,7 @@
 					<list id="requirements">
 						<record>
 							<boolean id="process_early_finish" value="false"/>
-							<string id="stage" value="seed"/>
+							<string id="stage" value="pre"/>
 						</record>
 					</list>
 					<list id="teams">
@@ -21101,14 +21070,13 @@
 			</list>
 			<list id="fixture_dates">
 				<record>
-					<string id="stadium_rules" value="home"/>
 					<record id="calculate_from_other_date">
 						<unsigned id="id" value="1130778436"/>
 						<integer id="day_offset" value="-10"/>
 						<integer id="id_1" value="1347563808"/>
 					</record>
-					<integer id="id_1" value="1936815457"/>
-					<integer id="id_2" value="1347559456"/>
+					<string id="id_1" value="squa"/>
+					<string id="id_2" value="PR  "/>
 				</record>
 				<record>
 					<string id="stadium_rules" value="home"/>
@@ -21127,13 +21095,12 @@
 					<integer id="year" value="2000"/>
 				</record>
 				<record>
-					<string id="stadium_rules" value="home"/>
 					<record id="calculate_from_other_date">
 						<integer id="day_offset" value="-15"/>
 						<integer id="id_1" value="1196576817"/>
 					</record>
-					<integer id="id_1" value="1936815457"/>
-					<integer id="id_2" value="1196576800"/>
+					<string id="id_1" value="squa"/>
+					<string id="id_2" value="GRP "/>
 				</record>
 				<record>
 					<string id="stadium_rules" value="home"/>
@@ -21201,7 +21168,6 @@
 					<integer id="id_1" value="1196576823"/>
 				</record>
 				<record>
-					<string id="stadium_rules" value="home"/>
 					<record id="calculate_from_other_date">
 						<unsigned id="id" value="1130778436"/>
 						<integer id="day_offset" value="-15"/>
@@ -21691,9 +21657,9 @@
 	<integer id="version" value="3729"/>
 	<integer id="rule_group_version" value="1639"/>
 	<boolean id="beta" value="false"/>
-	<integer id="XSvC" value="1150"/>
+	<integer id="XSvC" value="1172"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
-	<date id="EdDt" day="23" month="4" year="2026" time="1330"/>
+	<date id="EdDt" day="23" month="4" year="2026" time="1645"/>
 	<list id="db_changes">
 		<record>
 			<integer id="database_table_type" value="55"/>
