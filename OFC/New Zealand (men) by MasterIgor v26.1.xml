@@ -222,6 +222,7 @@
 					</list>
 					<boolean id="players_below_min_age_cannot_play_in_senior_fixtures" value="true"/>
 					<boolean id="youth_contract_players_can_play_in_competitive_fixtures" value="true"/>
+					<boolean id="league_registrations_apply_to_these_fixture_rules" value="true"/>
 				</record>
 				<record>
 					<string id="name" value="- League (North)"/>
@@ -567,7 +568,6 @@
 				<record>
 					<large id="competition" value="2000141740"/>
 					<list id="verf">
-						<string value="26.2.0"/>
 						<string value="26.2.0"/>
 					</list>
 				</record>
@@ -1661,7 +1661,6 @@
 					<boolean id="allow_sub_comp_own_screen" value="true"/>
 					<boolean id="store_league_history" value="true"/>
 					<boolean id="store_league_history_store_stage_name" value="true"/>
-					<boolean id="hide_stage" value="false"/>
 					<list id="qualification">
 						<record>
 							<record id="competition">
@@ -8840,6 +8839,14 @@
 							<string id="id" value="get_teams_from_pool"/>
 							<list id="team_pool">
 								<record>
+									<string id="id" value="get_relegated_league_stage_teams"/>
+									<boolean id="ignore_teams" value="true"/>
+									<string id="description" value="--ignore--"/>
+									<string id="stage" value="main"/>
+									<string id="reserve_type_1" value="3"/>
+									<string id="use_higher_team_type" value="no_fallback"/>
+								</record>
+								<record>
 									<string id="id" value="get_specific_team"/>
 									<record id="team">
 										<large id="Ttea" value="8590052598226485075"/>
@@ -9007,6 +9014,14 @@
 						<record>
 							<string id="id" value="get_teams_from_pool"/>
 							<list id="team_pool">
+								<record>
+									<string id="id" value="get_relegated_league_stage_teams"/>
+									<string id="stage" value="main"/>
+									<string id="reserve_type_1" value="12"/>
+									<string id="use_higher_team_type" value="no_fallback"/>
+									<string id="description" value="--ignore--"/>
+									<boolean id="ignore_teams" value="true"/>
+								</record>
 								<record>
 									<string id="id" value="get_specific_team"/>
 									<record id="team">
@@ -9276,6 +9291,14 @@
 							<string id="id" value="get_teams_from_pool"/>
 							<list id="team_pool">
 								<record>
+									<string id="id" value="get_relegated_league_stage_teams"/>
+									<string id="description" value="--ignore--"/>
+									<boolean id="ignore_teams" value="true"/>
+									<string id="stage" value="nels"/>
+									<integer id="reserve_type_1" value="3"/>
+									<string id="use_higher_team_type" value="no_fallback"/>
+								</record>
+								<record>
 									<string id="id" value="get_specific_team"/>
 									<record id="team">
 										<large id="Ttea" value="8589988616098661666"/>
@@ -9363,6 +9386,14 @@
 						<record>
 							<string id="id" value="get_teams_from_pool"/>
 							<list id="team_pool">
+								<record>
+									<string id="id" value="get_relegated_league_stage_teams"/>
+									<string id="description" value="--ignore--"/>
+									<boolean id="ignore_teams" value="true"/>
+									<string id="stage" value="nels"/>
+									<integer id="reserve_type_1" value="12"/>
+									<string id="use_higher_team_type" value="no_fallback"/>
+								</record>
 								<record>
 									<string id="id" value="get_specific_team"/>
 									<record id="team">
@@ -9640,6 +9671,14 @@
 							<string id="id" value="get_teams_from_pool"/>
 							<list id="team_pool">
 								<record>
+									<string id="id" value="get_relegated_league_stage_teams"/>
+									<string id="stage" value="sout"/>
+									<boolean id="ignore_teams" value="true"/>
+									<string id="description" value="--ignore--"/>
+									<string id="reserve_type_1" value="3"/>
+									<string id="use_higher_team_type" value="no_fallback"/>
+								</record>
+								<record>
 									<string id="id" value="get_specific_team"/>
 									<record id="team">
 										<large id="Ttea" value="8590297278218427868"/>
@@ -9837,6 +9876,14 @@
 						<record>
 							<string id="id" value="get_teams_from_pool"/>
 							<list id="team_pool">
+								<record>
+									<string id="id" value="get_relegated_league_stage_teams"/>
+									<string id="stage" value="sout"/>
+									<string id="reserve_type_1" value="12"/>
+									<string id="use_higher_team_type" value="no_fallback"/>
+									<string id="description" value="--ignore--"/>
+									<boolean id="ignore_teams" value="true"/>
+								</record>
 								<record>
 									<string id="id" value="get_specific_team"/>
 									<record id="team">
@@ -19264,7 +19311,7 @@
 			<integer id="discipline_index" value="0"/>
 			<list id="stages">
 				<record>
-					<string id="id" value="ko"/>
+					<string id="id" value="ko  "/>
 					<integer id="index" value="0"/>
 					<string id="type" value="cup"/>
 					<record id="shared_round_data">
@@ -20156,7 +20203,7 @@
 			<integer id="discipline_index" value="0"/>
 			<list id="stages">
 				<record>
-					<string id="id" value="ko"/>
+					<string id="id" value="ko  "/>
 					<integer id="index" value="0"/>
 					<string id="type" value="cup"/>
 					<record id="shared_round_data">
@@ -20697,13 +20744,13 @@
 			</record>
 		</record>
 	</list>
-	<date id="EdDt" day="3" month="5" year="2026" time="1045"/>
+	<date id="EdDt" day="11" month="5" year="2026" time="2315"/>
 	<list id="verf">
 		<string value="24.0.0"/>
 		<string value="24.3.0"/>
 		<string value="26.2.0"/>
 	</list>
-	<integer id="XSvC" value="847"/>
+	<integer id="XSvC" value="856"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
 	<list id="nation_list"/>
 	<list id="teams"/>
