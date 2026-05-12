@@ -1004,7 +1004,7 @@
 								<integer id="current" value="1"/>
 							</record>
 							<record id="winner_prize_money">
-								<real id="cash" value="250000.000000"/>
+								<integer id="cash" value="250000"/>
 								<unsigned id="currency" value="24"/>
 							</record>
 						</record>
@@ -1616,7 +1616,7 @@
 								<integer id="current" value="1"/>
 							</record>
 							<record id="winner_prize_money">
-								<real id="cash" value="250000.000000"/>
+								<integer id="cash" value="250000"/>
 								<unsigned id="currency" value="24"/>
 							</record>
 						</record>
@@ -1718,78 +1718,6 @@
 					</list>
 					<string id="league_rules" value="do_not_rank_teams"/>
 					<boolean id="store_league_history" value="false"/>
-					<list id="prize_money">
-						<record>
-							<integer id="position" value="0"/>
-							<real id="cash" value="98000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="1"/>
-							<real id="cash" value="95000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="2"/>
-							<real id="cash" value="92000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="3"/>
-							<real id="cash" value="89000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="4"/>
-							<real id="cash" value="86000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="5"/>
-							<real id="cash" value="83000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="6"/>
-							<real id="cash" value="80000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="7"/>
-							<real id="cash" value="77000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="8"/>
-							<real id="cash" value="74000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="9"/>
-							<real id="cash" value="71000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="10"/>
-							<real id="cash" value="68000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="11"/>
-							<real id="cash" value="65000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="12"/>
-							<real id="cash" value="62000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="13"/>
-							<real id="cash" value="59000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-					</list>
 				</record>
 				<record>
 					<string id="id" value="grfn"/>
@@ -2236,9 +2164,9 @@
 			</list>
 			<list id="initial_tv_money">
 				<record>
-					<integer id="cash" value="0"/>
-					<integer id="currency" value="24"/>
-					<string id="type" value="each_team"/>
+					<string id="type" value="all_teams"/>
+					<real id="cash" value="1100000.000000"/>
+					<unsigned id="currency" value="24"/>
 				</record>
 			</list>
 		</record>
@@ -3694,7 +3622,7 @@
 	<integer id="version" value="3729"/>
 	<integer id="rule_group_version" value="1639"/>
 	<boolean id="beta" value="false"/>
-	<date id="EdDt" day="8" month="5" year="2026" time="1530"/>
+	<date id="EdDt" day="12" month="5" year="2026" time="1845"/>
 	<list id="verf">
 		<string value="23.4.0"/>
 		<string value="24.0.0"/>
@@ -3702,7 +3630,7 @@
 		<string value="26.0.0"/>
 		<string value="26.2.0"/>
 	</list>
-	<integer id="XSvC" value="158"/>
+	<integer id="XSvC" value="163"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
 	<list id="db_changes">
 		<record>

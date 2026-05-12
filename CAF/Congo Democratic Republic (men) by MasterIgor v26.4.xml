@@ -1180,133 +1180,6 @@
 					<boolean id="schedule_fixtures" value="false"/>
 					<string id="league_rules" value="do_not_rank_teams"/>
 					<boolean id="hide_stage" value="true"/>
-					<list id="prize_money">
-						<record>
-							<integer id="position" value="0"/>
-							<real id="cash" value="35000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="1"/>
-							<real id="cash" value="34000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="2"/>
-							<real id="cash" value="34000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="3"/>
-							<real id="cash" value="33000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="4"/>
-							<real id="cash" value="33000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="5"/>
-							<real id="cash" value="32000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="6"/>
-							<real id="cash" value="31000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="7"/>
-							<real id="cash" value="31000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="8"/>
-							<real id="cash" value="30000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="9"/>
-							<real id="cash" value="30000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="10"/>
-							<real id="cash" value="29000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="11"/>
-							<real id="cash" value="29000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="12"/>
-							<real id="cash" value="28000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="13"/>
-							<real id="cash" value="27000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="14"/>
-							<real id="cash" value="27000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="15"/>
-							<real id="cash" value="26000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="16"/>
-							<real id="cash" value="26000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="17"/>
-							<real id="cash" value="25000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="18"/>
-							<real id="cash" value="24000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="19"/>
-							<real id="cash" value="24000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="20"/>
-							<real id="cash" value="23000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="21"/>
-							<real id="cash" value="23000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="22"/>
-							<real id="cash" value="22000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="23"/>
-							<real id="cash" value="22000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<record>
-							<integer id="position" value="24"/>
-							<real id="cash" value="21000.000000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-					</list>
 				</record>
 			</list>
 			<list id="fixture_dates">
@@ -1506,6 +1379,13 @@
 				<record>
 					<integer id="index" value="3"/>
 					<integer id="min_clash_days" value="1"/>
+				</record>
+			</list>
+			<list id="initial_tv_money">
+				<record>
+					<string id="type" value="all_teams"/>
+					<real id="cash" value="700000.000000"/>
+					<unsigned id="currency" value="24"/>
 				</record>
 			</list>
 		</record>
@@ -2221,14 +2101,14 @@
 	<integer id="version" value="3729"/>
 	<integer id="rule_group_version" value="1639"/>
 	<boolean id="beta" value="false"/>
-	<date id="EdDt" day="8" month="5" year="2026" time="1315"/>
+	<date id="EdDt" day="12" month="5" year="2026" time="1845"/>
 	<list id="verf">
 		<string value="24.0.0"/>
 		<string value="24.3.0"/>
 		<string value="26.0.0"/>
 		<string value="26.2.0"/>
 	</list>
-	<integer id="XSvC" value="90"/>
+	<integer id="XSvC" value="93"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
 	<list id="db_changes">
 		<record>
