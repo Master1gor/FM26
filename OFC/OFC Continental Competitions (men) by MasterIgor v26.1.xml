@@ -1875,7 +1875,7 @@
 						</record>
 					</list>
 					<record id="appearance_money">
-						<integer id="cash" value="1000000"/>
+						<real id="cash" value="150000.000000"/>
 						<unsigned id="currency" value="24"/>
 					</record>
 				</record>
@@ -2327,7 +2327,7 @@
 								<integer id="current" value="1"/>
 							</record>
 							<record id="loser_prize_money">
-								<integer id="cash" value="500000"/>
+								<real id="cash" value="100000.000000"/>
 								<unsigned id="currency" value="24"/>
 							</record>
 							<list id="cup_tie_mappings">
@@ -2340,7 +2340,7 @@
 								</record>
 							</list>
 							<record id="winner_prize_money">
-								<integer id="cash" value="1500000"/>
+								<real id="cash" value="250000.000000"/>
 								<unsigned id="currency" value="24"/>
 							</record>
 						</record>
@@ -2598,9 +2598,9 @@
 	<string id="svvs" value="2620"/>
 	<integer id="EDvb" value="1"/>
 	<string id="EDfb" value=""/>
-	<integer id="XSvC" value="155"/>
+	<integer id="XSvC" value="159"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
-	<date id="EdDt" day="11" month="5" year="2026" time="1245"/>
+	<date id="EdDt" day="13" month="5" year="2026" time="1430"/>
 	<integer id="version" value="3729"/>
 	<integer id="rule_group_version" value="1639"/>
 	<boolean id="beta" value="false"/>
