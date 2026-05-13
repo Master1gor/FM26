@@ -135,6 +135,27 @@
 		</ul>
 		</p>
 
+		<p><img class="flag" src="https://flagpedia.net/data/flags/w580/nz.png"/> New Zealand <span class="version">v26.1</span><br/>
+		[1] National League<br/>
+		&nbsp;&nbsp;[1.1] Northern League<br/>
+		&nbsp;&nbsp;[1.2] Central League<br/>
+		&nbsp;&nbsp;[1.3] Southern League<br/>
+		[2] Federation Leagues - Tier 1<br/>
+		&nbsp;&nbsp;[2.1] NRFL Championship<br/>
+		&nbsp;&nbsp;[2.2] Central League 2<br/>
+		&nbsp;&nbsp;[2.3] Mainland Premiership<br/>
+		&nbsp;&nbsp;[2.3] Nelson Bay's Premiership<br/>
+		&nbsp;&nbsp;[2.5] Southern Premiership<br/>
+		[Cup] Chatham Cup<br/>
+		[Cup] Central Federation Cup<br/>
+		[Cup] English Cup<br/>
+		[Cup] Charity Cup<br/>
+		<ul>
+			<li>The changes that are planned for 2027 have not been implemented since there are too many unknowns at this moment.</li>
+			<li>Mainland, Nelson Bay's and Southern Premiership will be filled with B and U18 teams in case they get depleted (i.e. teams promote to a higher level)</li>
+		</ul>
+		</p>
+
 		<p><img class="flag" src="https://flagpedia.net/data/flags/w580/pg.png"/> Papua New Guinea <span class="version">v26.1</span><br/>
 		[1] Papua New Guinea National Soccer League
 		</p>
@@ -153,94 +174,27 @@
 		[Cup] Trophée des Champions<br/>
 		</p>
 		
-			<tr>
-				<td>NZL.fmf</td>
-				<td><img class="flag" src="https://flagpedia.net/data/flags/emoji/openmoji/64x64/nz.png"/> New Zealand</td>
-				<td>
-					[1] National League<br/>
-					&nbsp;&nbsp;[1.1] Northern League<br/>
-					&nbsp;&nbsp;[1.2] Central League<br/>
-					&nbsp;&nbsp;[1.3] Southern League<br/>
-					[2] Federation Leagues - Tier 1<br/>
-					&nbsp;&nbsp;[2.1] NRFL Championship<br/>
-					&nbsp;&nbsp;[2.2] Capital Premier League<br/>
-					&nbsp;&nbsp;[2.3] Central Federation League<br/>
-					&nbsp;&nbsp;[2.4] Mainland Premiership<br/>
-					&nbsp;&nbsp;[2.5] Southern Premiership<br/>
-					[Cup] Chatham Cup<br/>
-					[Cup] Central Federation Cup<br/>
-					[Cup] English Cup<br/>
-					[Cup] Charity Cup<br/>
-				</td>
-				<td>
-					<ul>
-						<li>I have removed the 3rd tier because I can not guarantee it will work. The reason is that theoretically, a league could get depleted if all teams promote to a higher division. There are not enough teams, B teams, etc. to fill up the gap. After thinking about this for a long time, I decided to cut off the 3rd tier and I refactored New Zealand into 1 reliable file.</li>
-					</ul>
-				</td>
-			</tr>
+		<p><img class="flag" src="https://flagpedia.net/data/flags/w580/to.png"/> Tonga <span class="version">v26.1</span><br/>
+		[1] Tongan Major League<br/>
+		</p>
 
+		<p><img class="flag" src="https://flagpedia.net/data/flags/w580/vu.png"/> Vanuatu <span class="version">v26.1</span><br/>
+		[1] VFF National Soccer League<br/>
+		&nbsp;&nbsp;[1.1] Port Vila Super League
+		<ul>
+			<li>Other 7 subfederations are not implemented due to lack of information. This means only Port Vila is playable.</li>
+			<li>The winner of the National Soccer League qualifies to the OFC Championship</li>
+		</ul>
+		</p>
 
-			
-			<tr>
-				<td>TGA.fmf</td>
-				<td><img class="flag" src="https://flagpedia.net/data/flags/emoji/openmoji/64x64/to.png"/> Tonga</td>
-				<td>
-					[1] Tongan Major League<br/>
-				</td>
-				<td>&nbsp;</td>
-			</tr>
-
-			<tr>
-				<td>TUV.fmf</td>
-				<td><img class="flag" src="https://flagpedia.net/data/flags/emoji/openmoji/64x64/tv.png"/> Tuvalu</td>
-				<td>
-					[1] Tuvaluan A-Division<br/>
-					[Cup] Independence Cup<br/>
-				</td>
-				<td>
-					<ul>
-						<li>Note, Tuvaluan teams do not qualify for the OFC Champions League (unless you use one of my OFC_ALL files)</li>
-					</ul>
-				</td>
-			</tr>
-
-			<tr>
-				<td>VAN.fmf</td>
-				<td><img class="flag" src="https://flagpedia.net/data/flags/emoji/openmoji/64x64/vu.png"/> Vanuatu</td>
-				<td>
-					[1] VFF National Soccer League<br/>
-					&nbsp;&nbsp;[1.1] Port Vila Premier Division
-				</td>
-				<td>
-					<ul>
-						<li>2 teams qualify to the OFC Champions League from the VFF National Soccer League</li>
-						<li>I have only implemented the Port Vila Premier Division, since I could not find data for the other 7 federations</li>
-						<li>I had to create dummy leagues for those other 7 federations so that continental qualifying works correctly. They appear as disabled in the game</li>
-						<li>Port Vila Premier Division is reduced to 6 teams in 2024. This represents the split into Super League and Premier League because adding a new top level tier into this complex structure did not work well with the game</li>
-					</ul>
-				</td>
-			</tr>
-
-			<tr>
-				<td>OFC.fmf<br/>
-				OFC_ALL.fmf<br/>
-				OFC_NoCoefficients.fmf<br/>
-				OFC_ALL_NoCoefficients.fmf<br/></td>
-				<td>Oceania Football Confederation</td>
-				<td>
-					[Cup] OFC Champions League<br/>
-				</td>
-				<td>
-					<ul>
-						<li class="warning">(!) Please use only 1 file for OFC Champions league.</li>
-						<li>OFC.fmf : OFC Champions League implemented in 2023 format using coefficients. AFter 3 years (from 2026 onwards), the ranking based on coefficients will be used so that there are no big shifts right after the game starts.</li>
-						<li>OFC_ALL.fmf : OFC Champions League implemented in 2023 format using coefficients and including teams from Tuvalu and Kiribati. AFter 3 years (from 2026 onwards), the ranking based on coefficients will be used so that there are no big shifts right after the game starts.</li>
-						<li>OFC_NoCoefficients.fmf : OFC Champions League implemented in 2023 format. No coefficients are used, the nation ranking is static.</li>
-						<li>OFC_ALL_NoCoefficients.fmf : OFC Champions League implemented in 2023 format including teams from Tuvalu and Kiribati. No Coefficients are used, the nation ranking is static.</li>
-					</ul>
-				</td>
-			</tr>
-		
+		<p><img class="logo" src="https://1000logos.net/wp-content/uploads/2018/10/Oceania-Football-Confederation-logo-500x281.png"/> OFC Continental Competitions <span class="version">v26.1</span><br/>
+		[Cup] OFC Champions League<br/>
+		[Oth] OFC Professional League<br/>
+		<ul>
+			<li>Not all teams of the Professonal League are in the DB, therefore the Suva is picked for Fiji and Venus for Tahiti - even though this is technically not correct.</li>
+			<li>No coefficients are used for the OFC Champions League</li>
+		</ul>
+		</p>
 
 	</body>
 	

@@ -27055,6 +27055,7 @@
 							<integer id="stage" value="20"/>
 							<integer id="top_position" value="0"/>
 							<integer id="bottom_position" value="5"/>
+							<boolean id="hide_stage" value="false"/>
 						</record>
 						<record>
 							<record id="next_stage_main_stage_name">
@@ -27064,6 +27065,7 @@
 							<integer id="stage" value="18"/>
 							<integer id="top_position" value="6"/>
 							<integer id="bottom_position" value="9"/>
+							<boolean id="hide_stage" value="false"/>
 						</record>
 					</list>
 					<record id="appearance_money">
@@ -28655,6 +28657,7 @@
 							<integer id="stage" value="20"/>
 							<integer id="top_position" value="0"/>
 							<integer id="bottom_position" value="5"/>
+							<boolean id="hide_stage" value="false"/>
 						</record>
 						<record>
 							<record id="next_stage_main_stage_name">
@@ -28664,6 +28667,7 @@
 							<integer id="stage" value="19"/>
 							<integer id="top_position" value="6"/>
 							<integer id="bottom_position" value="9"/>
+							<boolean id="hide_stage" value="false"/>
 						</record>
 					</list>
 					<record id="appearance_money">
@@ -42820,9 +42824,9 @@
 	<integer id="version" value="3729"/>
 	<integer id="rule_group_version" value="1639"/>
 	<boolean id="beta" value="false"/>
-	<integer id="XSvC" value="1236"/>
+	<integer id="XSvC" value="1240"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
-	<date id="EdDt" day="13" month="5" year="2026" time="1415"/>
+	<date id="EdDt" day="13" month="5" year="2026" time="2300"/>
 	<list id="db_changes">
 		<record>
 			<integer id="database_table_type" value="55"/>
