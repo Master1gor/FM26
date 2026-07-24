@@ -812,6 +812,7 @@
 							</record>
 							<string id="seeding_method" value="incremental_seeding"/>
 							<integer id="seeding" value="0"/>
+							<string id="description" value="[5 teams that played in Liga 1 Phase 2 and not promoted]"/>
 						</record>
 						<record>
 							<string id="id" value="get_qualified_teams"/>
@@ -829,10 +830,10 @@
 								<large id="competition" value="253435828238574219"/>
 								<integer id="DBID" value="59007627"/>
 							</record>
-							<boolean id="clear_all_teams_if_max_teams_overall_exceeded" value="true"/>
-							<integer id="maximum_overall_number_teams" value="10"/>
 							<string id="seeding_method" value="incremental_seeding"/>
-							<integer id="seeding" value="5"/>
+							<integer id="seeding" value="10"/>
+							<string id="description" value="[Teams from Liga 1 Phase 2 Bottom Group that are not relegated]"/>
+							<integer id="dont_use_later_rounds_minimum" value="1"/>
 						</record>
 						<record>
 							<string id="id" value="get_stage_teams"/>
@@ -841,6 +842,7 @@
 							<string id="stage" value="2"/>
 							<boolean id="reverse_teams" value="true"/>
 							<integer id="maximum_number_teams" value="5"/>
+							<string id="description" value="[Backup 5 Lower Teams when inactive]"/>
 						</record>
 					</list>
 					<string id="type" value="cup"/>
@@ -850,7 +852,7 @@
 								<large id="stgn" value="25769803782"/>
 								<integer id="DBID" value="6"/>
 							</record>
-							<integer id="number_matches" value="3"/>
+							<integer id="number_matches" value="8"/>
 							<record id="date">
 								<unsigned id="id" value="1684108389"/>
 								<string id="match_rules" value="extra_time, pen"/>
@@ -861,26 +863,12 @@
 								<unsigned id="id" value="1685218420"/>
 								<boolean id="draw_date_to_stage_setup_day" value="true"/>
 							</record>
-							<integer id="next_round_for_winner" value="1"/>
-							<integer id="next_round_for_loser" value="-1"/>
 							<integer id="number_legs" value="1"/>
 							<integer id="number_replays" value="0"/>
 							<string id="stadium_rules" value="home"/>
 							<boolean id="round_use_squad_numbers" value="true"/>
-							<string id="draw_rules" value="fixed_draw, do_not_swap_teams"/>
-							<list id="cup_tie_mappings">
-								<record>
-									<integer id="cup_tie_index" value="0"/>
-									<integer id="home_team_index" value="5"/>
-									<integer id="away_team_index" value="8"/>
-								</record>
-								<record>
-									<integer id="cup_tie_index" value="1"/>
-									<integer id="home_team_index" value="6"/>
-									<integer id="away_team_index" value="7"/>
-								</record>
-							</list>
-							<integer id="number_teams" value="11"/>
+							<integer id="number_teams" value="16"/>
+							<integer id="number_extra_teams" value="16"/>
 						</record>
 						<record>
 							<large id="stage_name" value="17"/>
@@ -893,38 +881,41 @@
 								<integer id="main_stage_name" value="117"/>
 								<integer id="id_2" value="1363550240"/>
 							</record>
-							<integer id="next_round_for_winner" value="2"/>
-							<integer id="next_round_for_loser" value="-1"/>
 							<integer id="number_legs" value="1"/>
 							<integer id="number_replays" value="0"/>
 							<string id="stadium_rules" value="home"/>
 							<boolean id="round_use_squad_numbers" value="true"/>
-							<string id="draw_rules" value="fixed_draw, do_not_swap_teams"/>
 							<record id="draw_date">
 								<boolean id="draw_date_to_stage_setup_day" value="true"/>
 							</record>
 							<list id="cup_tie_mappings">
 								<record>
 									<integer id="cup_tie_index" value="0"/>
-									<integer id="home_team_index" value="2"/>
-									<integer id="away_team_index" value="9"/>
-								</record>
-								<record>
-									<integer id="cup_tie_index" value="1"/>
-									<integer id="home_team_index" value="1"/>
-									<integer id="away_last_cup_tie" value="0"/>
-									<string id="away_last_cup_tie_team_index" value="winner"/>
-								</record>
-								<record>
-									<integer id="cup_tie_index" value="2"/>
-									<integer id="home_team_index" value="0"/>
+									<integer id="home_last_cup_tie" value="0"/>
+									<string id="home_last_cup_tie_team_index" value="winner"/>
 									<integer id="away_last_cup_tie" value="1"/>
 									<string id="away_last_cup_tie_team_index" value="winner"/>
 								</record>
 								<record>
+									<integer id="cup_tie_index" value="1"/>
+									<integer id="home_last_cup_tie" value="2"/>
+									<string id="home_last_cup_tie_team_index" value="winner"/>
+									<integer id="away_last_cup_tie" value="3"/>
+									<string id="away_last_cup_tie_team_index" value="winner"/>
+								</record>
+								<record>
+									<integer id="cup_tie_index" value="2"/>
+									<integer id="home_last_cup_tie" value="4"/>
+									<string id="home_last_cup_tie_team_index" value="winner"/>
+									<integer id="away_last_cup_tie" value="5"/>
+									<string id="away_last_cup_tie_team_index" value="winner"/>
+								</record>
+								<record>
 									<integer id="cup_tie_index" value="3"/>
-									<integer id="home_team_index" value="3"/>
-									<integer id="away_team_index" value="4"/>
+									<integer id="home_last_cup_tie" value="6"/>
+									<string id="home_last_cup_tie_team_index" value="winner"/>
+									<integer id="away_last_cup_tie" value="7"/>
+									<string id="away_last_cup_tie_team_index" value="winner"/>
 								</record>
 							</list>
 						</record>
@@ -939,13 +930,10 @@
 								<integer id="main_stage_name" value="117"/>
 								<integer id="id_2" value="1397104672"/>
 							</record>
-							<integer id="next_round_for_winner" value="3"/>
-							<integer id="next_round_for_loser" value="-1"/>
 							<integer id="number_legs" value="1"/>
 							<integer id="number_replays" value="0"/>
 							<string id="stadium_rules" value="home"/>
 							<boolean id="round_use_squad_numbers" value="true"/>
-							<string id="draw_rules" value="fixed_draw, do_not_swap_teams"/>
 							<record id="draw_date">
 								<boolean id="draw_date_to_stage_setup_day" value="true"/>
 							</record>
@@ -977,16 +965,6 @@
 								<integer id="main_stage_name" value="117"/>
 								<integer id="id_2" value="1176510496"/>
 							</record>
-							<record id="winner_ranking_levels">
-								<unsigned id="id" value="2003988075"/>
-								<integer id="current" value="0"/>
-							</record>
-							<record id="loser_ranking_levels">
-								<unsigned id="id" value="1819438699"/>
-								<integer id="current" value="1"/>
-							</record>
-							<integer id="next_round_for_winner" value="-1"/>
-							<integer id="next_round_for_loser" value="-1"/>
 							<integer id="number_legs" value="1"/>
 							<integer id="number_replays" value="0"/>
 							<string id="stadium_rules" value="home"/>
@@ -994,6 +972,15 @@
 							<record id="draw_date">
 								<boolean id="draw_date_to_stage_setup_day" value="true"/>
 							</record>
+							<list id="cup_tie_mappings">
+								<record>
+									<integer id="cup_tie_index" value="0"/>
+									<integer id="home_last_cup_tie" value="0"/>
+									<string id="home_last_cup_tie_team_index" value="winner"/>
+									<integer id="away_last_cup_tie" value="1"/>
+									<string id="away_last_cup_tie_team_index" value="winner"/>
+								</record>
+							</list>
 						</record>
 					</list>
 					<record id="shared_round_data">
@@ -1001,6 +988,7 @@
 						<string id="subs_rules" value="five_from_eleven_max_three_stoppages_and_extra_time_sub"/>
 						<string id="priority" value="league_high"/>
 						<string id="stadium_rules" value="home"/>
+						<string id="draw_rules" value="higher_seeded_team_at_home, seeded_draw, winner_takes_higher_seeding"/>
 					</record>
 					<list id="requirements">
 						<record>
@@ -1154,391 +1142,18 @@
 							</record>
 						</record>
 					</list>
-					<string id="stage_flags" value="store_stats_for_stage"/>
 					<record id="joint_competition">
 						<large id="competition" value="253435828238574219"/>
 						<integer id="DBID" value="59007627"/>
 					</record>
-					<integer id="number_teams" value="10"/>
-					<boolean id="dont_add_stage_if_not_enough_teams" value="true"/>
-					<string id="description" value="-- 10 Teams"/>
-					<string id="sort_stage_teams" value="asc_seeding"/>
-					<boolean id="dont_set_first_team_as_champion_if_not_enough_teams" value="true"/>
-					<boolean id="clear_teams_if_not_enough_teams" value="true"/>
-					<boolean id="add_history_record_if_not_enough_teams" value="false"/>
-				</record>
-				<record>
-					<string id="id" value="prom"/>
-					<integer id="index" value="5"/>
-					<large id="stage_name" value="117"/>
-					<list id="teams">
-						<record>
-							<string id="id" value="get_qualified_teams"/>
-							<string id="stage" value="3"/>
-							<large id="next_stage_main_stage_name" value="117"/>
-							<record id="next_stage_competition">
-								<large id="competition" value="253435742339228279"/>
-								<integer id="DBID" value="59007607"/>
-							</record>
-							<record id="joint_competition">
-								<large id="competition" value="253435828238574219"/>
-								<integer id="DBID" value="59007627"/>
-							</record>
-							<string id="seeding_method" value="incremental_seeding"/>
-							<integer id="seeding" value="0"/>
-						</record>
-						<record>
-							<string id="id" value="get_qualified_teams"/>
-							<string id="stage" value="1"/>
-							<large id="next_stage_main_stage_name" value="117"/>
-							<record id="next_stage_competition">
-								<large id="competition" value="253435742339228279"/>
-								<integer id="DBID" value="59007607"/>
-							</record>
-							<record id="joint_competition">
-								<large id="competition" value="253435828238574219"/>
-								<integer id="DBID" value="59007627"/>
-							</record>
-							<record id="competition">
-								<large id="competition" value="253435828238574219"/>
-								<integer id="DBID" value="59007627"/>
-							</record>
-							<string id="seeding_method" value="incremental_seeding"/>
-							<integer id="seeding" value="5"/>
-						</record>
-					</list>
-					<string id="type" value="cup"/>
-					<list id="rounds">
-						<record>
-							<record id="stage_name">
-								<large id="stgn" value="25769803782"/>
-								<integer id="DBID" value="6"/>
-							</record>
-							<integer id="number_matches" value="3"/>
-							<record id="date">
-								<unsigned id="id" value="1684108389"/>
-								<string id="match_rules" value="extra_time, pen"/>
-								<integer id="main_stage_name" value="117"/>
-								<integer id="id_2" value="1378951200"/>
-							</record>
-							<record id="draw_date">
-								<unsigned id="id" value="1685218420"/>
-								<boolean id="draw_date_to_stage_setup_day" value="true"/>
-							</record>
-							<integer id="next_round_for_winner" value="1"/>
-							<integer id="next_round_for_loser" value="-1"/>
-							<integer id="number_legs" value="1"/>
-							<integer id="number_replays" value="0"/>
-							<string id="stadium_rules" value="home"/>
-							<boolean id="round_use_squad_numbers" value="true"/>
-							<string id="draw_rules" value="fixed_draw, do_not_swap_teams"/>
-							<list id="cup_tie_mappings">
-								<record>
-									<integer id="cup_tie_index" value="0"/>
-									<integer id="home_team_index" value="5"/>
-									<integer id="away_team_index" value="10"/>
-								</record>
-								<record>
-									<integer id="cup_tie_index" value="1"/>
-									<integer id="home_team_index" value="6"/>
-									<integer id="away_team_index" value="9"/>
-								</record>
-								<record>
-									<integer id="cup_tie_index" value="2"/>
-									<integer id="home_team_index" value="7"/>
-									<integer id="away_team_index" value="8"/>
-								</record>
-							</list>
-							<integer id="number_teams" value="11"/>
-						</record>
-						<record>
-							<large id="stage_name" value="17"/>
-							<integer id="number_teams" value="8"/>
-							<integer id="number_extra_teams" value="0"/>
-							<integer id="number_matches" value="4"/>
-							<record id="date">
-								<unsigned id="id" value="1684108389"/>
-								<string id="match_rules" value="extra_time, pen"/>
-								<integer id="main_stage_name" value="117"/>
-								<integer id="id_2" value="1363550240"/>
-							</record>
-							<integer id="next_round_for_winner" value="2"/>
-							<integer id="next_round_for_loser" value="-1"/>
-							<integer id="number_legs" value="1"/>
-							<integer id="number_replays" value="0"/>
-							<string id="stadium_rules" value="home"/>
-							<boolean id="round_use_squad_numbers" value="true"/>
-							<string id="draw_rules" value="fixed_draw, do_not_swap_teams"/>
-							<record id="draw_date">
-								<boolean id="draw_date_to_stage_setup_day" value="true"/>
-							</record>
-							<list id="cup_tie_mappings">
-								<record>
-									<integer id="cup_tie_index" value="0"/>
-									<integer id="home_team_index" value="2"/>
-									<integer id="away_last_cup_tie" value="0"/>
-									<string id="away_last_cup_tie_team_index" value="winner"/>
-								</record>
-								<record>
-									<integer id="cup_tie_index" value="1"/>
-									<integer id="home_team_index" value="1"/>
-									<integer id="away_last_cup_tie" value="1"/>
-									<string id="away_last_cup_tie_team_index" value="winner"/>
-								</record>
-								<record>
-									<integer id="cup_tie_index" value="2"/>
-									<integer id="home_team_index" value="0"/>
-									<integer id="away_last_cup_tie" value="2"/>
-									<string id="away_last_cup_tie_team_index" value="winner"/>
-								</record>
-								<record>
-									<integer id="cup_tie_index" value="3"/>
-									<integer id="home_team_index" value="3"/>
-									<integer id="away_team_index" value="4"/>
-								</record>
-							</list>
-						</record>
-						<record>
-							<large id="stage_name" value="18"/>
-							<integer id="number_teams" value="4"/>
-							<integer id="number_extra_teams" value="0"/>
-							<integer id="number_matches" value="2"/>
-							<record id="date">
-								<unsigned id="id" value="1684108389"/>
-								<string id="match_rules" value="extra_time, pen"/>
-								<integer id="main_stage_name" value="117"/>
-								<integer id="id_2" value="1397104672"/>
-							</record>
-							<integer id="next_round_for_winner" value="3"/>
-							<integer id="next_round_for_loser" value="-1"/>
-							<integer id="number_legs" value="1"/>
-							<integer id="number_replays" value="0"/>
-							<string id="stadium_rules" value="home"/>
-							<boolean id="round_use_squad_numbers" value="true"/>
-							<string id="draw_rules" value="fixed_draw, do_not_swap_teams"/>
-							<record id="draw_date">
-								<boolean id="draw_date_to_stage_setup_day" value="true"/>
-							</record>
-							<list id="cup_tie_mappings">
-								<record>
-									<integer id="cup_tie_index" value="0"/>
-									<integer id="home_last_cup_tie" value="0"/>
-									<string id="home_last_cup_tie_team_index" value="winner"/>
-									<integer id="away_last_cup_tie" value="1"/>
-									<string id="away_last_cup_tie_team_index" value="winner"/>
-								</record>
-								<record>
-									<integer id="cup_tie_index" value="1"/>
-									<integer id="home_last_cup_tie" value="2"/>
-									<string id="home_last_cup_tie_team_index" value="winner"/>
-									<integer id="away_last_cup_tie" value="3"/>
-									<string id="away_last_cup_tie_team_index" value="winner"/>
-								</record>
-							</list>
-						</record>
-						<record>
-							<large id="stage_name" value="20"/>
-							<integer id="number_teams" value="2"/>
-							<integer id="number_extra_teams" value="0"/>
-							<integer id="number_matches" value="1"/>
-							<record id="date">
-								<unsigned id="id" value="1684108389"/>
-								<string id="match_rules" value="extra_time, pen"/>
-								<integer id="main_stage_name" value="117"/>
-								<integer id="id_2" value="1176510496"/>
-							</record>
-							<record id="winner_ranking_levels">
-								<unsigned id="id" value="2003988075"/>
-								<integer id="current" value="0"/>
-							</record>
-							<record id="loser_ranking_levels">
-								<unsigned id="id" value="1819438699"/>
-								<integer id="current" value="1"/>
-							</record>
-							<integer id="next_round_for_winner" value="-1"/>
-							<integer id="next_round_for_loser" value="-1"/>
-							<integer id="number_legs" value="1"/>
-							<integer id="number_replays" value="0"/>
-							<string id="stadium_rules" value="home"/>
-							<boolean id="round_use_squad_numbers" value="true"/>
-							<record id="draw_date">
-								<boolean id="draw_date_to_stage_setup_day" value="true"/>
-							</record>
-						</record>
-					</list>
-					<record id="shared_round_data">
-						<unsigned id="id" value="1936879204"/>
-						<string id="subs_rules" value="five_from_eleven_max_three_stoppages_and_extra_time_sub"/>
-						<string id="priority" value="league_high"/>
-						<string id="stadium_rules" value="home"/>
-					</record>
-					<list id="requirements">
-						<record>
-							<boolean id="process_early_finish" value="false"/>
-							<string id="stage" value="3"/>
-						</record>
-						<record>
-							<boolean id="process_early_finish" value="false"/>
-							<record id="competition">
-								<large id="competition" value="253435828238574219"/>
-								<integer id="DBID" value="59007627"/>
-							</record>
-							<string id="stage" value="1"/>
-						</record>
-					</list>
-					<list id="fate_actions">
-						<record>
-							<string id="type" value="set_league_fate"/>
-							<string id="team" value="winner"/>
-							<string id="new_fate" value="none"/>
-							<boolean id="search_child_comps" value="false"/>
-							<string id="stage" value="0"/>
-							<record id="stage_name">
-								<large id="stgn" value="85899345940"/>
-								<integer id="DBID" value="20"/>
-							</record>
-							<record id="competition">
-								<large id="competition" value="253435742339228279"/>
-								<integer id="DBID" value="59007607"/>
-							</record>
-						</record>
-						<record>
-							<string id="type" value="set_league_fate"/>
-							<string id="team" value="loser"/>
-							<string id="new_fate" value="relegated"/>
-							<boolean id="search_child_comps" value="false"/>
-							<string id="stage" value="0"/>
-							<record id="stage_name">
-								<large id="stgn" value="85899345940"/>
-								<integer id="DBID" value="20"/>
-							</record>
-							<record id="competition">
-								<large id="competition" value="253435742339228279"/>
-								<integer id="DBID" value="59007607"/>
-							</record>
-							<record id="next_division">
-								<large id="competition" value="253435828238574219"/>
-								<integer id="DBID" value="59007627"/>
-							</record>
-						</record>
-						<record>
-							<string id="type" value="set_league_fate"/>
-							<string id="team" value="loser"/>
-							<string id="new_fate" value="relegated"/>
-							<boolean id="search_child_comps" value="false"/>
-							<string id="stage" value="0"/>
-							<record id="stage_name">
-								<large id="stgn" value="77309411346"/>
-								<integer id="DBID" value="18"/>
-							</record>
-							<record id="competition">
-								<large id="competition" value="253435742339228279"/>
-								<integer id="DBID" value="59007607"/>
-							</record>
-							<record id="next_division">
-								<large id="competition" value="253435828238574219"/>
-								<integer id="DBID" value="59007627"/>
-							</record>
-						</record>
-						<record>
-							<string id="type" value="set_league_fate"/>
-							<string id="team" value="loser"/>
-							<string id="new_fate" value="relegated"/>
-							<boolean id="search_child_comps" value="false"/>
-							<string id="stage" value="0"/>
-							<record id="stage_name">
-								<large id="stgn" value="73014444049"/>
-								<integer id="DBID" value="17"/>
-							</record>
-							<record id="competition">
-								<large id="competition" value="253435742339228279"/>
-								<integer id="DBID" value="59007607"/>
-							</record>
-							<record id="next_division">
-								<large id="competition" value="253435828238574219"/>
-								<integer id="DBID" value="59007627"/>
-							</record>
-						</record>
-						<record>
-							<string id="type" value="set_league_fate"/>
-							<string id="team" value="winner"/>
-							<string id="new_fate" value="promoted"/>
-							<boolean id="search_child_comps" value="false"/>
-							<string id="stage" value="0"/>
-							<record id="stage_name">
-								<large id="stgn" value="85899345940"/>
-								<integer id="DBID" value="20"/>
-							</record>
-							<record id="competition">
-								<large id="competition" value="253435828238574219"/>
-								<integer id="DBID" value="59007627"/>
-							</record>
-							<record id="next_division">
-								<large id="competition" value="253435742339228279"/>
-								<integer id="DBID" value="59007607"/>
-							</record>
-						</record>
-						<record>
-							<string id="type" value="set_league_fate"/>
-							<string id="team" value="loser"/>
-							<string id="new_fate" value="none"/>
-							<boolean id="search_child_comps" value="false"/>
-							<string id="stage" value="0"/>
-							<record id="stage_name">
-								<large id="stgn" value="85899345940"/>
-								<integer id="DBID" value="20"/>
-							</record>
-							<record id="competition">
-								<large id="competition" value="253435828238574219"/>
-								<integer id="DBID" value="59007627"/>
-							</record>
-						</record>
-						<record>
-							<string id="type" value="set_league_fate"/>
-							<string id="team" value="loser"/>
-							<string id="new_fate" value="none"/>
-							<boolean id="search_child_comps" value="false"/>
-							<string id="stage" value="0"/>
-							<record id="stage_name">
-								<large id="stgn" value="77309411346"/>
-								<integer id="DBID" value="18"/>
-							</record>
-							<record id="competition">
-								<large id="competition" value="253435828238574219"/>
-								<integer id="DBID" value="59007627"/>
-							</record>
-						</record>
-						<record>
-							<string id="type" value="set_league_fate"/>
-							<string id="team" value="loser"/>
-							<string id="new_fate" value="none"/>
-							<boolean id="search_child_comps" value="false"/>
-							<string id="stage" value="0"/>
-							<record id="stage_name">
-								<large id="stgn" value="73014444049"/>
-								<integer id="DBID" value="17"/>
-							</record>
-							<record id="competition">
-								<large id="competition" value="253435828238574219"/>
-								<integer id="DBID" value="59007627"/>
-							</record>
-						</record>
-					</list>
-					<string id="stage_flags" value="store_stats_for_stage"/>
-					<record id="joint_competition">
-						<large id="competition" value="253435828238574219"/>
-						<integer id="DBID" value="59007627"/>
-					</record>
-					<integer id="number_teams" value="11"/>
-					<string id="description" value="-- 11 Teams"/>
-					<boolean id="dont_add_stage_if_not_enough_teams" value="true"/>
-					<boolean id="add_history_record_if_not_enough_teams" value="false"/>
-					<boolean id="dont_set_first_team_as_champion_if_not_enough_teams" value="true"/>
-					<boolean id="clear_teams_if_not_enough_teams" value="true"/>
+					<string id="description" value=""/>
+					<integer id="maximum_number_teams" value="11"/>
+					<integer id="minimum_number_teams" value="4"/>
+					<boolean id="reverse_teams" value="true"/>
 				</record>
 				<record>
 					<string id="id" value="rank"/>
-					<integer id="index" value="6"/>
+					<integer id="index" value="5"/>
 					<string id="type" value="league"/>
 					<list id="sort_rules">
 						<string value="seeding"/>
@@ -1676,7 +1291,7 @@
 			<boolean id="comp_inactive" value="false"/>
 			<boolean id="comp_uses_third_placed_teams" value="true"/>
 			<boolean id="should_fixture_still_be_televised" value="true"/>
-			<integer id="last_day_of_season_stage_index" value="5"/>
+			<integer id="last_day_of_season_stage_index" value="4"/>
 			<string id="file_type" value="comp"/>
 			<string id="type" value="division"/>
 			<integer id="branch" value="0"/>
@@ -1699,6 +1314,11 @@
 						<integer id="DBID" value="59007627"/>
 					</record>
 				</record>
+				<record>
+					<string id="stage_finished_actions" value="send_teams_to_cont_cup_seedings"/>
+					<integer id="index" value="5"/>
+					<integer id="qualification_system_id" value="0"/>
+				</record>
 			</list>
 			<boolean id="should_comp_allow_b_teams_from_lower_division" value="false"/>
 			<list id="cont_cup_qual_rules">
@@ -1706,7 +1326,7 @@
 					<string id="type" value="league_stage"/>
 					<boolean id="hide_rule" value="false"/>
 					<integer id="qualification_system_id" value="0"/>
-					<integer id="stage" value="6"/>
+					<integer id="stage" value="5"/>
 					<string id="ranked_team_info" value="league_position"/>
 					<record id="competition">
 						<large id="competition" value="253435742339228279"/>
@@ -1717,6 +1337,13 @@
 			<list id="professional_status">
 				<record>
 					<integer id="type" value="1"/>
+				</record>
+			</list>
+			<list id="initial_tv_money">
+				<record>
+					<string id="type" value="each_team"/>
+					<real id="cash" value="5000.000000"/>
+					<unsigned id="currency" value="7"/>
 				</record>
 			</list>
 		</record>
@@ -2555,12 +2182,12 @@
 	<integer id="version" value="3733"/>
 	<integer id="rule_group_version" value="1639"/>
 	<boolean id="beta" value="false"/>
-	<date id="EdDt" day="5" month="7" year="2026" time="0"/>
+	<date id="EdDt" day="24" month="7" year="2026" time="1700"/>
 	<list id="verf">
 		<string value="24.3.0"/>
 		<string value="26.2.0"/>
 	</list>
-	<integer id="XSvC" value="61"/>
+	<integer id="XSvC" value="69"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
 	<list id="db_changes"/>
 </record>

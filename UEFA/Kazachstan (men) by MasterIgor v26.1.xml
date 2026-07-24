@@ -550,6 +550,13 @@
 			<string id="description" value="2025"/>
 			<integer id="end_year" value="2025"/>
 			<integer id="number_extra_lower_teams_to_be_promoted" value="2"/>
+			<list id="initial_tv_money">
+				<record>
+					<real id="cash" value="25000.000000"/>
+					<unsigned id="currency" value="7"/>
+					<string id="type" value="each_team"/>
+				</record>
+			</list>
 		</record>
 		<record>
 			<integer id="version" value="999"/>
@@ -722,6 +729,13 @@
 			</list>
 			<string id="description" value="2026+"/>
 			<integer id="start_year" value="2026"/>
+			<list id="initial_tv_money">
+				<record>
+					<real id="cash" value="25000.000000"/>
+					<unsigned id="currency" value="7"/>
+					<string id="type" value="each_team"/>
+				</record>
+			</list>
 		</record>
 		<record>
 			<integer id="version" value="999"/>
@@ -966,7 +980,7 @@
 			<integer id="level" value="0"/>
 			<list id="stages">
 				<record>
-					<string id="id" value="pre"/>
+					<string id="id" value="pre "/>
 					<integer id="index" value="0"/>
 					<integer id="number_teams" value="16"/>
 					<list id="teams">
@@ -997,7 +1011,7 @@
 							<record id="date">
 								<unsigned id="id" value="1684108389"/>
 								<string id="match_rules" value="extra_time, pen"/>
-								<string id="id_1" value="PQF "/>
+								<integer id="id_1" value="1347503648"/>
 							</record>
 							<record id="draw_date">
 								<unsigned id="id" value="1685218420"/>
@@ -1026,7 +1040,7 @@
 							<record id="date">
 								<unsigned id="id" value="1684108389"/>
 								<string id="match_rules" value="extra_time, pen"/>
-								<string id="id_1" value="PSF "/>
+								<integer id="id_1" value="1347634720"/>
 							</record>
 							<record id="draw_date">
 								<unsigned id="id" value="1685218420"/>
@@ -1055,7 +1069,7 @@
 							<record id="date">
 								<unsigned id="id" value="1684108389"/>
 								<string id="match_rules" value="extra_time, pen"/>
-								<string id="id_1" value="PF  "/>
+								<integer id="id_1" value="1346773024"/>
 							</record>
 							<integer id="number_legs" value="1"/>
 							<integer id="number_replays" value="0"/>
@@ -1102,7 +1116,7 @@
 					<list id="teams">
 						<record>
 							<string id="id" value="get_qualified_teams"/>
-							<string id="stage" value="pre"/>
+							<string id="stage" value="pre "/>
 							<string id="seeding_method" value="same_seeding"/>
 							<integer id="seeding" value="1"/>
 						</record>
@@ -1125,7 +1139,7 @@
 							<record id="date">
 								<unsigned id="id" value="1684108389"/>
 								<string id="match_rules" value="extra_time, pen"/>
-								<string id="id_1" value="Ro16"/>
+								<integer id="id_1" value="1383018806"/>
 							</record>
 							<record id="draw_date">
 								<unsigned id="id" value="1685218420"/>
@@ -1139,7 +1153,7 @@
 							<integer id="number_replays" value="0"/>
 							<string id="stadium_rules" value="home"/>
 							<boolean id="round_use_squad_numbers" value="true"/>
-							<string id="draw_rules" value="seeded_draw, lower_division_team_at_home"/>
+							<string id="draw_rules" value="lower_division_team_at_home, seeded_draw"/>
 							<record id="winner_ranking_levels">
 								<integer id="current" value="0"/>
 								<integer id="low" value="3"/>
@@ -1186,7 +1200,7 @@
 							<record id="date">
 								<unsigned id="id" value="1684108389"/>
 								<string id="match_rules" value="extra_time, pen"/>
-								<string id="id_1" value="SF  "/>
+								<integer id="id_1" value="1397104672"/>
 							</record>
 							<record id="draw_date">
 								<unsigned id="id" value="1685218420"/>
@@ -1241,7 +1255,7 @@
 					<list id="requirements">
 						<record>
 							<boolean id="process_early_finish" value="false"/>
-							<string id="stage" value="pre"/>
+							<string id="stage" value="pre "/>
 						</record>
 					</list>
 					<list id="fate_actions"/>
@@ -1250,7 +1264,7 @@
 			<list id="fixture_dates">
 				<record>
 					<string id="stadium_rules" value="home"/>
-					<string id="id_1" value="PQF "/>
+					<integer id="id_1" value="1347503648"/>
 					<string id="day_of_week" value="sat"/>
 					<integer id="day_of_month" value="18"/>
 					<string id="month" value="mar"/>
@@ -1258,7 +1272,7 @@
 				</record>
 				<record>
 					<string id="stadium_rules" value="home"/>
-					<string id="id_1" value="PSF "/>
+					<integer id="id_1" value="1347634720"/>
 					<string id="day_of_week" value="wed"/>
 					<integer id="day_of_month" value="22"/>
 					<string id="month" value="mar"/>
@@ -1266,7 +1280,7 @@
 				</record>
 				<record>
 					<string id="stadium_rules" value="home"/>
-					<string id="id_1" value="PF  "/>
+					<integer id="id_1" value="1346773024"/>
 					<string id="day_of_week" value="sat"/>
 					<integer id="day_of_month" value="25"/>
 					<string id="month" value="mar"/>
@@ -1274,7 +1288,7 @@
 				</record>
 				<record>
 					<string id="stadium_rules" value="home"/>
-					<string id="id_1" value="Ro16"/>
+					<integer id="id_1" value="1383018806"/>
 					<string id="day_of_week" value="sat"/>
 					<integer id="day_of_month" value="15"/>
 					<string id="month" value="apr"/>
@@ -1290,7 +1304,7 @@
 				</record>
 				<record>
 					<string id="stadium_rules" value="home"/>
-					<string id="id_1" value="SF  "/>
+					<integer id="id_1" value="1397104672"/>
 					<string id="day_of_week" value="sat"/>
 					<integer id="day_of_month" value="29"/>
 					<string id="month" value="jul"/>
@@ -1522,7 +1536,7 @@
 							<record id="date">
 								<unsigned id="id" value="1684108389"/>
 								<string id="match_rules" value="extra_time, pen"/>
-								<string id="id_1" value="R1  "/>
+								<integer id="id_1" value="1378951200"/>
 							</record>
 							<record id="draw_date">
 								<unsigned id="id" value="1685218420"/>
@@ -1532,7 +1546,7 @@
 							<integer id="number_replays" value="0"/>
 							<string id="stadium_rules" value="home"/>
 							<boolean id="round_use_squad_numbers" value="true"/>
-							<string id="draw_rules" value="seeded_draw, lower_division_team_at_home"/>
+							<string id="draw_rules" value="lower_division_team_at_home, seeded_draw"/>
 						</record>
 						<record>
 							<large id="stage_name" value="2000223074"/>
@@ -1542,7 +1556,7 @@
 							<record id="date">
 								<unsigned id="id" value="1684108389"/>
 								<string id="match_rules" value="extra_time, pen"/>
-								<string id="id_1" value="Ro16"/>
+								<integer id="id_1" value="1383018806"/>
 							</record>
 							<record id="draw_date">
 								<unsigned id="id" value="1685218420"/>
@@ -1556,7 +1570,7 @@
 							<integer id="number_replays" value="0"/>
 							<string id="stadium_rules" value="home"/>
 							<boolean id="round_use_squad_numbers" value="true"/>
-							<string id="draw_rules" value="seeded_draw, lower_division_team_at_home"/>
+							<string id="draw_rules" value="lower_division_team_at_home, seeded_draw"/>
 						</record>
 						<record>
 							<large id="stage_name" value="17"/>
@@ -1587,7 +1601,7 @@
 							<record id="date">
 								<unsigned id="id" value="1684108389"/>
 								<string id="match_rules" value="extra_time, pen"/>
-								<string id="id_1" value="SF  "/>
+								<integer id="id_1" value="1397104672"/>
 							</record>
 							<record id="draw_date">
 								<unsigned id="id" value="1685218420"/>
@@ -1632,7 +1646,7 @@
 			<list id="fixture_dates">
 				<record>
 					<string id="stadium_rules" value="home"/>
-					<string id="id_1" value="R1  "/>
+					<integer id="id_1" value="1378951200"/>
 					<string id="day_of_week" value="wed"/>
 					<integer id="day_of_month" value="12"/>
 					<string id="month" value="apr"/>
@@ -1640,7 +1654,7 @@
 				</record>
 				<record>
 					<string id="stadium_rules" value="home"/>
-					<string id="id_1" value="Ro16"/>
+					<integer id="id_1" value="1383018806"/>
 					<string id="day_of_week" value="wed"/>
 					<integer id="day_of_month" value="3"/>
 					<string id="month" value="may"/>
@@ -1656,7 +1670,7 @@
 				</record>
 				<record>
 					<string id="stadium_rules" value="home"/>
-					<string id="id_1" value="SF  "/>
+					<integer id="id_1" value="1397104672"/>
 					<string id="day_of_week" value="wed"/>
 					<integer id="day_of_month" value="19"/>
 					<string id="month" value="jul"/>
@@ -1849,12 +1863,12 @@
 	<integer id="version" value="3733"/>
 	<integer id="rule_group_version" value="1639"/>
 	<boolean id="beta" value="false"/>
-	<date id="EdDt" day="4" month="7" year="2026" time="0"/>
+	<date id="EdDt" day="24" month="7" year="2026" time="1615"/>
 	<list id="verf">
 		<string value="24.3.0"/>
 		<string value="26.2.0"/>
 	</list>
-	<integer id="XSvC" value="78"/>
+	<integer id="XSvC" value="86"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
 	<list id="db_changes">
 		<record>

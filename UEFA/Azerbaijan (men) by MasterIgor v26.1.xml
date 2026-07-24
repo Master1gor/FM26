@@ -641,8 +641,8 @@
 							</record>
 							<record id="date">
 								<string id="match_rules" value="extra_time, pen"/>
-								<string id="id_1" value="relg"/>
-								<string id="id_2" value="F   "/>
+								<integer id="id_1" value="1919249511"/>
+								<integer id="id_2" value="1176510496"/>
 							</record>
 							<integer id="number_extra_teams" value="2"/>
 							<integer id="number_legs" value="1"/>
@@ -757,8 +757,8 @@
 					<integer id="year" value="2001"/>
 				</record>
 				<record>
-					<string id="id_1" value="relg"/>
-					<string id="id_2" value="F   "/>
+					<integer id="id_1" value="1919249511"/>
+					<integer id="id_2" value="1176510496"/>
 					<string id="day_of_week" value="sat"/>
 					<integer id="day_of_month" value="2"/>
 					<string id="month" value="jun"/>
@@ -793,6 +793,13 @@
 					<string id="stage_finished_actions" value="add_history_record"/>
 					<integer id="index" value="0"/>
 					<boolean id="store_league_history" value="true"/>
+				</record>
+			</list>
+			<list id="initial_tv_money">
+				<record>
+					<real id="cash" value="60000.000000"/>
+					<unsigned id="currency" value="7"/>
+					<string id="type" value="each_team"/>
 				</record>
 			</list>
 		</record>
@@ -1437,15 +1444,15 @@
 	<string id="author" value="MasterIgor"/>
 	<integer id="EDvb" value="1"/>
 	<string id="EDfb" value=""/>
-	<integer id="version" value="3729"/>
+	<integer id="version" value="3733"/>
 	<integer id="rule_group_version" value="1639"/>
 	<boolean id="beta" value="false"/>
-	<date id="EdDt" day="22" month="5" year="2026" time="1030"/>
+	<date id="EdDt" day="24" month="7" year="2026" time="1600"/>
 	<list id="verf">
 		<string value="24.3.0"/>
 		<string value="26.2.0"/>
 	</list>
-	<integer id="XSvC" value="46"/>
+	<integer id="XSvC" value="54"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
 	<list id="db_changes">
 		<record>

@@ -110,13 +110,13 @@
 				<record>
 					<record id="start_date">
 						<integer id="day_of_month" value="1"/>
-						<string id="month" value="1"/>
+						<string id="month" value="jan"/>
 						<integer id="year" value="2000"/>
 						<string id="day_of_week" value="sat"/>
 					</record>
 					<record id="end_date">
 						<integer id="day_of_month" value="1"/>
-						<string id="month" value="1"/>
+						<string id="month" value="jan"/>
 						<integer id="year" value="2000"/>
 						<string id="day_of_week" value="sat"/>
 					</record>
@@ -126,29 +126,29 @@
 							<large id="competition" value="253429682140372212"/>
 							<integer id="DBID" value="59006196"/>
 						</record>
-						<string id="id_1" value="tw01"/>
-						<string id="id_2" value="strt"/>
+						<integer id="id_1" value="1953968177"/>
+						<integer id="id_2" value="1937011316"/>
 					</record>
 					<record id="end_date_fixture_date">
 						<record id="competition">
 							<large id="competition" value="253429682140372212"/>
 							<integer id="DBID" value="59006196"/>
 						</record>
-						<string id="id_1" value="tw01"/>
-						<string id="id_2" value="end "/>
+						<integer id="id_1" value="1953968177"/>
+						<integer id="id_2" value="1701733408"/>
 					</record>
 					<string id="window_type" value="normal"/>
 				</record>
 				<record>
 					<record id="start_date">
 						<integer id="day_of_month" value="1"/>
-						<string id="month" value="1"/>
+						<string id="month" value="jan"/>
 						<integer id="year" value="2000"/>
 						<string id="day_of_week" value="sat"/>
 					</record>
 					<record id="end_date">
 						<integer id="day_of_month" value="1"/>
-						<string id="month" value="1"/>
+						<string id="month" value="jan"/>
 						<integer id="year" value="2000"/>
 						<string id="day_of_week" value="sat"/>
 					</record>
@@ -158,16 +158,16 @@
 							<large id="competition" value="253429682140372212"/>
 							<integer id="DBID" value="59006196"/>
 						</record>
-						<string id="id_1" value="tw02"/>
-						<string id="id_2" value="strt"/>
+						<integer id="id_1" value="1953968178"/>
+						<integer id="id_2" value="1937011316"/>
 					</record>
 					<record id="end_date_fixture_date">
 						<record id="competition">
 							<large id="competition" value="253429682140372212"/>
 							<integer id="DBID" value="59006196"/>
 						</record>
-						<string id="id_1" value="tw02"/>
-						<string id="id_2" value="end "/>
+						<integer id="id_1" value="1953968178"/>
+						<integer id="id_2" value="1701733408"/>
 					</record>
 					<string id="window_type" value="normal"/>
 				</record>
@@ -222,8 +222,8 @@
 								<string id="deadline_date_flags" value="allow_registration_at_any_time_within_window"/>
 								<list id="squad_selection_rules"/>
 								<record id="end_date_fixture_date">
-									<string id="id_1" value="reg "/>
-									<string id="id_2" value="end "/>
+									<integer id="id_1" value="1919248160"/>
+									<integer id="id_2" value="1701733408"/>
 									<record id="competition">
 										<large id="competition" value="253429682140372212"/>
 										<integer id="DBID" value="59006196"/>
@@ -252,16 +252,16 @@
 										<large id="competition" value="253429682140372212"/>
 										<integer id="DBID" value="59006196"/>
 									</record>
-									<string id="id_1" value="tw02"/>
-									<string id="id_2" value="strt"/>
+									<integer id="id_1" value="1953968178"/>
+									<integer id="id_2" value="1937011316"/>
 								</record>
 								<record id="end_date_fixture_date">
 									<record id="competition">
 										<large id="competition" value="253429682140372212"/>
 										<integer id="DBID" value="59006196"/>
 									</record>
-									<string id="id_1" value="tw02"/>
-									<string id="id_2" value="end "/>
+									<integer id="id_1" value="1953968178"/>
+									<integer id="id_2" value="1701733408"/>
 								</record>
 							</record>
 						</list>
@@ -638,40 +638,40 @@
 			</list>
 			<list id="fixture_dates">
 				<record>
-					<string id="id_1" value="tw01"/>
-					<string id="id_2" value="strt"/>
+					<integer id="id_1" value="1953968177"/>
+					<integer id="id_2" value="1937011316"/>
 					<integer id="day_of_month" value="21"/>
 					<string id="month" value="jun"/>
 					<integer id="year" value="2000"/>
 				</record>
 				<record>
-					<string id="id_1" value="tw01"/>
-					<string id="id_2" value="end "/>
+					<integer id="id_1" value="1953968177"/>
+					<integer id="id_2" value="1701733408"/>
 					<integer id="day_of_month" value="12"/>
 					<string id="month" value="sep"/>
 					<integer id="year" value="2000"/>
 				</record>
 				<record>
-					<string id="id_1" value="tw02"/>
-					<string id="id_2" value="strt"/>
+					<integer id="id_1" value="1953968178"/>
+					<integer id="id_2" value="1937011316"/>
 					<integer id="day_of_month" value="1"/>
 					<string id="month" value="feb"/>
 					<integer id="year" value="2000"/>
 				</record>
 				<record>
-					<string id="id_1" value="tw02"/>
-					<string id="id_2" value="end "/>
+					<integer id="id_1" value="1953968178"/>
+					<integer id="id_2" value="1701733408"/>
 					<integer id="day_of_month" value="28"/>
 					<string id="month" value="feb"/>
 					<integer id="year" value="2000"/>
 				</record>
 				<record>
-					<string id="id_1" value="reg "/>
-					<string id="id_2" value="end "/>
+					<integer id="id_1" value="1919248160"/>
+					<integer id="id_2" value="1701733408"/>
 					<record id="calculate_from_other_date">
 						<integer id="day_offset" value="-10"/>
 						<integer id="main_stage_name" value="145"/>
-						<string id="id_2" value="strt"/>
+						<integer id="id_2" value="1937011316"/>
 					</record>
 				</record>
 				<record>
@@ -681,7 +681,7 @@
 					<string id="month" value="jul"/>
 					<integer id="year" value="2000"/>
 					<integer id="main_stage_name" value="145"/>
-					<string id="id_2" value="strt"/>
+					<integer id="id_2" value="1937011316"/>
 				</record>
 				<record>
 					<string id="stadium_rules" value="home"/>
@@ -751,6 +751,13 @@
 			<list id="professional_status">
 				<record>
 					<integer id="type" value="1"/>
+				</record>
+			</list>
+			<list id="initial_tv_money">
+				<record>
+					<string id="type" value="each_team"/>
+					<real id="cash" value="10000.000000"/>
+					<unsigned id="currency" value="7"/>
 				</record>
 			</list>
 		</record>
@@ -1371,15 +1378,15 @@
 	<string id="author" value="MasterIgor"/>
 	<integer id="EDvb" value="1"/>
 	<string id="EDfb" value=""/>
-	<integer id="version" value="3729"/>
+	<integer id="version" value="3733"/>
 	<integer id="rule_group_version" value="1639"/>
 	<boolean id="beta" value="false"/>
-	<date id="EdDt" day="14" month="5" year="2026" time="1845"/>
+	<date id="EdDt" day="24" month="7" year="2026" time="1545"/>
 	<list id="verf">
 		<string value="24.3.0"/>
 		<string value="26.2.0"/>
 	</list>
-	<integer id="XSvC" value="85"/>
+	<integer id="XSvC" value="92"/>
 	<string id="EdBr" value="fm26-rel-prod"/>
 	<list id="db_changes">
 		<record>
